@@ -1,0 +1,5030 @@
+#text = bueno, eh, cómo, . tu nombre completo?
+1	bueno,	bueno,	X	np00000	_	6	dep	_	
+2	eh,	eh,	X	n	_	1	dep	_	
+3	cómo,	cómo,	X	_	_	1	flat	_	
+4	.	.	PUNCT	fp	PunctType=Peri	6	punct	_	
+5	tu	tu	DET	dp2css	Number=Sing|Number[psor]=Sing|Person=2|Poss=Yes|PronType=Prs	6	det	_	
+6	nombre	nombre	NOUN	ncms000	Gender=Masc|Number=Sing	0	root	_	
+7	completo?	completo?	ADJ	aq0ms0	Gender=Masc|Number=Sing	6	amod	_	
+
+#text = apellido?
+1	apellido?	apellido?	NOUN	ncms000	Gender=Masc|Number=Sing	0	root	_	
+
+#text = Brenda_Rivero.
+1	Brenda_Rivero.	brenda_rivero.	PROPN	np00000	_	0	root	_	
+
+#text = Brenda_Rivero?
+1	Brenda_Rivero?	brenda_rivero?	PROPN	np00000	_	0	root	_	
+
+#text = y él es Alexander_Ezequiel . Rivero?
+1	y	y	CCONJ	cc	_	2	cc	_	
+2	él	�l	PROPN	np00000	_	4	nsubj	_	
+3	es	ser	AUX	vsip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	
+4	Alexander_Ezequiel	Alexander_Ezequiel	PROPN	np00000	_	0	root	_	
+5	.	.	PUNCT	fp	PunctType=Peri	4	punct	_	
+6	Rivero?	rivero?	PROPN	_	_	4	flat	_	
+
+#text = +< Pérez_Rivero.
+1	+<	+<	PUNCT	fg	_	2	punct	_	
+2	Pérez_Rivero.	p�rez_rivero.	PUNCT	fp	PunctType=Quot	0	root	_	
+
+#text = qué, qué edad tienen?
+1	qué,	qu�,	PUNCT	fa	_	3	punct	_	
+2	qué	qu�o	DET	di0cs0	Number=Sing|PronType=Ind	3	det	_	
+3	edad	edad	NOUN	ncfs000	Gender=Fem|Number=Sing	0	root	_	
+4	tienen?	tienen?	PUNCT	fa	PunctType=Excl	3	punct	_	
+
+#text = eh, yo diceinueve y él tres.
+1	eh,	eh,	X	np00000	_	2	dep	_	
+2	yo	yo	PRON	pp1csn00	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	root	_	
+3	diceinueve	diceinueve	PROPN	_	_	2	flat	_	
+4	y	y	CCONJ	cc	_	5	cc	_	
+5	él	�l	X	np00000	_	2	conj	_	
+6	tres.	tres.	X	_	_	5	dep	_	
+
+#text = tres añitos?
+1	tres	tres	NUM	dn0cp0	NumForm=Word|NumType=Card|Number=Plur	2	nummod	_	
+2	añitos?	añitos?	NOUN	ncmp000	_	0	root	_	
+
+#text = cuándo cumple?
+1	cuándo	cuándo	INTJ	_	_	2	dep	_	
+2	cumple?	cumpler	VERB	vmip1s0	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	0	root	_	
+
+#text = el seis de enero.
+1	el	el	DET	da0ms0	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	
+2	seis	seis	NUM	pn0cp000	NumForm=Word|NumType=Card	0	root	_	
+3	de	de	ADP	_	_	4	case	_	
+4	enero.	enero.	NOUN	_	_	2	nmod	_	
+
+#text = ah, capricornio?
+1	ah,	ah,	X	np00000	_	2	dep	_	
+2	capricornio?	capricornio?	NOUN	ncms000	Gender=Masc|Number=Sing	0	root	_	
+
+#text = +< xxx.
+1	+<	+<	PUNCT	fz	_	2	punct	_	
+2	xxx.	xxx.	NOUN	ncfp000	_	0	root	_	
+
+#text = y vos qué día, eh, qué día sos?
+1	y	y	CCONJ	cc	_	2	cc	_	
+2	vos	t�	INTJ	_	_	8	compound	_	
+3	qué	qu�	X	n	_	2	dep	_	
+4	día,	d�a,	X	_	_	2	dep	_	
+5	eh,	eh,	X	_	_	2	flat	_	
+6	qué	qu�	X	_	_	8	compound	_	
+7	día	d�a	X	_	_	8	compound	_	
+8	sos?	sos?	X	_	_	0	root	_	
+
+#text = qué día naciste?
+1	qué	qu�	PUNCT	fa	_	2	punct	_	
+2	día	d�a	X	n0000	_	0	root	_	
+3	naciste?	naciste?	X	_	_	2	flat	_	
+
+#text = eh, dieciocho de octubre, xxx.
+1	eh,	eh,	X	np00000	_	2	dep	_	
+2	dieciocho	dieciocho	NOUN	ncmp000	Gender=Masc|Number=Plur	0	root	_	
+3	de	de	ADP	sps00	_	4	case	_	
+4	octubre,	octubre,	PROPN	np00000	_	2	nmod	_	
+5	xxx.	xxx.	PROPN	_	_	4	flat	_	
+
+#text = ah.
+1	ah.	ah.	X	np00000	_	0	root	_	
+
+#text = y él va a jardín, me dijiste?
+1	y	y	CCONJ	cc	_	3	cc	_	
+2	él	�l	PROPN	np00000	_	3	nsubj	_	
+3	va	ir	VERB	vmip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	
+4	a	a	ADP	sps00	_	3	obj	_	
+5	jardín,	jardín,	PROPN	_	_	3	compound	_	
+6	me	yo	PRON	_	Case=Dat|Number=Sing|Person=1|PrepCase=Npr|PronType=Prs	3	expl:pv	_	
+7	dijiste?	dijiste?	PROPN	_	_	3	xcomp	_	
+
+#text = sí.
+1	sí.	s�.	PUNCT	fp	_	0	root	_	
+
+#text = arrancó este año, o el año pasado?
+1	arrancó	arrancó	VERB	vmip3s0	Number=Sing|Tense=Pres|VerbForm=Fin	0	root	_	
+2	este	este	DET	dd0ms0	Gender=Masc|Number=Sing|PronType=Dem	3	det	_	
+3	año,	a�o,	X	np00000	_	1	obj	_	
+4	o	o	CCONJ	cc	_	6	cc	_	
+5	el	el	DET	da0ms0	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	
+6	año	a�o	NOUN	ncms000	Gender=Masc|Number=Sing	3	conj	_	
+7	pasado?	pasado?	ADJ	aq0msp	Gender=Masc|Number=Sing	6	amod	_	
+
+#text = eh, este año.
+1	eh,	eh,	X	np00000	_	2	dep	_	
+2	este	este	PRON	pd0ms000	Gender=Masc|Number=Sing|PronType=Dem	0	root	_	
+3	año.	a�o.	PUNCT	fp	_	2	punct	_	
+
+#text = este año?
+1	este	este	PRON	pd0ms000	Gender=Masc|Number=Sing|PronType=Dem	0	root	_	
+2	año?	a�o?	PUNCT	fp	_	1	punct	_	
+
+#text = sí.
+1	sí.	s�.	PUNCT	fp	_	0	root	_	
+
+#text = y cómo, no le, cómo le va?
+1	y	y	CCONJ	cc	_	2	cc	_	
+2	cómo,	cómo,	X	np00000	_	0	root	_	
+3	no	no	ADV	rn	Polarity=Neg	4	advmod	_	
+4	le,	le,	INTJ	_	_	2	flat	_	
+5	cómo	cómo	PROPN	_	_	2	flat	_	
+6	le	�l	PRON	pp3csd00	Case=Dat|Number=Sing|Person=3|PronType=Prs	4	obl:arg	_	
+7	va?	va?	PUNCT	fa	PunctType=Quot	2	punct	_	
+
+#text = o no le gusta todavía?
+1	o	o	CCONJ	cc	_	4	cc	_	
+2	no	no	ADV	rn	Polarity=Neg	4	advmod	_	
+3	le	�l	PRON	pp3csd00	Case=Dat|Number=Sing|Person=3|PronType=Prs	4	obl:arg	_	
+4	gusta	gustar	VERB	vmip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	
+5	todavía?	todavía?	X	np00000	_	4	nsubj	_	
+
+#text = +< eh, ya se está adaptando.
+1	+<	+<	PUNCT	fa	_	2	punct	_	
+2	eh,	eh,	X	n0000	_	5	nsubj	_	
+3	ya	ya	ADV	rg	_	5	advmod	_	
+4	se	�l	PRON	_	Case=Acc|Person=3|PrepCase=Npr|PronType=Prs|Reflex=Yes	5	expl:pv	_	
+5	está	estar	VERB	vmip1p0	Mood=Ind|Number=Plur|Tense=Pres|VerbForm=Fin	0	root	_	
+6	adaptando.	adaptando.	PUNCT	fp	PunctType=Elip	5	punct	_	
+
+#text = se está adaptando?
+1	se	�l	PRON	_	Case=Acc|Person=3|PrepCase=Npr|PronType=Prs|Reflex=Yes	2	expl:pv	_	
+2	está	estar	VERB	vmip1p0	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	
+3	adaptando?	adaptandoer	VERB	vmg0000	VerbForm=Ger	2	xcomp	_	
+
+#text = +< ya empezó a salir horario normal.
+1	+<	+<	PUNCT	fg	_	3	punct	_	
+2	ya	ya	ADV	rg	_	3	advmod	_	
+3	empezó	empezó	VERB	vmip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	
+4	a	a	ADP	sps00	_	5	mark	_	
+5	salir	salir	VERB	vmn0000	VerbForm=Inf	3	xcomp	_	
+6	horario	horario	NOUN	ncms000	Gender=Masc|Number=Sing	5	obj	_	
+7	normal.	normal.	PUNCT	fe	PunctType=Elip	3	punct	_	
+
+#text = antes salía a las dos, xxx las tres.
+1	antes	antes	ADV	rg	_	2	advmod	_	
+2	salía	salir	VERB	vmip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	
+3	a	a	ADP	sps00	_	5	case	_	
+4	las	el	DET	da0fp0	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	5	det	_	
+5	dos,	dos,	NOUN	ncfp000	Gender=Fem|Number=Plur	2	obl	_	
+6	xxx	xxx	NOUN	ncfs000	_	2	obl	_	
+7	las	el	DET	da0fp0	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	8	det	_	
+8	tres.	tres.	NOUN	ncfs000	_	2	nsubj	_	
+
+#text = +< ah.
+1	+<	+<	PUNCT	fa	_	2	punct	_	
+2	ah.	ah.	X	n0000	_	0	root	_	
+
+#text = todos salían horario normal menos él, xxx.
+1	todos	todo	PRON	pi0mp000	Gender=Masc|Number=Plur|PronType=Tot	2	nsubj	_	
+2	salían	salir	VERB	vmip3p0	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	
+3	horario	horario	NOUN	ncms000	Gender=Masc|Number=Sing	2	obj	_	
+4	normal	normal	ADJ	aq0cs0	Number=Sing	3	amod	_	
+5	menos	menos	ADV	rg	Degree=Cmp	7	advmod	_	
+6	él,	�l,	PUNCT	fc	_	7	punct	_	
+7	xxx.	xxx.	X	n00000	_	2	obl	_	
+
+#text = +< y qué, qué implicaría eso?
+1	+<	+<	PUNCT	fa	_	3	punct	_	
+2	y	y	CCONJ	cc	_	3	cc	_	
+3	qué,	qu�,	X	n000	_	0	root	_	
+4	qué	qu�	X	_	_	3	compound	_	
+5	implicaría	implicar�a	NOUN	ncs000	_	3	fixed	_	
+6	eso?	eso?	PUNCT	fa	PunctSide=Fin|PunctType=Excl	3	punct	_	
+
+#text = qué significa que no salía horario normal?
+1	qué	qu�	PUNCT	fg	_	2	punct	_	
+2	significa	significar	VERB	vmip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	
+3	que	que	SCONJ	cs	_	5	mark	_	
+4	no	no	ADV	rn	Polarity=Neg	5	advmod	_	
+5	salía	salir	VERB	vmip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	ccomp	_	
+6	horario	horario	NOUN	ncms000	Gender=Masc|Number=Sing	5	obj	_	
+7	normal?	normal?	ADJ	aq0cs0	Number=Sing	6	amod	_	
+
+#text = eh, porque llora mucho, . y está muy pegado a mí.
+1	eh,	eh,	X	np00000	_	0	root	_	
+2	porque	porque	SCONJ	cs	_	3	mark	_	
+3	llora	llorar	VERB	vmip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	advcl	_	
+4	mucho,	mucho,	ADV	rg	_	3	advmod	_	
+5	.	.	PUNCT	fp	PunctType=Peri	3	punct	_	
+6	y	y	CCONJ	cc	_	9	cc	_	
+7	está	está	X	np00000	_	9	nsubj	_	
+8	muy	mucho	ADV	rg	_	9	advmod	_	
+9	pegado	pegar	ADJ	aq0msp	Gender=Masc|Number=Sing|VerbForm=Part	3	conj	_	
+10	a	a	ADP	sps00	_	11	case	_	
+11	mí.	m�.	X	np00000	_	9	obl	_	
+
+#text = claro.
+1	claro.	claro.	PUNCT	fp	PunctType=Quot	0	root	_	
+
+#text = y no, después ya lo empecé a dejar llorando hasta que se
+1	y	y	CCONJ	cc	_	6	advmod	_	
+2	no,	no,	INTJ	_	_	6	obl	_	
+3	después	despu�s	PROPN	_	_	2	flat	_	
+4	ya	ya	ADV	rg	_	6	advmod	_	
+5	lo	�l	PRON	pp3msa00	Case=Acc|Gender=Masc|Number=Sing|Person=3|PrepCase=Npr|PronType=Prs	6	obj	_	
+6	empecé	empecar	VERB	vmip1s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	
+7	a	a	ADP	sps00	_	8	mark	_	
+8	dejar	dejar	VERB	vmn0000	VerbForm=Inf	6	xcomp	_	
+9	llorando	llorar	VERB	vmg0000	VerbForm=Ger	8	xcomp	_	
+10	hasta	hasta	ADP	sps00	_	12	case	_	
+11	que	que	SCONJ	cs	_	12	mark	_	
+12	se	�l	PRON	p0000000	Case=Acc|Person=3|PrepCase=Npr|PronType=Prs|Reflex=Yes	9	expl:pv	_	
+
+#text = claro.
+1	claro.	claro.	PUNCT	fp	PunctType=Quot	0	root	_	
+
+#text = o sea, dormían todos siesta, menos él.
+1	o	o	CCONJ	cc	_	5	advmod	_	
+2	sea,	sea,	INTJ	_	_	1	fixed	_	
+3	dormían	dormían	PROPN	np00000	_	5	dep	_	
+4	todos	todo	PRON	pi0mp000	Gender=Masc|Number=Plur|PronType=Tot	5	det	_	
+5	siesta,	siesta,	NOUN	nc00	Gender=Masc|Number=Sing	0	root	_	
+6	menos	menos	ADV	rg	Degree=Cmp	5	advmod	_	
+7	él.	�l.	PUNCT	fp	PunctType=Elip	5	punct	_	
+
+#text = ay, mi vida.
+1	ay,	ay,	X	np00000	_	3	dep	_	
+2	mi	mi	DET	dp2css	Number=Sing|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	3	det	_	
+3	vida.	vida.	NOUN	ncfs000	Gender=Fem|Number=Sing	0	root	_	
+
+#text = entonces el horario de la siesta siempre me llamaban.
+1	entonces	entonces	ADV	rg	_	9	advmod	_	
+2	el	el	DET	da0ms0	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	
+3	horario	horario	NOUN	ncms000	Gender=Masc|Number=Sing	9	nsubj	_	
+4	de	de	ADP	sps00	_	6	case	_	
+5	la	el	DET	da0fs0	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	
+6	siesta	siesta	NOUN	ncfs000	Gender=Fem|Number=Sing	3	nmod	_	
+7	siempre	siempre	ADV	rg	_	9	advmod	_	
+8	me	yo	PRON	pp1cs000	Case=Dat|Number=Sing|Person=1|PrepCase=Npr|PronType=Prs	9	obj	_	
+9	llamaban.	llamabanar	VERB	vmii3s0	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	
+
+#text = y no, no se lleva bien con, xxx ahora se lleva bien con sus
+1	y	y	CCONJ	cc	_	5	cc	_	
+2	no,	no,	ADV	rg	_	5	advmod	_	
+3	no	no	ADV	rn	Polarity=Neg	5	advmod	_	
+4	se	�l	PRON	p0000000	Case=Acc|Person=3|PrepCase=Npr|PronType=Prs|Reflex=Yes	5	expl:pv	_	
+5	lleva	llevar	VERB	vmip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	
+6	bien	bien	ADV	rg	_	5	advmod	_	
+7	con,	con,	PUNCT	fc	PunctType=Comm	11	punct	_	
+8	xxx	xxx	NOUN	ncms000	Number=Sing	11	nsubj	_	
+9	ahora	ahora	ADV	rg	_	11	advmod	_	
+10	se	�l	PRON	p0300000	Case=Acc|Person=3|PrepCase=Npr|PronType=Prs|Reflex=Yes	11	expl:pv	_	
+11	lleva	llevar	VERB	vmip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	parataxis	_	
+12	bien	bien	ADV	rg	_	11	advmod	_	
+13	con	con	ADP	sps00	_	14	case	_	
+14	sus	su	DET	dp3cp0	Number=Plur|Person=3|Poss=Yes|PronType=Prs	11	obl	_	
+
+#text = +< sí, . siempre se lleva bien, no pelea nada.
+1	+<	+<	PUNCT	fa	_	2	punct	_	
+2	sí,	s�,	X	n0000	_	6	dep	_	
+3	.	.	PUNCT	fp	PunctType=Peri	2	punct	_	
+4	siempre	siempre	ADV	rg	_	6	advmod	_	
+5	se	�l	PRON	p0300000	Case=Acc|Person=3|PrepCase=Npr|PronType=Prs|Reflex=Yes	6	expl:pv	_	
+6	lleva	llevar	VERB	vmip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	
+7	bien,	bien,	ADV	rg	_	6	advmod	_	
+8	no	no	ADV	rn	Polarity=Neg	9	advmod	_	
+9	pelea	pelea	VERB	vmip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	advcl	_	
+10	nada.	nada.	PUNCT	fe	PunctType=Quot	6	punct	_	
+
+#text = +< ah, perfecto.
+1	+<	+<	PUNCT	fz	_	2	punct	_	
+2	ah,	ah,	X	n0000	_	0	root	_	
+3	perfecto.	perfecto.	PUNCT	fp	PunctType=Elip	2	punct	_	
+
+#text = +< xxx llora por, por mí, porque quiere venir conmigo.
+1	+<	+<	X	np00000	_	3	nsubj	_	
+2	xxx	xxx	NOUN	ncms000	Number=Sing	3	nsubj	_	
+3	llora	llorar	VERB	vmip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	
+4	por,	por,	PUNCT	fc	_	3	advmod	_	
+5	por	por	ADP	sps00	_	6	case	_	
+6	mí,	m�,	X	_	_	3	obl	_	
+7	porque	porque	SCONJ	cs	_	8	mark	_	
+8	quiere	querer	VERB	vmip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	advcl	_	
+9	venir	venir	VERB	vmn0000	VerbForm=Inf	8	xcomp	_	
+10	conmigo.	conmigo.	PUNCT	fp	PunctType=Peri	3	punct	_	
+
+#text = +< claro.
+1	+<	+<	PUNCT	fg	_	2	punct	_	
+2	claro.	claro.	PUNCT	fp	PunctType=Quot	0	root	_	
+
+#text = pero ahora ya no, ahora se queda tranquilo.
+1	pero	pero	CCONJ	cc	_	7	advmod	_	
+2	ahora	ahora	ADV	rg	_	7	advmod	_	
+3	ya	ya	ADV	rg	_	7	advmod	_	
+4	no,	no,	ADV	rn	Polarity=Neg	7	advmod	_	
+5	ahora	ahora	ADV	rg	_	7	advmod	_	
+6	se	�l	PRON	p0300000	Case=Acc|Person=3|PrepCase=Npr|PronType=Prs|Reflex=Yes	7	expl:pv	_	
+7	queda	quedar	VERB	vmip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	
+8	tranquilo.	tranquilo.	PUNCT	fp	PunctType=Peri	7	xcomp	_	
+
+#text = bueno, bien.
+1	bueno,	buen	ADJ	aq0mp0	Gender=Masc|Number=Plur	0	root	_	
+2	bien.	bien.	ADV	rg	_	1	advmod	_	
+
+#text = te llevás bien con los amigos?
+1	te	t�	PRON	pp2cs000	Case=Dat|Number=Sing|Person=2|PrepCase=Npr|PronType=Prs	2	expl:pv	_	
+2	llevás	llevar	VERB	vmip1s0	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	
+3	bien	bien	ADV	rg	_	2	advmod	_	
+4	con	con	ADP	sps00	_	6	case	_	
+5	los	el	DET	da0mp0	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	6	det	_	
+6	amigos?	amigos?	NOUN	ncmp000	Gender=Masc|Number=Plur	2	obl	_	
+
+#text = xxx.
+1	xxx.	xxx.	X	np00000	_	0	root	_	
+
+#text = está bien.
+1	está	estar	VERB	vmip1p0	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	
+2	bien.	bien.	ADV	rg	_	1	advmod	_	
+
+#text = em, naci, e, nacieron acá?
+1	em,	em,	X	np00000	_	4	dep	_	
+2	naci,	naci,	PROPN	np0000	_	4	dep	_	
+3	e,	e,	PUNCT	fc	_	2	punct	_	
+4	nacieron	nacer	VERB	vmis3p0	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	
+5	acá?	acá?	PUNCT	fa	PunctType=Excl	4	punct	_	
+
+#text = vos naciste acá?
+1	vos	t�	PRON	pp2cs000	Case=Acc|Number=Sing|Person=2|PronType=Prs	2	obj	_	
+2	naciste	nacistir	VERB	vmip1s0	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	
+3	acá?	acá?	PUNCT	fa	PunctType=Excl	2	punct	_	
+
+#text = sí.
+1	sí.	s�.	PUNCT	fp	_	0	root	_	
+
+#text = sos de acá, de Buenos Aires.
+1	sos	ser	VERB	vmip1s0	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	0	root	_	
+2	de	de	ADP	sps00	_	3	case	_	
+3	acá,	acá,	X	np00000	_	1	obl	_	
+4	de	de	ADP	sps00	_	6	case	_	
+5	Buenos	buenos	PROPN	np00000	_	6	amod	_	
+6	Aires.	aires.	PROPN	_	_	3	nmod	_	
+
+#text = sí.
+1	sí.	s�.	PUNCT	fp	_	0	root	_	
+
+#text = y él también nació acá.
+1	y	y	CCONJ	cc	_	2	cc	_	
+2	él	�l	X	np00000	_	0	root	_	
+3	también	también	PROPN	p	_	2	flat	_	
+4	nació	nació	X	_	_	2	flat	_	
+5	acá.	acá.	PUNCT	fp	_	2	punct	_	
+
+#text = +< sí.
+1	+<	+<	PUNCT	fa	_	2	punct	_	
+2	sí.	s�.	PUNCT	fp	_	0	root	_	
+
+#text = y con quién viven?
+1	y	y	CCONJ	cc	_	3	cc	_	
+2	con	con	ADP	sps00	_	3	case	_	
+3	quién	quién	PROPN	np00000	_	0	root	_	
+4	viven?	viven?	PUNCT	fa	PunctType=Quot	3	punct	_	
+
+#text = el papá y el tío de él.
+1	el	el	DET	da0ms0	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	
+2	papá	papá	PROPN	np00000	_	0	root	_	
+3	y	y	CCONJ	cc	_	5	cc	_	
+4	el	el	DET	da0ms0	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	
+5	tío	t�o	NOUN	ncms000	Gender=Masc|Number=Sing	2	conj	_	
+6	de	de	ADP	sps00	_	7	case	_	
+7	él.	�l.	PUNCT	fp	_	2	punct	_	
+
+#text = no tiene hermanos.
+1	no	no	ADV	rn	Polarity=Neg	2	advmod	_	
+2	tiene	tener	VERB	vmip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	
+3	hermanos.	hermanos.	NOUN	ncmp000	Gender=Masc|Number=Plur	2	obj	_	
+
+#text = no.
+1	no.	no.	PUNCT	fe	PunctType=Quot	0	root	_	
+
+#text = primos?
+1	primos?	primos?	NOUN	ncmp000	Gender=Masc|Number=Plur	0	root	_	
+
+#text = sí, tiene primos.
+1	sí,	sa�,	PUNCT	fe	PunctType=Quot	2	punct	_	
+2	tiene	tener	VERB	vmip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	
+3	primos.	primos.	NOUN	ncmp000	Gender=Masc|Number=Sing	2	obj	_	
+
+#text = y es, xxx están con, viven todos juntos, o viven sólo +/?
+1	y	y	CCONJ	cc	_	6	cc	_	
+2	es,	es,	INTJ	_	_	6	dep	_	
+3	xxx	xxx	PROPN	np00000	_	6	nsubj	_	
+4	están	estar	X	_	_	3	flat	_	
+5	con,	con,	PUNCT	fc	PunctType=Comm	6	obl	_	
+6	viven	vivir	VERB	vmip3p0	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	
+7	todos	todo	PRON	pi0mp000	Gender=Masc|Number=Plur|PronType=Tot	6	nsubj	_	
+8	juntos,	juntos,	PUNCT	fc	_	6	punct	_	
+9	o	o	CCONJ	cc	_	10	cc	_	
+10	viven	vivir	VERB	vmip3p0	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	conj	_	
+11	sólo	sólo	NOUN	ncms000	Gender=Masc|Number=Sing	10	obj	_	
+12	+/?	+/?	PUNCT	fa	_	6	punct	_	
+
+#text = +< no, no.
+1	+<	+<	PUNCT	fa	_	2	punct	_	
+2	no,	no,	X	n0000	_	0	root	_	
+3	no.	no.	PUNCT	fp	PunctType=Quot	2	punct	_	
+
+#text = nosotros vivimos nosotros nomás ahí, el papá, yo y el tío de
+1	nosotros	yo	PRON	pp1mp000	Case=Acc,Nom|Gender=Masc|Number=Plur|Person=1|PronType=Prs	2	nsubj	_	
+2	vivimos	vivir	VERB	vmip1p0	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	
+3	nosotros	yo	PRON	pp1mp000	Case=Acc,Nom|Gender=Masc|Number=Plur|Person=1|PronType=Prs	2	obj	_	
+4	nomás	nom�s	PROPN	np00000	_	3	flat	_	
+5	ahí,	ah�,	PROPN	_	_	4	flat	_	
+6	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	flat	_	
+7	papá,	papá,	PROPN	_	_	4	flat	_	
+8	yo	yo	PRON	pp1csn00	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	flat	_	
+9	y	y	CCONJ	cc	_	11	cc	_	
+10	el	el	DET	da0ms0	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	
+11	tío	t�o	PROPN	_	_	3	conj	_	
+12	de	de	ADP	sps0	_	2	conj	_	
+
+#text = bien, en Lomas_de_Zamora, me dijiste.
+1	bien,	bien,	ADV	rg	_	5	advmod	_	
+2	en	en	ADP	sps00	_	3	case	_	
+3	Lomas_de_Zamora,	lomas_de_zamora,	PROPN	np00000	_	5	obl	_	
+4	me	yo	PRON	pp1cs000	Case=Dat|Number=Sing|Person=1|PrepCase=Npr|PronType=Prs	5	expl:pv	_	
+5	dijiste.	dijiste.	PUNCT	fp	PunctType=Peri	0	root	_	
+
+#text = sí.
+1	sí.	s�.	PUNCT	fp	_	0	root	_	
+
+#text = ah, pensé que vivían por acá.
+1	ah,	ah,	X	np00000	_	4	dep	_	
+2	pensé	pens�	X	_	_	1	dep	_	
+3	que	que	PRON	pr0cn000	PronType=Rel	4	mark	_	
+4	vivían	vivían	NOUN	ncfs000	Number=Sing	0	root	_	
+5	por	por	ADP	sps00	_	6	case	_	
+6	acá.	acá.	PUNCT	fp	_	4	obl	_	
+
+#text = xxx, viajo todos los días.
+1	xxx,	xxx,	X	np00000	_	2	nsubj	_	
+2	viajo	viajo	VERB	vmip1s0	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	
+3	todos	todo	DET	di0mp0	Gender=Masc|Number=Plur|PronType=Tot	4	det	_	
+4	los	el	DET	da0mp0	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	5	det	_	
+5	días.	d�as.	PUNCT	fp	_	2	punct	_	
+
+#text = ah, claro.
+1	ah,	ah,	X	np00000	_	0	root	_	
+2	claro.	claro.	PUNCT	fp	PunctType=Quot	1	amod	_	
+
+#text = +< xxx, porque mi familia es de acá.
+1	+<	+<	PUNCT	fg	_	2	punct	_	
+2	xxx,	xxx,	X	np00000	_	0	root	_	
+3	porque	porque	SCONJ	cs	_	6	mark	_	
+4	mi	mi	DET	dp1css	Number=Sing|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	5	det	_	
+5	familia	familia	NOUN	ncfs000	Gender=Fem|Number=Sing	6	nsubj	_	
+6	es	ser	AUX	vsip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	advcl	_	
+7	de	de	ADP	sps00	_	8	case	_	
+8	acá.	acá.	PUNCT	fp	_	2	punct	_	
+
+#text = tu familia vive acá.
+1	tu	tu	DET	dp2css	Number=Sing|Number[psor]=Sing|Person=2|Poss=Yes|PronType=Prs	2	det	_	
+2	familia	familia	NOUN	ncfs000	Gender=Fem|Number=Sing	3	nsubj	_	
+3	vive	vivir	VERB	vmip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	
+4	acá.	acá.	PUNCT	fp	_	3	punct	_	
+
+#text = +< mi mamá, sí, mi mamá, todos.
+1	+<	+<	PUNCT	fa	_	6	punct	_	
+2	mi	mi	DET	dp2cs	Number=Sing|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	3	compound	_	
+3	mamá,	mamá,	X	_	_	6	compound	_	
+4	sí,	s�,	X	_	_	6	compound	_	
+5	mi	mi	DET	ps	Number=Sing|Number[psor]=Sing|Person=2|Poss=Yes|PronType=Prs	6	compound	_	
+6	mamá,	mamá,	X	_	_	0	root	_	
+7	todos.	todos.	PUNCT	fp	PunctType=Elip	6	punct	_	
+
+#text = bien, xxx, vos tenés hermanos?
+1	bien,	bien,	X	np00000	_	5	compound	_	
+2	xxx,	xxx,	X	n	_	1	dep	_	
+3	vos	t�	PROPN	_	_	1	flat	_	
+4	tenés	tenés	PROPN	_	_	1	flat	_	
+5	hermanos?	hermanos?	NOUN	nc0	Gender=Masc	0	root	_	
+
+#text = sí.
+1	sí.	s�.	PUNCT	fp	_	0	root	_	
+
+#text = cuántos?
+1	cuántos?	cu�ntos?	X	np00000	_	0	root	_	
+
+#text = eh, cuatro.
+1	eh,	eh,	X	np00000	_	0	root	_	
+2	cuatro.	cuatro.	PUNCT	fp	_	1	dep	_	
+
+#text = cuatro?
+1	cuatro?	cuatro?	PUNCT	fp	_	0	root	_	
+
+#text = y también son de nacionalidad argentina?
+1	y	y	CCONJ	cc	_	3	cc	_	
+2	también	también	NOUN	ncms000	Gender=Masc|Number=Sing	3	nsubj	_	
+3	son	ser	AUX	vsip3p0	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	
+4	de	de	ADP	sps00	_	5	case	_	
+5	nacionalidad	nacionalidad	NOUN	ncfs000	Gender=Fem|Number=Sing	3	obl	_	
+6	argentina?	argentina?	ADJ	aq0fs0	Gender=Fem|Number=Sing	5	amod	_	
+
+#text = +< sí.
+1	+<	+<	PUNCT	fa	_	2	punct	_	
+2	sí.	s�.	PUNCT	fp	_	0	root	_	
+
+#text = todos nacieron acá.
+1	todos	todo	PRON	pi0mp000	Gender=Masc|Number=Plur|PronType=Tot	2	nsubj	_	
+2	nacieron	nacer	VERB	vmis3p0	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	
+3	acá.	acá.	PUNCT	fp	_	2	punct	_	
+
+#text = mjm.
+1	mjm.	mjm.	X	np00000	_	0	root	_	
+
+#text = bien.
+1	bien.	bien.	ADV	rg	_	0	root	_	
+
+#text = este, y dónde, . trabajás?
+1	este,	este,	INTJ	_	_	0	root	_	
+2	y	y	CCONJ	cc	_	3	cc	_	
+3	dónde,	d�nde,	X	np00000	_	1	conj	_	
+4	.	.	PUNCT	fp	PunctType=Peri	1	punct	_	
+5	trabajás?	trabajás?	PUNCT	fa	PunctType=Excl	1	punct	_	
+
+#text = no, ahora xxx no, estoy para estudiar.
+1	no,	no,	PUNCT	fg	PunctType=Quot	5	punct	_	
+2	ahora	ahora	ADV	rg	_	5	advmod	_	
+3	xxx	xxx	PROPN	np00000	_	5	nsubj	_	
+4	no,	no,	PUNCT	fe	PunctType=Quot	3	punct	_	
+5	estoy	estar	AUX	vmip1s0	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	
+6	para	para	ADP	sps00	_	7	mark	_	
+7	estudiar.	estudiar	VERB	vmn0000	VerbForm=Inf	5	advcl	_	
+
+#text = +< no?
+1	+<	+<	SYM	_	_	0	root	_	
+2	no?	no?	PUNCT	fa	PunctType=Excl	1	punct	_	
+
+#text = y bien, perfecto.
+1	y	y	CCONJ	cc	_	3	cc	_	
+2	bien,	bien,	ADV	rg	_	3	advmod	_	
+3	perfecto.	perfecto.	PUNCT	fp	PunctType=Quot	0	root	_	
+
+#text = en agosto, empiezo.
+1	en	en	ADP	sps00	_	2	case	_	
+2	agosto,	agosto,	NOUN	_	_	0	root	_	
+3	empiezo.	empiezo.	PUNCT	fp	PunctType=Dash	2	punct	_	
+
+#text = qué hacés, . el +...
+1	qué	qu�	PUNCT	fa	_	2	punct	_	
+2	hacés,	hacés,	X	n0000	_	0	root	_	
+3	.	.	PUNCT	fp	PunctType=Peri	2	punct	_	
+4	el	el	DET	da0ms0	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	
+5	+...	+...	PUNCT	fp	_	2	punct	_	
+
+#text = qué sería?
+1	qué	qu�	PUNCT	fa	_	2	punct	_	
+2	sería?	ser�a?	X	n000	_	0	root	_	
+
+#text = +< el +/.
+1	+<	+<	PUNCT	fg	_	2	punct	_	
+2	el	el	DET	da0ms0	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	0	root	_	
+3	+/.	+/.	PUNCT	fp	_	2	punct	_	
+
+#text = qué vas a estudiar?
+1	qué	qu�	PUNCT	fg	_	2	punct	_	
+2	vas	ir	VERB	vmip2s0	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	0	root	_	
+3	a	a	ADP	sps00	_	4	mark	_	
+4	estudiar?	estudiar	VERB	vmn0000	VerbForm=Inf	2	xcomp	_	
+
+#text = en, el que es el secundario?
+1	en,	en,	PUNCT	fe	PunctType=Quot	6	punct	_	
+2	el	el	DET	da0ms0	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	
+3	que	que	PRON	pr0cn000	PronType=Rel	6	nsubj	_	
+4	es	ser	AUX	vsip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	
+5	el	el	DET	da0ms0	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	
+6	secundario?	secundario?	NOUN	ncms000	Gender=Masc|Number=Sing	0	root	_	
+
+#text = ah, para terminar xxx.
+1	ah,	ah,	X	np00000	_	0	root	_	
+2	para	para	ADP	sps00	_	3	mark	_	
+3	terminar	terminar	VERB	vmn0000	VerbForm=Inf	1	advcl	_	
+4	xxx.	xxx.	X	n00000	_	3	obj	_	
+
+#text = +< xxx secundario xxx.
+1	+<	+<	PUNCT	fg	_	2	punct	_	
+2	xxx	xxx	NOUN	ncms000	Gender=Masc|Number=Sing	0	root	_	
+3	secundario	secundario	ADJ	aq0ms0	Gender=Masc|Number=Sing	2	amod	_	
+4	xxx.	xxx.	X	n00000	_	2	appos	_	
+
+#text = perfecto .. está bien.
+1	perfecto	perfecto	ADJ	aq0ms0	Gender=Masc|Number=Sing	0	root	_	
+2	..	..	PUNCT	fa	_	1	punct	_	
+3	está	está	INTJ	_	_	1	dep	_	
+4	bien.	bien.	ADV	rg	_	1	advmod	_	
+
+#text = y a, pero, y lo venís a, lo traés acá, qué, para ir al jardín?
+1	y	y	CCONJ	cc	_	6	cc	_	
+2	a,	a,	PUNCT	fa	_	3	punct	_	
+3	pero,	pero,	PUNCT	fc	_	6	advmod	_	
+4	y	y	CCONJ	cc	_	6	cc	_	
+5	lo	�l	PRON	pp3msa00	Case=Acc|Gender=Masc|Number=Sing|Person=3|PrepCase=Npr|PronType=Prs	6	obj	_	
+6	venís	venir	VERB	vmip1p0	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	0	root	_	
+7	a,	a,	X	np00000	_	6	xcomp	_	
+8	lo	�l	PRON	pa0s0	Case=Acc|Gender=Masc|Number=Sing|Person=3|PrepCase=Npr|PronType=Prs	6	nsubj	_	
+9	traés	tra�s	X	n	_	8	flat	_	
+10	acá,	acá,	PUNCT	fa	_	9	punct	_	
+11	qué,	qu�,	PUNCT	fa	_	8	punct	_	
+12	para	para	ADP	sps00	_	13	mark	_	
+13	ir	ir	VERB	vmn0000	VerbForm=Inf	6	advcl	_	
+14	al	al	ADP	sps00	_	15	case	_	
+15	jardín?	jardín?	X	n0000	_	13	obl	_	
+
+#text = sí.
+1	sí.	s�.	PUNCT	fp	_	0	root	_	
+
+#text = ah, que vienen al jardín por esta zona.
+1	ah,	ah,	X	np00000	_	0	root	_	
+2	que	que	PRON	pr0cn000	PronType=Rel	3	mark	_	
+3	vienen	venir	VERB	vmip3p0	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	1	acl:relcl	_	
+4	al	al	ADP	sps00	_	5	case	_	
+5	jardín	jardín	NOUN	ncms000	Gender=Masc|Number=Sing	3	obl	_	
+6	por	por	ADP	sps00	_	8	case	_	
+7	esta	este	DET	dd0fs0	Gender=Fem|Number=Sing|PronType=Dem	8	det	_	
+8	zona.	zona.	NOUN	ncfs000	Gender=Fem|Number=Sing	3	obl	_	
+
+#text = acá, sí.
+1	acá,	acá,	PUNCT	fe	_	2	punct	_	
+2	sí.	s�.	PUNCT	fp	_	0	root	_	
+
+#text = cerca, xxx que esté cerca de tu mamá y de tu familia?
+1	cerca,	cerca,	X	np00000	_	0	root	_	
+2	xxx	xxx	PROPN	_	_	1	flat	_	
+3	que	que	SCONJ	cs	_	4	mark	_	
+4	esté	est�	X	np00000	_	5	nsubj	_	
+5	cerca	cerca	ADV	rg	_	8	case	_	
+6	de	de	ADP	_	_	5	fixed	_	
+7	tu	tu	DET	p2s	Number=Sing|Number[psor]=Sing|Person=2|Poss=Yes|PronType=Prs	8	det	_	
+8	mamá	mamá	PROPN	_	_	1	flat	_	
+9	y	y	CCONJ	c	_	12	cc	_	
+10	de	de	ADP	_	_	12	case	_	
+11	tu	tu	DET	p2s	Number=Sing|Number[psor]=Sing|Person=2|Poss=Yes|PronType=Prs	12	det	_	
+12	familia?	familia?	PROPN	_	_	8	conj	_	
+
+#text = +< sí, por la xxx.
+1	+<	+<	PUNCT	fa	_	2	punct	_	
+2	sí,	s�,	X	np00000	_	0	root	_	
+3	por	por	ADP	sps00	_	5	case	_	
+4	la	el	DET	da0fs0	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	
+5	xxx.	xxx.	NOUN	ncfs000	_	2	nmod	_	
+
+#text = yo pienso trabajar, así que +/.
+1	yo	yo	PRON	pp1csn00	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	
+2	pienso	pensar	VERB	vmip1s0	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	
+3	trabajar,	trabajar	VERB	vmn0000	VerbForm=Inf	2	xcomp	_	
+4	así	as�	X	n00000	_	3	obj	_	
+5	que	que	SCONJ	cs	_	4	fixed	_	
+6	+/.	+/.	PUNCT	fp	_	4	punct	_	
+
+#text = +< no xxx.
+1	+<	+<	PUNCT	fa	_	3	punct	_	
+2	no	no	ADV	rn	Polarity=Neg	3	advmod	_	
+3	xxx.	xxx.	X	n00000	_	0	root	_	
+
+#text = +, si yo empiezo a trabajar +/.
+1	+,	+,	PUNCT	fg	PunctType=Dash	4	punct	_	
+2	si	si	SCONJ	cs	_	4	mark	_	
+3	yo	yo	PRON	pp1csn00	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	
+4	empiezo	empezar	VERB	vmip1s0	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	
+5	a	a	ADP	sps00	_	6	mark	_	
+6	trabajar	trabajar	VERB	vmn0000	VerbForm=Inf	4	xcomp	_	
+7	+/.	+/.	PUNCT	fp	_	4	punct	_	
+
+#text = +< para que lo cuide.
+1	+<	+<	PUNCT	fg	_	5	punct	_	
+2	para	para	ADP	sps00	_	5	mark	_	
+3	que	que	SCONJ	cs	_	5	mark	_	
+4	lo	�l	PRON	pp3msa00	Case=Acc|Gender=Masc|Number=Sing|Person=3|PrepCase=Npr|PronType=Prs	5	obj	_	
+5	cuide.	coder	VERB	vmsp3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	
+
+#text = +< xxx cerca de ella xxx.
+1	+<	+<	PUNCT	fz	_	2	punct	_	
+2	xxx	xxx	NOUN	ncms000	_	0	root	_	
+3	cerca	cerca	ADV	rg	_	5	case	_	
+4	de	de	ADP	sps00	_	3	fixed	_	
+5	ella	�l	PRON	pp3fs000	Case=Acc,Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	nmod	_	
+6	xxx.	xxx.	NOUN	ncfp000	_	5	appos	_	
+
+#text = claro.
+1	claro.	claro.	PUNCT	fp	PunctType=Quot	0	root	_	
+
+#text = +< que lo vaya a buscar.
+1	+<	+<	PUNCT	fg	_	4	punct	_	
+2	que	que	PRON	pr0cn000	PronType=Rel	4	nsubj	_	
+3	lo	�l	PRON	pp3msa00	Case=Acc|Gender=Masc|Number=Sing|Person=3|PrepCase=Npr|PronType=Prs	4	obj	_	
+4	vaya	ir	VERB	vmsp3s0	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	
+5	a	a	ADP	sps00	_	6	case	_	
+6	buscar.	buscar.	NOUN	ncms000	Number=Sing	4	obl	_	
+
+#text = claro, sí.
+1	claro,	claro,	PUNCT	fe	PunctType=Quot	0	root	_	
+2	sí.	s�.	PUNCT	fp	_	1	punct	_	
+
+#text = mjm.
+1	mjm.	mjm.	X	np00000	_	0	root	_	
+
+#text = y dónde queda el jar +/?
+1	y	y	CCONJ	cc	_	3	cc	_	
+2	dónde	dónde	X	np00000	_	3	nsubj	_	
+3	queda	quedar	VERB	vmip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	
+4	el	el	DET	da0ms0	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	
+5	jar	jar	NOUN	ncms000	Gender=Masc|Number=Sing	3	nsubj	_	
+6	+/?	+/?	PUNCT	fp	_	5	amod	_	
+
+#text = me dijiste que el jardín queda +/.
+1	me	yo	PRON	pp1cs000	Case=Dat|Number=Sing|Person=1|PrepCase=Npr|PronType=Prs	2	obl:arg	_	
+2	dijiste	dijistir	VERB	vmip1s0	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	
+3	que	que	SCONJ	cs	_	6	mark	_	
+4	el	el	DET	da0ms0	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	
+5	jardín	jardín	NOUN	ncms000	Gender=Masc|Number=Sing	6	nsubj	_	
+6	queda	quedar	VERB	vmip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	ccomp	_	
+7	+/.	+/.	PUNCT	fp	_	2	punct	_	
+
+#text = pero queda acá por el barrio, o para el lado de Montes_de_Oca?
+1	pero	pero	CCONJ	cc	_	2	advmod	_	
+2	queda	quedar	VERB	vmip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	
+3	acá	acá	ADV	rg	_	2	advmod	_	
+4	por	por	ADP	sps00	_	6	case	_	
+5	el	el	DET	da0ms0	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	
+6	barrio,	barrio,	NOUN	ncms000	Gender=Masc|Number=Sing	2	obl	_	
+7	o	o	CCONJ	cc	_	10	cc	_	
+8	para	para	ADP	sps00	_	10	case	_	
+9	el	el	DET	da0ms0	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	
+10	lado	lado	NOUN	ncms000	Gender=Masc|Number=Sing	6	conj	_	
+11	de	de	ADP	sps00	_	12	case	_	
+12	Montes_de_Oca?	montes_de_oca?	PROPN	np00000	_	10	nmod	_	
+
+#text = +< sí a +/.
+1	+<	+<	PUNCT	fa	_	2	punct	_	
+2	sí	s�	X	n0000	_	0	root	_	
+3	a	a	ADP	sps00	_	4	case	_	
+4	+/.	+/.	PUNCT	fp	_	2	nmod	_	
+
+#text = em, acá en Alcorta, el Diez.
+1	em,	em,	X	np00000	_	2	dep	_	
+2	acá	acá	X	n000	_	0	root	_	
+3	en	en	ADP	sps00	_	4	case	_	
+4	Alcorta,	alcorta,	PROPN	np00000	_	2	nmod	_	
+5	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	
+6	Diez.	diez.	PROPN	_	_	4	flat	_	
+
+#text = ah, está, está.
+1	ah,	ah,	X	np00000	_	0	root	_	
+2	está,	está	PUNCT	fa	_	1	punct	_	
+3	está.	está	PUNCT	fp	_	1	punct	_	
+
+#text = +< xxx.
+1	+<	+<	PUNCT	fz	_	2	punct	_	
+2	xxx.	xxx.	NOUN	ncfp000	_	0	root	_	
+
+#text = pasa que yo tengo la, la sensación de que la gente que viene,
+1	pasa	pasar	VERB	vmip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	
+2	que	que	SCONJ	cs	_	4	mark	_	
+3	yo	yo	PRON	pp1csn00	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	
+4	tengo	tener	VERB	vmip1s0	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	ccomp	_	
+5	la,	�l	PRON	_	Case=Acc|Gender=Fem|Number=Sing|Person=3|PrepCase=Npr|PronType=Prs	4	obj	_	
+6	la	el	DET	da0fs0	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	
+7	sensación	sensación	NOUN	ncfs000	Gender=Fem|Number=Sing	4	obj	_	
+8	de	de	ADP	sps00	_	11	case	_	
+9	que	que	SCONJ	cs	_	13	mark	_	
+10	la	el	DET	da0fs0	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	
+11	gente	gente	NOUN	ncfs000	Gender=Fem|Number=Sing	7	nmod	_	
+12	que	que	PRON	pr0cn000	PronType=Rel	13	nsubj	_	
+13	viene,	venir	VERB	vmip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	acl	_	
+
+#text = +< xxx.
+1	+<	+<	PUNCT	fz	_	2	punct	_	
+2	xxx.	xxx.	NOUN	ncfp000	_	0	root	_	
+
+#text = bueno, sí, igual, yo normalmente estoy todo el día acá +/.
+1	bueno,	bueno,	X	np00000	_	9	dep	_	
+2	sí,	sa�,	PUNCT	fa	_	1	punct	_	
+3	igual,	igual,	X	n0	_	4	case	_	
+4	yo	yo	PRON	pp1csn00	Case=Nom|Number=Sing|Person=1|PronType=Prs	9	nsubj	_	
+5	normalmente	normalmente	ADV	rg	_	9	advmod	_	
+6	estoy	estar	AUX	vmip1s0	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	9	cop	_	
+7	todo	todo	DET	di0ms0	Gender=Masc|Number=Sing|PronType=Tot	9	det	_	
+8	el	el	DET	da0ms0	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	
+9	día	d�a	NOUN	ncms000	Gender=Masc|Number=Sing	0	root	_	
+10	acá	acá	PUNCT	fa	_	9	punct	_	
+11	+/.	+/.	PUNCT	fp	_	9	punct	_	
+
+#text = claro.
+1	claro.	claro.	PUNCT	fp	PunctType=Quot	0	root	_	
+
+#text = +, hasta que llega la noche y me voy para allá.
+1	+,	+,	PUNCT	fg	_	4	punct	_	
+2	hasta	hasta	ADP	sps00	_	4	mark	_	
+3	que	que	SCONJ	cs	_	4	mark	_	
+4	llega	llegar	VERB	vmip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	
+5	la	el	DET	da0fs0	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	
+6	noche	noche	NOUN	ncfs000	Gender=Fem|Number=Sing	4	nsubj	_	
+7	y	y	CCONJ	cc	_	9	cc	_	
+8	me	yo	PRON	pp1cs000	Case=Dat|Number=Sing|Person=1|PrepCase=Npr|PronType=Prs	9	expl:pv	_	
+9	voy	ir	VERB	vmip1s0	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	conj	_	
+10	para	para	ADP	sps00	_	9	advmod	_	
+11	allá.	allá	PUNCT	fp	_	9	obl	_	
+
+#text = tu marido también vivió por acá?
+1	tu	tu	DET	dp2css	Number=Sing|Number[psor]=Sing|Person=2|Poss=Yes|PronType=Prs	2	det	_	
+2	marido	marido	NOUN	ncms000	Gender=Masc|Number=Sing	0	root	_	
+3	también	también	X	np00000	_	2	appos	_	
+4	vivió	vivi�	X	_	_	3	flat	_	
+5	por	por	ADP	sps00	_	3	case	_	
+6	acá?	acá?	PUNCT	fa	_	2	punct	_	
+
+#text = o tam, o se con, xxx +/?
+1	o	o	CCONJ	cc	_	2	cc	_	
+2	tam,	tam,	X	np00000	_	0	root	_	
+3	o	o	CCONJ	cc	_	6	cc	_	
+4	se	�l	PRON	_	Case=Acc|Person=3|PrepCase=Npr|PronType=Prs|Reflex=Yes	2	expl:pv	_	
+5	con,	con,	PUNCT	fc	PunctType=Comm	6	punct	_	
+6	xxx	xxx	NOUN	ncfs000	_	7	compound	_	
+7	+/?	+/?	X	_	_	2	dep	_	
+
+#text = +< xxx, bueno, vivía acá en Pompeya y se mudaron para
+1	+<	+<	PUNCT	fa	_	5	punct	_	
+2	xxx,	xxx,	X	np00000	_	5	dep	_	
+3	bueno,	bueno,	X	_	_	5	dep	_	
+4	vivía	viv�a	X	n	_	5	compound	_	
+5	acá	acá	X	_	_	0	root	_	
+6	en	en	ADP	sps00	_	7	case	_	
+7	Pompeya	Pompeya	PROPN	np00000	_	5	nmod	_	
+8	y	y	CCONJ	cc	_	10	cc	_	
+9	se	�l	PRON	p0300000	Case=Acc|Person=3|PrepCase=Npr|PronType=Prs|Reflex=Yes	10	expl:pv	_	
+10	mudaron	mudar	VERB	vmis3p0	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	5	conj	_	
+11	para	para	ADP	sps00	_	10	advmod	_	
+
+#text = claro.
+1	claro.	claro.	PUNCT	fp	PunctType=Quot	0	root	_	
+
+#text = y él también es argentino.
+1	y	y	CCONJ	cc	_	5	cc	_	
+2	él	�l	PROPN	np00000	_	5	nsubj	_	
+3	también	también	PROPN	_	_	2	flat	_	
+4	es	ser	AUX	vsip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	
+5	argentino.	argentino.	NOUN	ncms000	Gender=Masc|Number=Sing	0	root	_	
+
+#text = sí.
+1	sí.	s�.	PUNCT	fp	_	0	root	_	
+
+#text = bien.
+1	bien.	bien.	ADV	rg	_	0	root	_	
+
+#text = eh, y qué hacen en la semana, digamos?
+1	eh,	eh,	X	np00000	_	4	dep	_	
+2	y	y	CCONJ	cc	_	4	cc	_	
+3	qué	qu�	PRON	pt0cs000	PronType=Ind	4	nsubj	_	
+4	hacen	hacer	VERB	vmip3p0	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	
+5	en	en	ADP	sps00	_	7	case	_	
+6	la	el	DET	da0fs0	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	
+7	semana,	semana,	NOUN	ncfs000	Gender=Fem|Number=Sing	4	obl	_	
+8	digamos?	digamos?	PUNCT	fi	PunctSide=Fin|PunctType=Excl	4	punct	_	
+
+#text = ellos?
+1	ellos?	�l	PRON	pp3ms000	Case=Acc,Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	0	root	_	
+
+#text = nosotros?
+1	nosotros?	nosotros?	PUNCT	fi	PunctSide=Fin|PunctType=Qest	0	root	_	
+
+#text = sí, ustedes como, como familia, qué es lo que suelen hacer?
+1	sí,	sa�,	PUNCT	fe	PunctType=Quot	7	punct	_	
+2	ustedes	t�	PRON	pp2cp000	Case=Acc,Nom|Number=Plur|Person=2|PronType=Prs	7	nsubj	_	
+3	como,	como,	PUNCT	fc	_	7	punct	_	
+4	como	como	SCONJ	cs	_	5	case	_	
+5	familia,	familia,	NOUN	ncfs000	Gender=Fem|Number=Sing	3	obl	_	
+6	qué	qu�	PUNCT	fs	_	5	punct	_	
+7	es	ser	AUX	vsip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	
+8	lo	�l	PRON	da0ns0	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|Person=3|PrepCase=Npr|PronType=Prs	10	det	_	
+9	que	que	PRON	pr0cn000	PronType=Rel	10	mark	_	
+10	suelen	soler	VERB	vmip3p0	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	7	ccomp	_	
+11	hacer?	hacer	VERB	vmn0000	VerbForm=Inf	10	xcomp	_	
+
+#text = no, nada en especal.
+1	no,	no,	PUNCT	fg	PunctType=Quot	2	punct	_	
+2	nada	nada	PRON	pi0cs000	Number=Sing|PronType=Neg	0	root	_	
+3	en	en	ADP	sps00	_	4	case	_	
+4	especal.	especal.	NOUN	ncs000	Gender=Fem|Number=Sing	2	nmod	_	
+
+#text = digamos que tu semana, la semana consiste en traerlo a él hasta acá
+1	digamos	decir	VERB	vmip1p0	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	
+2	que	que	SCONJ	cs	_	7	mark	_	
+3	tu	tu	DET	dp2css	Number=Sing|Number[psor]=Sing|Person=2|Poss=Yes|PronType=Prs	4	det	_	
+4	semana,	semana,	NOUN	ncfs000	Gender=Fem|Number=Sing	7	nsubj	_	
+5	la	el	DET	da0fs0	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	
+6	semana	semana	NOUN	ncfs000	Gender=Fem|Number=Sing	7	nsubj	_	
+7	consiste	consistir	VERB	vmip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	ccomp	_	
+8	en	en	ADP	sps00	_	9	mark	_	
+9	traerlo	traerlo	VERB	vmn0000	VerbForm=Inf	7	xcomp	_	
+10	a	a	ADP	sps00	_	11	case	_	
+11	él	�l	PROPN	np00000	_	9	obl	_	
+12	hasta	hasta	ADP	sps00	_	11	case	_	
+13	acá	acá	PUNCT	fa	_	1	punct	_	
+
+#text = lo traigo al jardín, . lo voy a buscar, nos vamos un ratito a la
+1	lo	�l	PRON	pp3msa00	Case=Acc|Gender=Masc|Number=Sing|Person=3|PrepCase=Npr|PronType=Prs	2	obj	_	
+2	traigo	traigo	VERB	vmip1s0	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	
+3	al	al	ADP	sps00	_	4	case	_	
+4	jardín,	jardín	X	np00000	_	2	obl	_	
+5	.	.	PUNCT	fp	PunctType=Peri	2	punct	_	
+6	lo	�l	PRON	pp3msa00	Case=Acc|Gender=Masc|Number=Sing|Person=3|PrepCase=Npr|PronType=Prs	7	obj	_	
+7	voy	ir	VERB	vmip1s0	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	2	advcl	_	
+8	a	a	ADP	sps00	_	9	mark	_	
+9	buscar,	buscar	VERB	vmn0000	VerbForm=Inf	7	xcomp	_	
+10	nos	yo	PRON	p10	Case=Dat|Number=Plur|Person=1|PrepCase=Npr|PronType=Prs	9	obl:arg	_	
+11	vamos	ir	VERB	vmip1p0	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	2	advcl	_	
+12	un	uno	DET	di0ms0	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	13	det	_	
+13	ratito	ratito	NOUN	ncms000	Gender=Masc|Number=Sing	11	obj	_	
+14	a	a	ADP	sps00	_	15	case	_	
+15	la	el	DET	da0fs0	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	
+
+#text = bien.
+1	bien.	bien.	ADV	rg	_	0	root	_	
+
+#text = a_ver, . y tu marido también está +/?
+1	a_ver,	a_ver,	X	np00000	_	0	root	_	
+2	.	.	PUNCT	fp	PunctType=Peri	1	punct	_	
+3	y	y	CCONJ	cc	_	5	cc	_	
+4	tu	tu	DET	dp2css	Number=Sing|Number[psor]=Sing|Person=2|Poss=Yes|PronType=Prs	5	det	_	
+5	marido	marido	NOUN	ncms000	Gender=Masc|Number=Sing	1	conj	_	
+6	también	también	X	np00000	_	5	appos	_	
+7	está	está	X	n	_	6	flat	_	
+8	+/?	+/?	PUNCT	fa	_	1	punct	_	
+
+#text = cuánto años tiene?
+1	cuánto	cuánto	X	np00000	_	3	dep	_	
+2	años	a�r	X	n0000	_	3	nsubj	_	
+3	tiene?	tener	VERB	vmip1s0	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	0	root	_	
+
+#text = veinticuatro.
+1	veinticuatro.	veinticuatro.	PUNCT	fp	PunctType=Quot	0	root	_	
+
+#text = veinticuatro.
+1	veinticuatro.	veinticuatro.	PUNCT	fp	PunctType=Quot	0	root	_	
+
+#text = y él t +/?
+1	y	y	CCONJ	cc	_	3	cc	_	
+2	él	�l	X	np00000	_	3	dep	_	
+3	t	t	PROPN	np00000	_	0	root	_	
+4	+/?	+/?	PUNCT	fp	_	3	flat	_	
+
+#text = +< él trabaja.
+1	+<	+<	PUNCT	fa	_	2	punct	_	
+2	él	�l	X	np00000	_	0	root	_	
+3	trabaja.	trabaja.	PUNCT	fe	PunctType=Quot	2	punct	_	
+
+#text = él trabaja.
+1	él	�l	INTJ	_	_	0	root	_	
+2	trabaja.	trabaja.	PUNCT	fe	PunctType=Quot	1	punct	_	
+
+#text = mjm.
+1	mjm.	mjm.	X	np00000	_	0	root	_	
+
+#text = y en qué la, en qué trabaja?
+1	y	y	CCONJ	cc	_	2	cc	_	
+2	en	en	ADP	sps00	_	0	root	_	
+3	qué	qu�	PUNCT	fa	_	2	fixed	_	
+4	la,	�l	PRON	_	Case=Acc|Number=Sing|Person=3|PrepCase=Npr|PronType=Prs	2	fixed	_	
+5	en	en	ADP	sps00	_	2	fixed	_	
+6	qué	qu�	PUNCT	fa	_	2	punct	_	
+7	trabaja?	trabaja?	PUNCT	fz	PunctType=Quot	2	punct	_	
+
+#text = en carnicería.
+1	en	en	ADP	sps00	_	2	case	_	
+2	carnicería.	carnicer�a.	NOUN	ncfs000	Number=Sing	0	root	_	
+
+#text = perfecto.
+1	perfecto.	perfecto.	PUNCT	fe	PunctType=Quot	0	root	_	
+
+#text = y también terminó, terminó el secundario o +/?
+1	y	y	CCONJ	cc	_	6	cc	_	
+2	también	también	X	np00000	_	6	nsubj	_	
+3	terminó,	terminó,	X	_	_	6	dep	_	
+4	terminó	terminó	X	_	_	6	dep	_	
+5	el	el	DET	da0ms0	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	
+6	secundario	secundario	NOUN	ncms000	Gender=Masc|Number=Sing	0	root	_	
+7	o	o	CCONJ	cc	_	8	cc	_	
+8	+/?	+/?	X	np00000	_	6	conj	_	
+
+#text = dejó, eh, terminó el quinto pero dejó dos materias.
+1	dejó,	dejó,	X	np00000	_	5	dep	_	
+2	eh,	eh,	X	_	_	5	dep	_	
+3	terminó	terminó	X	_	_	5	dep	_	
+4	el	el	DET	da0ms0	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	
+5	quinto	quinto	NOUN	ncms000	Gender=Masc|Number=Sing	0	root	_	
+6	pero	pero	CCONJ	cc	_	7	cc	_	
+7	dejó	dejó	VERB	vmip3s0	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	5	conj	_	
+8	dos	dos	NUM	dn0cp0	NumForm=Word|NumType=Card|Number=Plur	9	nummod	_	
+9	materias.	materias.	NOUN	ncfp000	Gender=Fem|Number=Plur	7	obj	_	
+
+#text = le quedan dos materias?
+1	le	�l	PRON	pp3csd00	Case=Dat|Number=Sing|Person=3|PronType=Prs	2	obl:arg	_	
+2	quedan	quedar	VERB	vmip3p0	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	
+3	dos	dos	NUM	dn0cp0	NumForm=Word|NumType=Card|Number=Plur	4	nummod	_	
+4	materias?	materias?	NOUN	ncfp000	Gender=Fem|Number=Plur	2	nsubj	_	
+
+#text = sí.
+1	sí.	s�.	PUNCT	fp	_	0	root	_	
+
+#text = que las debe +/.
+1	que	que	PRON	pr0cn000	PronType=Rel	3	mark	_	
+2	las	�l	PRON	pp3fpa00	Case=Acc|Gender=Fem|Number=Plur|Person=3|PrepCase=Npr|PronType=Prs	3	obj	_	
+3	debe	deber	AUX	vmip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	
+4	+/.	+/.	PUNCT	fp	_	3	punct	_	
+
+#text = +< no, pero, o sea él no lo hi, . no lo hizo acá.
+1	+<	+<	PUNCT	fg	_	9	punct	_	
+2	no,	no,	PUNCT	fg	PunctType=Quot	13	punct	_	
+3	pero,	pero,	PUNCT	fg	_	9	punct	_	
+4	o	o	CCONJ	cc	_	6	cc	_	
+5	sea	ser	AUX	vssp3s0	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	cop	_	
+6	él	�l	PROPN	np00000	_	9	nsubj	_	
+7	no	no	ADV	rn	Polarity=Neg	9	advmod	_	
+8	lo	�l	PRON	pp3msa00	Case=Acc|Gender=Masc|Number=Sing|Person=3|PrepCase=Npr|PronType=Prs	9	obj	_	
+9	hi,	hi,	X	n000	_	13	ccomp	_	
+10	.	.	PUNCT	fp	PunctType=Peri	9	punct	_	
+11	no	no	ADV	rn	Polarity=Neg	13	advmod	_	
+12	lo	�l	PRON	pp3msa00	Case=Acc|Gender=Masc|Number=Sing|Person=3|PrepCase=Npr|PronType=Prs	13	obj	_	
+13	hizo	hacer	VERB	vmis3s0	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	
+14	acá.	acá.	PUNCT	fp	_	13	punct	_	
+
+#text = ah, dónde lo hizo?
+1	ah,	ah,	X	np00000	_	4	dep	_	
+2	dónde	dónde	X	_	_	1	dep	_	
+3	lo	�l	PRON	pp3msa00	Case=Acc|Gender=Masc|Number=Sing|Person=3|PrepCase=Npr|PronType=Prs	4	obj	_	
+4	hizo?	hizo?	INTJ	_	_	0	root	_	
+
+#text = +< en Corrientes.
+1	+<	+<	PUNCT	fg	_	3	punct	_	
+2	en	en	ADP	sps00	_	3	case	_	
+3	Corrientes.	corrientes.	PROPN	np00000	_	0	root	_	
+
+#text = ah, es de Corrientes?
+1	ah,	ah,	X	np00000	_	2	nsubj	_	
+2	es	ser	AUX	vsip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	
+3	de	de	ADP	sps00	_	4	case	_	
+4	Corrientes?	corrientes?	PROPN	np00000	_	2	obl	_	
+
+#text = vi, vivió allá, pero es de a Argentina.
+1	vi,	vi,	X	np00000	_	3	dep	_	
+2	vivió	vivi�	PROPN	_	_	1	flat	_	
+3	allá,	all�r	X	_	_	0	root	_	
+4	pero	pero	CCONJ	cc	_	5	cc	_	
+5	es	ser	AUX	vsip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	conj	_	
+6	de	de	ADP	sps00	_	8	case	_	
+7	a	a	ADP	sps00	_	8	case	_	
+8	Argentina.	argentina.	PROPN	np00000	_	5	obl	_	
+
+#text = +< ah, nació, nació acá en Buenos Aires, vivió en Corrientes un
+1	+<	+<	PUNCT	fa	_	5	punct	_	
+2	ah,	ah,	X	n00000	_	5	dep	_	
+3	nació,	nació,	X	_	_	5	compound	_	
+4	nació	nació	X	_	_	5	compound	_	
+5	acá	acá	X	_	_	0	root	_	
+6	en	en	ADP	sps00	_	8	case	_	
+7	Buenos	buenos	PROPN	np00000	_	8	amod	_	
+8	Aires,	aires,	PROPN	_	_	5	nmod	_	
+9	vivió	vivi�	PROPN	_	_	8	flat	_	
+10	en	en	ADP	sps00	_	11	case	_	
+11	Corrientes	corrientes	PROPN	np00000	_	5	nmod	_	
+12	un	uno	DET	di0ms0	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	5	punct	_	
+
+#text = +< sí.
+1	+<	+<	PUNCT	fa	_	2	punct	_	
+2	sí.	s�.	PUNCT	fp	_	0	root	_	
+
+#text = ah, y no, no, no puede ir a xxx +/.
+1	ah,	ah,	X	np00000	_	7	dep	_	
+2	y	y	CCONJ	cc	_	7	cc	_	
+3	no,	no,	X	np00000	_	1	conj	_	
+4	no,	no,	X	n0	_	7	advmod	_	
+5	no	no	ADV	rn	Polarity=Neg	7	advmod	_	
+6	puede	poder	AUX	vmip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	
+7	ir	ir	VERB	vmn0000	VerbForm=Inf	0	root	_	
+8	a	a	ADP	sps00	_	9	case	_	
+9	xxx	xxx	NOUN	ncms000	_	7	obl	_	
+10	+/.	+/.	PUNCT	fp	_	7	punct	_	
+
+#text = +< xxx.
+1	+<	+<	PUNCT	fz	_	2	punct	_	
+2	xxx.	xxx.	NOUN	ncfp000	_	0	root	_	
+
+#text = quiere terminarlo.
+1	quiere	querer	VERB	vmip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	
+2	terminarlo.	terminarlo.	VERB	vmn0000	VerbForm=Inf	1	xcomp	_	
+
+#text = +< xxx.
+1	+<	+<	PUNCT	fz	_	2	punct	_	
+2	xxx.	xxx.	NOUN	ncfp000	_	0	root	_	
+
+#text = sí.
+1	sí.	s�.	PUNCT	fp	_	0	root	_	
+
+#text = +< pero . con el trabajo se le complica.
+1	+<	+<	PUNCT	fg	_	9	punct	_	
+2	pero	pero	CCONJ	cc	_	9	cc	_	
+3	.	.	PUNCT	fp	PunctType=Peri	9	punct	_	
+4	con	con	ADP	sps00	_	6	case	_	
+5	el	el	DET	da0ms0	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	
+6	trabajo	trabajo	NOUN	ncms000	Gender=Masc|Number=Sing	9	obl	_	
+7	se	�l	PRON	p0000000	Case=Acc|Person=3|PrepCase=Npr|PronType=Prs|Reflex=Yes	9	expl:pv	_	
+8	le	�l	PRON	pp3csd00	Case=Dat|Number=Sing|Person=3|PronType=Prs	9	obl:arg	_	
+9	complica.	complicar	VERB	vmip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	
+
+#text = no, sí, me imagino, xxx trabajar y estudiar ya es más difícil.
+1	no,	no,	X	np00000	_	4	dep	_	
+2	sí,	s�,	X	n000	_	4	dep	_	
+3	me	yo	PRON	p1s000	Case=Dat|Number=Sing|Person=1|PrepCase=Npr|PronType=Prs	4	dep	_	
+4	imagino,	imagino,	X	np00000	_	6	dep	_	
+5	xxx	xxx	X	n000	_	6	obj	_	
+6	trabajar	trabajar	VERB	vmn0000	VerbForm=Inf	12	csubj	_	
+7	y	y	CCONJ	cc	_	8	cc	_	
+8	estudiar	estudiar	VERB	vmn0000	VerbForm=Inf	6	conj	_	
+9	ya	ya	ADV	rg	_	12	advmod	_	
+10	es	ser	AUX	vsip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	cop	_	
+11	más	m�s	X	np00000	_	12	dep	_	
+12	difícil.	difícil.	X	n	_	0	root	_	
+
+#text = +< sí, yo, yo le insisto para que vaya a terminar porque bien, si
+1	+<	+<	PUNCT	fa	_	6	punct	_	
+2	sí,	s�,	X	n0000	_	6	dep	_	
+3	yo,	yo,	PUNCT	fa	PunctType=Quot	2	punct	_	
+4	yo	yo	PRON	pp1csn00	Case=Nom|Number=Sing|Person=1|PronType=Prs	6	nsubj	_	
+5	le	�l	PRON	pp3csd00	Case=Dat|Number=Sing|Person=3|PronType=Prs	6	obl:arg	_	
+6	insisto	insistir	VERB	vmip1s0	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	
+7	para	para	ADP	sps00	_	9	mark	_	
+8	que	que	SCONJ	cs	_	9	mark	_	
+9	vaya	ir	VERB	vmsp3s0	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	advcl	_	
+10	a	a	ADP	sps00	_	11	mark	_	
+11	terminar	terminar	VERB	vmn0000	VerbForm=Inf	9	xcomp	_	
+12	porque	porque	SCONJ	cs	_	13	mark	_	
+13	bien,	bien,	ADV	rg	_	9	advmod	_	
+14	si	si	SCONJ	cs	_	6	punct	_	
+
+#text = +< no, aparte son dos materias .. nada más.
+1	+<	+<	PUNCT	fg	_	6	punct	_	
+2	no,	no,	PUNCT	fg	PunctType=Dash	6	punct	_	
+3	aparte	aparte	ADV	rg	_	6	advmod	_	
+4	son	ser	AUX	vsip3p0	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	
+5	dos	dos	NUM	dn0cp0	NumForm=Word|NumType=Card|Number=Plur	6	nummod	_	
+6	materias	materia	NOUN	ncfp000	Gender=Fem|Number=Plur	0	root	_	
+7	..	..	PUNCT	fs	_	6	punct	_	
+8	nada	nada	PRON	pi0cs000	Number=Sing|PronType=Neg	6	appos	_	
+9	más.	m�s.	SYM	p	_	6	appos	_	
+
+#text = +< mjm.
+1	+<	+<	PUNCT	fa	_	2	punct	_	
+2	mjm.	mjm.	NOUN	ncms000	_	0	root	_	
+
+#text = qué materias son?
+1	qué	qu�	PUNCT	fa	_	2	punct	_	
+2	materias	materia	NOUN	ncfp000	Gender=Fem|Number=Plur	0	root	_	
+3	son?	sone	PUNCT	fa	PunctType=Excl	2	punct	_	
+
+#text = no, xxx.
+1	no,	no,	X	np00000	_	2	dep	_	
+2	xxx.	xxx.	X	n	_	0	root	_	
+
+#text = +< no sabés?
+1	+<	+<	PUNCT	fa	_	3	punct	_	
+2	no	no	ADV	rn	Polarity=Neg	3	advmod	_	
+3	sabés?	sab�s?	X	n00000	_	0	root	_	
+
+#text = ah, a mí me costó siempre matemáticas.
+1	ah,	ah,	X	np00000	_	7	compound	_	
+2	a	a	PROPN	_	_	1	flat	_	
+3	mí	m�	X	_	_	1	flat	_	
+4	me	yo	PRON	_	Case=Acc|Number=Sing|Person=1|PrepCase=Npr|PronType=Prs	7	compound	_	
+5	costó	costó	X	_	_	1	flat	_	
+6	siempre	siempre	ADV	_	_	7	compound	_	
+7	matemáticas.	matemáticas.	X	_	_	0	root	_	
+
+#text = xxx.
+1	xxx.	xxx.	X	np00000	_	0	root	_	
+
+#text = no me gusta.
+1	no	no	ADV	rn	Polarity=Neg	3	advmod	_	
+2	me	yo	PRON	pp1cs000	Case=Dat|Number=Sing|Person=1|PrepCase=Npr|PronType=Prs	3	expl:pv	_	
+3	gusta.	gustar	VERB	vmip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	
+
+#text = bueno, a mí me encanta la, el colegio.
+1	bueno,	buen	ADJ	aq0ms0	Gender=Masc|Number=Sing	5	dep	_	
+2	a	a	ADP	sps00	_	3	case	_	
+3	mí	m�	PROPN	_	_	1	nmod	_	
+4	me	yo	PRON	pp1cs000	Case=Dat|Number=Sing|Person=1|PrepCase=Npr|PronType=Prs	5	obl:arg	_	
+5	encanta	encantar	VERB	vmip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	
+6	la,	�l	PRON	_	Case=Acc|Gender=Fem|Number=Sing|Person=3|PrepCase=Npr|PronType=Prs	5	obj	_	
+7	el	el	DET	da0ms0	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	
+8	colegio.	colegio.	NOUN	ncms000	Gender=Masc|Number=Sing	5	nsubj	_	
+
+#text = yo dejé por lo que yo quedé embarazada, dejé.
+1	yo	yo	PRON	pp1csn00	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	root	_	
+2	dejé	dej�	INTJ	_	_	1	flat	_	
+3	por	por	ADP	sps00	_	5	case	_	
+4	lo	�l	PRON	da0ns0	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|Person=3|PrepCase=Npr|PronType=Prs	5	det	_	
+5	que	que	PRON	pr0cn000	PronType=Rel	8	mark	_	
+6	yo	yo	PRON	pp1csn00	Case=Nom|Number=Sing|Person=1|PronType=Prs	8	nsubj	_	
+7	quedé	qued�	INTJ	_	_	8	compound	_	
+8	embarazada,	embarazada,	NOUN	ncfs000	Number=Sing	1	appos	_	
+9	dejé.	dej�.	PUNCT	fp	_	8	punct	_	
+
+#text = +< claro, . claro.
+1	+<	+<	PUNCT	fg	_	2	punct	_	
+2	claro,	claro,	NOUN	ncms000	Gender=Masc|Number=Sing	0	root	_	
+3	.	.	PUNCT	fp	PunctType=Peri	2	punct	_	
+4	claro.	claro.	PUNCT	fp	PunctType=Peri	2	punct	_	
+
+#text = +< pero me encanta el colegio.
+1	+<	+<	PUNCT	fg	_	4	punct	_	
+2	pero	pero	CCONJ	cc	_	4	cc	_	
+3	me	yo	PRON	pp1cs000	Case=Dat|Number=Sing|Person=1|PrepCase=Npr|PronType=Prs	4	obl:arg	_	
+4	encanta	encantar	VERB	vmip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	
+5	el	el	DET	da0ms0	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	
+6	colegio.	colegio.	NOUN	ncms000	Gender=Masc|Number=Sing	4	nsubj	_	
+
+#text = bueno, buenísismo.
+1	bueno,	buen	ADJ	aq0ms0	Gender=Masc|Number=Sing	2	amod	_	
+2	buenísismo.	buenísismo.	NOUN	ncms000	Gender=Masc|Number=Sing	0	root	_	
+
+#text = +< leer todas las cosas me, me re gusta.
+1	+<	+<	PUNCT	fg	_	8	punct	_	
+2	leer	leer	VERB	vmn0000	VerbForm=Inf	8	csubj	_	
+3	todas	todo	DET	di0fp0	Gender=Fem|Number=Plur|PronType=Tot	4	det	_	
+4	las	el	DET	da0fp0	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	5	det	_	
+5	cosas	cosa	NOUN	ncfp000	Gender=Fem|Number=Plur	2	obj	_	
+6	me,	me	SYM	_	_	5	appos	_	
+7	me	yo	PRON	pp1cs000	Case=Dat|Number=Sing|Person=1|PrepCase=Npr|PronType=Prs	8	obj	_	
+8	re	re	VERB	vmip1s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	
+9	gusta.	gusta.	PUNCT	fp	PunctType=Dash	8	obj	_	
+
+#text = está buene, está muy bueno.
+1	está	está	INTJ	_	_	5	dep	_	
+2	buene,	buene,	X	n0000	_	5	dep	_	
+3	está	está	INTJ	_	_	5	dep	_	
+4	muy	mucho	ADV	rg	_	5	advmod	_	
+5	bueno.	bueno.	ADJ	aq0ms0	Gender=Masc|Number=Sing	0	root	_	
+
+#text = +< mjm.
+1	+<	+<	PUNCT	fa	_	2	punct	_	
+2	mjm.	mjm.	NOUN	ncms000	_	0	root	_	
+
+#text = xxx buen incentivo para terminar, ahora.
+1	xxx	xxx	X	np00000	_	3	dep	_	
+2	buen	buen	ADJ	aq0ms0	Gender=Masc|Number=Sing	3	amod	_	
+3	incentivo	incentivo	NOUN	ncms000	Gender=Masc|Number=Sing	0	root	_	
+4	para	para	ADP	sps00	_	5	mark	_	
+5	terminar,	terminar	VERB	vmn0000	VerbForm=Inf	3	advcl	_	
+6	ahora.	ahora.	PUNCT	fp	PunctType=Peri	3	punct	_	
+
+#text = está perfecto.
+1	está	está	INTJ	_	_	2	dep	_	
+2	perfecto.	perfecto.	PUNCT	fp	PunctType=Quot	0	root	_	
+
+#text = y en qué año, . dejá +/.
+1	y	y	CCONJ	cc	_	4	cc	_	
+2	en	en	ADP	sps00	_	4	case	_	
+3	qué	qu�	X	n0	_	4	dep	_	
+4	año,	a�o,	X	n0000	_	0	root	_	
+5	.	.	PUNCT	fp	PunctType=Peri	4	punct	_	
+6	dejá	dejá	PUNCT	fa	_	4	punct	_	
+7	+/.	+/.	PUNCT	fp	_	4	punct	_	
+
+#text = +< segundo.
+1	+<	+<	PUNCT	fg	_	2	punct	_	
+2	segundo.	segundo.	NOUN	ncms000	Gender=Masc|Number=Sing	0	root	_	
+
+#text = segundo, .. está bien.
+1	segundo,	segundo,	ADV	rg	_	0	root	_	
+2	..	..	PUNCT	fa	_	1	punct	_	
+3	está	está	INTJ	_	_	1	dep	_	
+4	bien.	bien.	ADV	rg	_	1	advmod	_	
+
+#text = y trabajo, estás buscando?
+1	y	y	CCONJ	cc	_	2	cc	_	
+2	trabajo,	trabajo,	NOUN	ncms000	Gender=Masc|Number=Sing	0	root	_	
+3	estás	esta.	PUNCT	fg	PunctType=Excl	4	punct	_	
+4	buscando?	buscandor	VERB	vmg0000	VerbForm=Ger	2	advcl	_	
+
+#text = sí.
+1	sí.	s�.	PUNCT	fp	_	0	root	_	
+
+#text = cualquier cosa o +/?
+1	cualquier	cualquiera	DET	di0cs0	Number=Sing|PronType=Ind	2	det	_	
+2	cosa	cosa	NOUN	ncfs000	Gender=Fem|Number=Sing	0	root	_	
+3	o	o	CCONJ	cc	_	2	cc	_	
+4	+/?	+/?	PUNCT	fa	_	2	punct	_	
+
+#text = cualquier cosa.
+1	cualquier	cualquiera	DET	di0cs0	Number=Sing|PronType=Ind	2	det	_	
+2	cosa.	cosa.	NOUN	ncfs000	Gender=Fem|Number=Sing	0	root	_	
+
+#text = xxx, está bien.
+1	xxx,	xxx,	X	np00000	_	0	root	_	
+2	está	está	X	_	_	1	dep	_	
+3	bien.	bien.	NOUN	nc	_	1	dep	_	
+
+#text = este lugar ya lo conocías?
+1	este	este	DET	dd0ms0	Gender=Masc|Number=Sing|PronType=Dem	2	det	_	
+2	lugar	lugar	NOUN	ncms000	Gender=Masc|Number=Sing	5	nsubj	_	
+3	ya	ya	ADV	rg	_	5	advmod	_	
+4	lo	�l	PRON	pp3msa00	Case=Acc|Gender=Masc|Number=Sing|Person=3|PrepCase=Npr|PronType=Prs	5	obj	_	
+5	conocías?	conoc�as?	X	n000	_	0	root	_	
+
+#text = la Casa_de_la_Cultura?
+1	la	el	DET	da0fs0	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	
+2	Casa_de_la_Cultura?	casa_de_la_cultura?	PROPN	np00000	_	0	root	_	
+
+#text = nunca entré.
+1	nunca	nunca	ADV	rg	_	2	advmod	_	
+2	entré.	entr�.	PUNCT	fp	_	0	root	_	
+
+#text = no?
+1	no?	no?	PUNCT	fa	PunctType=Excl	0	root	_	
+
+#text = sí conozco pero nunca, nunca entré.
+1	sí	s�	X	np00000	_	2	nsubj	_	
+2	conozco	conocer	VERB	vmip1s0	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	
+3	pero	pero	CCONJ	cc	_	5	cc	_	
+4	nunca,	nunca,	ADV	rg	_	5	advmod	_	
+5	nunca	nunca	ADV	rg	_	2	conj	_	
+6	entré.	entr�.	PUNCT	fp	PunctType=Elip	2	punct	_	
+
+#text = está muy bueno.
+1	está	estar	AUX	vmip1p0	Mood=Ind|Number=Plur|Tense=Pres|VerbForm=Fin	3	cop	_	
+2	muy	mucho	ADV	rg	_	3	advmod	_	
+3	bueno.	bueno.	ADJ	aq0ms0	Gender=Masc|Number=Sing	0	root	_	
+
+#text = tenés un montón de actividades también para, para hacer, para él, en
+1	tenés	ten�s	X	np00000	_	3	nsubj	_	
+2	un	uno	DET	di0ms0	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	3	det	_	
+3	montón	montón	NOUN	ncms000	Gender=Masc|Number=Sing	0	root	_	
+4	de	de	ADP	sps00	_	5	case	_	
+5	actividades	actividad	NOUN	ncfp000	Gender=Fem|Number=Plur	3	nmod	_	
+6	también	también	PROPN	np00000	_	5	appos	_	
+7	para,	para	X	n000	_	3	appos	_	
+8	para	para	ADP	sps00	_	9	mark	_	
+9	hacer,	hacer	VERB	vmn0000	VerbForm=Inf	3	advcl	_	
+10	para	para	ADP	sps00	_	12	case	_	
+11	él,	�l,	PUNCT	fe	_	12	punct	_	
+12	en	en	ADP	sps00	_	9	obl	_	
+
+#text = +< sí xxx.
+1	+<	+<	PUNCT	fa	_	3	punct	_	
+2	sí	s�	X	n00000	_	3	dep	_	
+3	xxx.	xxx.	X	n	_	0	root	_	
+
+#text = mjm.
+1	mjm.	mjm.	X	np00000	_	0	root	_	
+
+#text = la verdad que tienen +...
+1	la	el	DET	da0fs0	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	
+2	verdad	verdad	NOUN	ncfs000	Gender=Fem|Number=Sing	0	root	_	
+3	que	que	PRON	pr0cn000	PronType=Rel	4	mark	_	
+4	tienen	tener	VERB	vmip3p0	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	acl:relcl	_	
+5	+...	+...	PUNCT	fg	_	2	punct	_	
+
+#text = creo que tienen algunas páginas de Facebook@s:eng o algo.
+1	creo	creer	VERB	vmip1s0	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	
+2	que	que	SCONJ	cs	_	3	mark	_	
+3	tienen	tener	VERB	vmip3p0	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	1	ccomp	_	
+4	algunas	alguno	DET	di0fp0	Gender=Fem|Number=Plur|PronType=Ind	5	det	_	
+5	páginas	página	NOUN	ncfp000	Gender=Fem|Number=Plur	3	obj	_	
+6	de	de	ADP	sps00	_	7	case	_	
+7	Facebook@s:eng	facebook@s:eng	PROPN	np00000	_	5	nmod	_	
+8	o	o	CCONJ	cc	_	9	cc	_	
+9	algo.	algo.	PUNCT	fe	PunctType=Quot	1	punct	_	
+
+#text = xxx.
+1	xxx.	xxx.	X	np00000	_	0	root	_	
+
+#text = como para que m, chusmees por ahí, a ver qué, . qué tipo de
+1	como	como	SCONJ	cs	_	5	case	_	
+2	para	para	ADP	sps00	_	5	case	_	
+3	que	que	SCONJ	cs	_	5	mark	_	
+4	m,	m,	X	np00000	_	5	dep	_	
+5	chusmees	chusme	NOUN	ncmp000	Gender=Masc|Number=Plur	0	root	_	
+6	por	por	ADP	sps00	_	7	case	_	
+7	ahí,	ah�,	X	np00000	_	5	nmod	_	
+8	a	a	ADP	sps00	_	9	mark	_	
+9	ver	ver	VERB	vmn0000	VerbForm=Inf	5	advcl	_	
+10	qué,	qu�,	X	_	_	9	obj	_	
+11	.	.	PUNCT	fp	PunctType=Peri	9	punct	_	
+12	qué	qu�	PUNCT	f	_	13	dep	_	
+13	tipo	tipo	NOUN	ncms000	Gender=Masc|Number=Sing	9	obj	_	
+14	de	de	ADP	sps00	_	13	punct	_	
+
+#text = +< ah.
+1	+<	+<	PUNCT	fa	_	2	punct	_	
+2	ah.	ah.	X	n0000	_	0	root	_	
+
+#text = o para vos, para toda la familia.
+1	o	o	CCONJ	cc	_	3	cc	_	
+2	para	para	ADP	sps00	_	3	case	_	
+3	vos,	vos,	NOUN	ncms000	Gender=Masc|Number=Sing	0	root	_	
+4	para	para	ADP	sps00	_	7	case	_	
+5	toda	todo	DET	di0fs0	Gender=Fem|Number=Sing|PronType=Tot	6	det	_	
+6	la	el	DET	da0fs0	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	
+7	familia.	familia.	NOUN	ncfs000	Gender=Fem|Number=Sing	3	nmod	_	
+
+#text = sí.
+1	sí.	s�.	PUNCT	fp	_	0	root	_	
+
+#text = pero hay de todo xxx.
+1	pero	pero	CCONJ	cc	_	2	advmod	_	
+2	hay	haber	VERB	vaip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	
+3	de	de	ADP	sps00	_	4	case	_	
+4	todo	todo	PRON	pi0ms000	Gender=Masc|Number=Sing|PronType=Tot	2	obl	_	
+5	xxx.	xxx.	X	n00000	_	2	obj	_	
+
+#text = hola, . te estás divirtiendo?
+1	hola,	hola,	NOUN	ncms000	Gender=Masc|Number=Sing	0	root	_	
+2	.	.	PUNCT	fp	PunctType=Peri	1	punct	_	
+3	te	t�	PRON	pp2cs000	Case=Dat|Number=Sing|Person=2|PrepCase=Npr|PronType=Prs	4	obl:arg	_	
+4	estás	estás	INTJ	_	_	1	dep	_	
+5	divirtiendo?	divirtirno	VERB	vmg0000	VerbForm=Ger	1	advcl	_	
+
+#text = querés otro juguete?
+1	querés	quer�s	X	np00000	_	3	dep	_	
+2	otro	otro	DET	di0ms0	Gender=Masc|Number=Sing|PronType=Ind	3	det	_	
+3	juguete?	juguete?	NOUN	ncms000	Gender=Masc|Number=Sing	0	root	_	
+
+#text = no?
+1	no?	no?	PUNCT	fa	PunctType=Excl	0	root	_	
+
+#text = hay un montón, mirá.
+1	hay	haber	VERB	vaip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	
+2	un	uno	DET	di0ms0	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	3	det	_	
+3	montón,	montón,	X	np00000	_	1	obj	_	
+4	mirá.	mirá	PUNCT	fp	_	1	obj	_	
+
+#text = para cocinar, tenés.
+1	para	para	ADP	sps00	_	2	mark	_	
+2	cocinar,	cocinar	VERB	vmn0000	VerbForm=Inf	0	root	_	
+3	tenés.	ten�s.	X	n000	_	2	obj	_	
+
+#text = tenés de todo, si querés chusmear acá en la bolsa.
+1	tenés	ten�s	X	np00000	_	0	root	_	
+2	de	de	ADP	sps00	_	3	case	_	
+3	todo,	todo,	PRON	pi0ms000	Gender=Masc|Number=Sing|PronType=Tot	1	nmod	_	
+4	si	si	SCONJ	cs	_	6	mark	_	
+5	querés	quer�s	X	np00000	_	6	nsubj	_	
+6	chusmear	chusmear	VERB	vmn0000	VerbForm=Inf	1	advcl	_	
+7	acá	acá	X	_	_	6	obj	_	
+8	en	en	ADP	sps00	_	10	case	_	
+9	la	el	DET	da0fs0	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	
+10	bolsa.	bolsa.	NOUN	ncfs000	Gender=Fem|Number=Sing	6	obl	_	
+
+#text = querés ver lo que hay en la bolsa?
+1	querés	quer�	PUNCT	fe	PunctType=Quot	2	punct	_	
+2	ver	ver	VERB	vmn0000	VerbForm=Inf	0	root	_	
+3	lo	�l	PRON	da0ns0	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|Person=3|PrepCase=Npr|PronType=Prs	5	det	_	
+4	que	que	PRON	pr0cn000	PronType=Rel	5	obj	_	
+5	hay	haber	VERB	vaip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	ccomp	_	
+6	en	en	ADP	sps00	_	8	case	_	
+7	la	el	DET	da0fs0	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	
+8	bolsa?	bolsa?	NOUN	ncfs000	Gender=Fem|Number=Sing	5	obl	_	
+
+#text = xxx.
+1	xxx.	xxx.	X	np00000	_	0	root	_	
+
+#text = acá xxx lo que hay.
+1	acá	acá	PUNCT	fa	PunctType=Quot	2	punct	_	
+2	xxx	xxx	NOUN	ncms000	Gender=Masc|Number=Sing	0	root	_	
+3	lo	�l	PRON	da0ns0	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|Person=3|PrepCase=Npr|PronType=Prs	5	det	_	
+4	que	que	PRON	pr0cn000	PronType=Rel	5	mark	_	
+5	hay.	hay.	X	np00000	_	2	acl:relcl	_	
+
+#text = acá xxx.
+1	acá	acá	PUNCT	fa	_	2	punct	_	
+2	xxx.	xxx.	X	n00	_	0	root	_	
+
+#text = m.
+1	m.	m.	NOUN	ncms000	_	0	root	_	
+
+#text = xxx.
+1	xxx.	xxx.	X	np00000	_	0	root	_	
+
+#text = xxx.
+1	xxx.	xxx.	X	np00000	_	0	root	_	
+
+#text = ponelo bien, como estaba.
+1	ponelo	ponelo	NOUN	ncms000	Gender=Masc|Number=Sing	0	root	_	
+2	bien,	bien,	ADV	rg	_	1	advmod	_	
+3	como	como	SCONJ	cs	_	1	fixed	_	
+4	estaba.	estaba.	PUNCT	fe	PunctType=Quot	1	punct	_	
+
+#text = así?
+1	así?	as�?	PUNCT	fi	PunctType=Quot	0	root	_	
+
+#text = mjm.
+1	mjm.	mjm.	X	np00000	_	0	root	_	
+
+#text = xxx.
+1	xxx.	xxx.	X	np00000	_	0	root	_	
+
+#text = y tapalo.
+1	y	y	CCONJ	cc	_	2	cc	_	
+2	tapalo.	tapalo.	NOUN	ncms000	Gender=Masc|Number=Sing	0	root	_	
+
+#text = ahí tenés las tapas.
+1	ahí	ah�	X	np00000	_	4	dep	_	
+2	tenés	ten�s	X	_	_	1	dep	_	
+3	las	el	DET	da0fp0	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	4	det	_	
+4	tapas.	tapas.	NOUN	ncfp000	Gender=Fem	0	root	_	
+
+#text = xxx?
+1	xxx?	xxx?	X	np00000	_	0	root	_	
+
+#text = sí.
+1	sí.	s�.	PUNCT	fp	_	0	root	_	
+
+#text = xxx.
+1	xxx.	xxx.	X	np00000	_	0	root	_	
+
+#text = xxx.
+1	xxx.	xxx.	X	np00000	_	0	root	_	
+
+#text = xxx.
+1	xxx.	xxx.	X	np00000	_	0	root	_	
+
+#text = ah, hiciste animalitos, . con la plastilina, no?
+1	ah,	ah,	X	np00000	_	2	nsubj	_	
+2	hiciste	hacer	VERB	vmip1s0	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	
+3	animalitos,	animalitos,	NOUN	ncmp000	Gender=Masc|Number=Plur	2	obj	_	
+4	.	.	PUNCT	fp	PunctType=Peri	2	punct	_	
+5	con	con	ADP	sps00	_	7	case	_	
+6	la	el	DET	da0fs0	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	
+7	plastilina,	plastilina,	NOUN	ncfs000	Gender=Fem|Number=Sing	2	obl	_	
+8	no?	no?	PUNCT	fat	PunctSide=Fin|PunctType=Excl	2	punct	_	
+
+#text = yo me di cuenta de eso re tarde, . que podía hacerlo.
+1	yo	yo	PRON	pp1csn00	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	
+2	me	yo	PRON	pp1cs000	Case=Dat|Number=Sing|Person=1|PrepCase=Npr|PronType=Prs	3	expl:pv	_	
+3	di	dar	VERB	vmis1s0	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	0	root	_	
+4	cuenta	cuenta	NOUN	_	Gender=Fem|Number=Sing	3	compound	_	
+5	de	de	ADP	sps00	_	6	case	_	
+6	eso	ese	PRON	pd0ns000	Number=Sing|PronType=Dem	3	obl:arg	_	
+7	re	re	NOUN	ncs000	Number=Sing	8	advmod	_	
+8	tarde,	tarde,	ADV	rg	_	3	advmod	_	
+9	.	.	PUNCT	fp	PunctType=Peri	3	punct	_	
+10	que	que	PRON	pr0cn000	PronType=Rel	11	mark	_	
+11	podía	poder	VERB	vmip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	advcl	_	
+12	hacerlo.	hacerlo.	VERB	vmn0000	VerbForm=Inf	11	xcomp	_	
+
+#text = a_ver cómo te salió?
+1	a_ver	a_ver	X	np00000	_	4	dep	_	
+2	cómo	cómo	X	n000	_	4	dep	_	
+3	te	t�	PRON	2	Case=Dat|Number=Sing|Person=2|PrepCase=Npr|PronType=Prs	4	dep	_	
+4	salió?	salió?	X	n000	_	0	root	_	
+
+#text = ah, re lindo.
+1	ah,	ah,	X	np00000	_	0	root	_	
+2	re	re	X	_	_	1	dep	_	
+3	lindo.	lindo.	PUNCT	fp	PunctType=Quot	1	dep	_	
+
+#text = qué es esto?
+1	qué	qu�	PUNCT	fe	_	2	advmod	_	
+2	es	ser	AUX	vsip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	
+3	esto?	esto?	PUNCT	fi	PunctSide=Fin|PunctType=Qest	2	punct	_	
+
+#text = datito.
+1	datito.	datito.	X	np00000	_	0	root	_	
+
+#text = un qué?
+1	un	uno	DET	di0ms0	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	2	det	_	
+2	qué?	qu�?	X	n00000	_	0	root	_	
+
+#text = sapo.
+1	sapo.	sapo.	NOUN	ncms000	Gender=Masc|Number=Sing	0	root	_	
+
+#text = sapito xxx.
+1	sapito	sapito	NOUN	ncms000	Gender=Masc|Number=Sing	0	root	_	
+2	xxx.	xxx.	X	_	_	1	flat	_	
+
+#text = +< un sapito?
+1	+<	+<	PUNCT	fg	_	3	punct	_	
+2	un	uno	DET	di0ms0	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	3	det	_	
+3	sapito?	sapito?	NOUN	ncms000	Gender=Masc|Number=Sing	0	root	_	
+
+#text = xxx.
+1	xxx.	xxx.	X	np00000	_	0	root	_	
+
+#text = y ese qué es, a_ver?
+1	y	y	CCONJ	cc	_	5	cc	_	
+2	ese	ese	DET	dd0ms0	Gender=Masc|Number=Sing|PronType=Dem	4	det	_	
+3	qué	qu�	PUNCT	fg	_	4	punct	_	
+4	es,	es,	X	n000	_	5	dep	_	
+5	a_ver?	a_ver?	X	n0	_	0	root	_	
+
+#text = xxx.
+1	xxx.	xxx.	X	np00000	_	0	root	_	
+
+#text = xxx.
+1	xxx.	xxx.	X	np00000	_	0	root	_	
+
+#text = mirá qué lindo.
+1	mirá	mira�	PUNCT	fa	PunctType=Quot	2	punct	_	
+2	qué	qu�	X	n	_	0	root	_	
+3	lindo.	lindo.	PUNCT	fz	_	2	punct	_	
+
+#text = qué es ] este?
+1	qué	qu�	PUNCT	fs	_	2	punct	_	
+2	es	ser	AUX	vsip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	
+3	]	]	PUNCT	fpt	PunctSide=Fin|PunctType=Brck	2	punct	_	
+4	este?	este?	PUNCT	fi	PunctType=Qest	2	punct	_	
+
+#text = este que es ]?
+1	este	este	PRON	pd0ms000	Gender=Masc|Number=Sing|PronType=Dem	0	root	_	
+2	que	que	PRON	pr0cn000	PronType=Rel	1	nsubj	_	
+3	es	ser	AUX	vsip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	cop	_	
+4	]?	]?	PUNCT	fat	PunctSide=Fin|PunctType=Excl	1	punct	_	
+
+#text = qué?
+1	qué?	qu�?	PUNCT	fa	_	0	root	_	
+
+#text = este.
+1	este.	este.	PUNCT	fp	PunctType=Quot	0	root	_	
+
+#text = ese qué es?
+1	ese	ese	DET	dd0ms0	Gender=Masc|Number=Sing|PronType=Dem	2	det	_	
+2	qué	qu�r	SYM	_	_	0	root	_	
+3	es?	es?	PUNCT	fa	PunctType=Excl	2	punct	_	
+
+#text = vochito.
+1	vochito.	vochito.	X	np00000	_	0	root	_	
+
+#text = un xxx qué?
+1	un	uno	DET	di0ms0	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	2	det	_	
+2	xxx	xxx	NOUN	ncms000	Gender=Masc|Number=Sing	0	root	_	
+3	qué?	qu�?	X	_	_	2	dep	_	
+
+#text = xxx ahí?
+1	xxx	xxx	PROPN	np00000	_	0	root	_	
+2	ahí?	ah�?	X	_	_	1	dep	_	
+
+#text = ese va ahí o no?
+1	ese	ese	PRON	pd0ms000	Gender=Masc|Number=Sing|PronType=Dem	2	nsubj	_	
+2	va	ir	VERB	vmip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	
+3	ahí	ah�	X	np00000	_	2	obj	_	
+4	o	o	CCONJ	cc	_	5	cc	_	
+5	no?	no?	PUNCT	fa	PunctSide=Fin|PunctType=Excl	3	conj	_	
+
+#text = no, es ese va en el otro.
+1	no,	no,	ADV	rg	_	4	advmod	_	
+2	es	ser	AUX	vsip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	
+3	ese	ese	PRON	pd0ms000	Gender=Masc|Number=Sing|PronType=Dem	4	nsubj	_	
+4	va	ir	VERB	vmip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	
+5	en	en	ADP	sps00	_	7	case	_	
+6	el	el	DET	da0ms0	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	
+7	otro.	otro.	NOUN	ncms000	Gender=Masc|Number=Sing	4	obl	_	
+
+#text = +< xxx otro.
+1	+<	+<	PUNCT	fg	_	2	punct	_	
+2	xxx	xxx	NOUN	ncms000	Number=Sing	0	root	_	
+3	otro.	otro.	PUNCT	fp	PunctType=Peri	2	punct	_	
+
+#text = +< ese, ese ya lo tenés lleno.
+1	+<	+<	PUNCT	fg	_	6	punct	_	
+2	ese,	ese,	PUNCT	fg	PunctType=Quot	6	punct	_	
+3	ese	ese	PRON	pd0ms000	Gender=Masc|Number=Sing|PronType=Dem	6	nsubj	_	
+4	ya	ya	ADV	rg	_	6	advmod	_	
+5	lo	�l	PRON	pp3msa00	Case=Acc|Gender=Masc|Number=Sing|Person=3|PrepCase=Npr|PronType=Prs	6	obj	_	
+6	tenés	ten�s	X	np00000	_	0	root	_	
+7	lleno.	lleno.	NOUN	ncms000	Number=Sing	6	punct	_	
+
+#text = tapalo.
+1	tapalo.	tapalo.	NOUN	ncms000	Gender=Masc|Number=Sing	0	root	_	
+
+#text = m.
+1	m.	m.	NOUN	ncms000	_	0	root	_	
+
+#text = no.
+1	no.	no.	PUNCT	fe	PunctType=Quot	0	root	_	
+
+#text = xxx.
+1	xxx.	xxx.	X	np00000	_	0	root	_	
+
+#text = y ese va ahí, en ese frasco.
+1	y	y	CCONJ	cc	_	3	cc	_	
+2	ese	ese	PRON	pd0ms000	Gender=Masc|Number=Sing|PronType=Dem	3	nsubj	_	
+3	va	ir	VERB	vmip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	
+4	ahí,	ah�,	PUNCT	fe	PunctType=Quot	3	punct	_	
+5	en	en	ADP	sps00	_	7	case	_	
+6	ese	ese	DET	dd0ms0	Gender=Masc|Number=Sing|PronType=Dem	7	det	_	
+7	frasco.	frasco.	NOUN	ncms000	Gender=Masc|Number=Sing	3	obl	_	
+
+#text = ah, ya lo llenaste, . bueno.
+1	ah,	ah,	X	np00000	_	4	nsubj	_	
+2	ya	ya	ADV	rg	_	4	advmod	_	
+3	lo	�l	PRON	pp3msa00	Case=Acc|Gender=Masc|Number=Sing|Person=3|PrepCase=Npr|PronType=Prs	4	obj	_	
+4	llenaste,	llenaste,	NOUN	ncms000	Number=Sing	0	root	_	
+5	.	.	PUNCT	fp	PunctType=Peri	4	punct	_	
+6	bueno.	bueno.	ADJ	aq0ms0	Gender=Masc|Number=Sing	4	punct	_	
+
+#text = y ahora qué vas a hacer?
+1	y	y	CCONJ	cc	_	4	cc	_	
+2	ahora	ahora	ADV	rg	_	4	advmod	_	
+3	qué	qu�	PUNCT	fa	_	2	punct	_	
+4	vas	ir	VERB	vmip2s0	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	
+5	a	a	ADP	sps00	_	6	mark	_	
+6	hacer?	hacer	VERB	vmn0000	VerbForm=Inf	4	xcomp	_	
+
+#text = nada.
+1	nada.	nada.	PUNCT	fe	PunctType=Quot	0	root	_	
+
+#text = cómo que nada?
+1	cómo	cómo	X	np00000	_	0	root	_	
+2	que	que	SCONJ	cs	_	1	fixed	_	
+3	nada?	nadae	PUNCT	fi	PunctType=Qest	1	punct	_	
+
+#text = mirá todos los juguetes que tenés.
+1	mirá	mira�	PUNCT	fe	PunctType=Quot	4	punct	_	
+2	todos	todo	DET	di0mp0	Gender=Masc|Number=Plur|PronType=Tot	3	det	_	
+3	los	el	DET	da0mp0	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	4	det	_	
+4	juguetes	juguete	NOUN	ncmp000	Gender=Masc|Number=Plur	0	root	_	
+5	que	que	PRON	pr0cn000	PronType=Rel	6	mark	_	
+6	tenés.	ten�s.	X	np00000	_	4	appos	_	
+
+#text = hay más xxx?
+1	hay	haber	VERB	vaip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	
+2	más	m�s	X	np00000	_	3	nummod	_	
+3	xxx?	xxx?	X	n000	_	1	obj	_	
+
+#text = ahí hay un montón.
+1	ahí	ah�	X	np00000	_	2	nsubj	_	
+2	hay	haber	VERB	vaip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	
+3	un	uno	DET	di0ms0	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	4	det	_	
+4	montón.	montón.	NOUN	ncms000	_	2	obj	_	
+
+#text = ia?
+1	ia?	ia?	PUNCT	fp	PunctType=Quot	0	root	_	
+
+#text = querés?
+1	querés?	quer�s?	X	np00000	_	0	root	_	
+
+#text = tenés que descubrir vos, todo lo que hay ahí.
+1	tenés	ten�s	X	np00000	_	0	root	_	
+2	que	que	SCONJ	cs	_	3	mark	_	
+3	descubrir	descubrir	VERB	vmn0000	VerbForm=Inf	1	acl	_	
+4	vos,	vo	PRON	_	Number=Sing|Person=1|PronType=Prs	3	expl:pv	_	
+5	todo	todo	DET	di0ms0	Gender=Masc|Number=Sing|PronType=Tot	6	det	_	
+6	lo	�l	PRON	da0ns0	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|Person=3|PrepCase=Npr|PronType=Prs	3	obj	_	
+7	que	que	PRON	pr0cn000	PronType=Rel	8	mark	_	
+8	hay	haber	VERB	vaip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	acl:relcl	_	
+9	ahí.	ah�.	PUNCT	fp	_	1	punct	_	
+
+#text = xxx.
+1	xxx.	xxx.	X	np00000	_	0	root	_	
+
+#text = xxx.
+1	xxx.	xxx.	X	np00000	_	0	root	_	
+
+#text = ahí.
+1	ahí.	ah�.	PUNCT	fp	_	0	root	_	
+
+#text = xxx.
+1	xxx.	xxx.	X	np00000	_	0	root	_	
+
+#text = no po.
+1	no	no	ADV	rn	Polarity=Neg	0	root	_	
+2	po.	po.	PUNCT	fp	PunctType=Peri	1	punct	_	
+
+#text = con fuerza, ahí va, ahí te ayuda mamá.
+1	con	con	ADP	sps00	_	2	case	_	
+2	fuerza,	fuerza,	NOUN	ncfs000	Gender=Fem|Number=Sing	7	obl	_	
+3	ahí	ah�	X	n000	_	2	appos	_	
+4	va,	va,	PROPN	_	_	3	flat	_	
+5	ahí	ah�	X	_	_	3	flat	_	
+6	te	t�	PRON	p2s00	Case=Dat|Number=Sing|Person=2|PrepCase=Npr|PronType=Prs	7	obl:arg	_	
+7	ayuda	ayudar	VERB	vmip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	
+8	mamá.	mamá.	X	_	_	7	xcomp	_	
+
+#text = está.
+1	está.	está	PUNCT	fe	PunctType=Quot	0	root	_	
+
+#text = xxx.
+1	xxx.	xxx.	X	np00000	_	0	root	_	
+
+#text = xxx.
+1	xxx.	xxx.	X	np00000	_	0	root	_	
+
+#text = xxx vatito.
+1	xxx	xxx	PROPN	np00000	_	0	root	_	
+2	vatito.	vatito.	X	_	_	1	flat	_	
+
+#text = xxx ahí.
+1	xxx	xxx	PROPN	np00000	_	0	root	_	
+2	ahí.	ah�.	PUNCT	fp	_	1	punct	_	
+
+#text = ahí tenés para armar esas cosas.
+1	ahí	ah�	X	np00000	_	0	root	_	
+2	tenés	ten�s	X	n	_	1	dep	_	
+3	para	para	ADP	sps00	_	4	mark	_	
+4	armar	armar	VERB	vmn0000	VerbForm=Inf	1	acl	_	
+5	esas	ese	DET	dd0fp0	Gender=Fem|Number=Plur|PronType=Dem	6	det	_	
+6	cosas.	cosas.	NOUN	ncfp000	Gender=Fem|Number=Plur	4	obj	_	
+
+#text = +< xxx.
+1	+<	+<	PUNCT	fz	_	2	punct	_	
+2	xxx.	xxx.	NOUN	ncfp000	_	0	root	_	
+
+#text = qué ese eso?
+1	qué	qu�	PUNCT	fe	_	2	punct	_	
+2	ese	ese	DET	dd0ms0	Gender=Masc|Number=Sing|PronType=Dem	0	root	_	
+3	eso?	eso?	PUNCT	fi	PunctType=Qest	2	punct	_	
+
+#text = qué es?
+1	qué	qu�	PUNCT	fa	_	0	root	_	
+2	es?	es?	PUNCT	fa	PunctType=Excl	1	punct	_	
+
+#text = +< sí, es casa?
+1	+<	+<	PUNCT	fa	_	4	punct	_	
+2	sí,	s�,	X	np00000	_	4	nsubj	_	
+3	es	ser	AUX	vsip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	
+4	casa?	casa?	NOUN	ncfs000	Gender=Fem|Number=Sing	0	root	_	
+
+#text = una casa.
+1	una	uno	DET	di0fs0	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	2	det	_	
+2	casa.	casa.	NOUN	ncfs000	Gender=Fem|Number=Sing	0	root	_	
+
+#text = sí.
+1	sí.	s�.	PUNCT	fp	_	0	root	_	
+
+#text = es mía?
+1	es	ser	AUX	vsip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	cop	_	
+2	mía?	m�a?	X	np00000	_	0	root	_	
+
+#text = m.
+1	m.	m.	NOUN	ncms000	_	0	root	_	
+
+#text = es tuya?
+1	es	ser	AUX	vsip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	
+2	tuya?	tuyae	PUNCT	fit	PunctSide=Fin|PunctType=Excl	1	punct	_	
+
+#text = bueno, a_ver, armala.
+1	bueno,	bueno,	X	np00000	_	2	dep	_	
+2	a_ver,	a_ver,	X	n0000	_	0	root	_	
+3	armala.	armala.	X	_	_	2	flat	_	
+
+#text = armame una casa.
+1	armame	armamer	VERB	vmip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	
+2	una	uno	DET	di0fs0	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	3	det	_	
+3	casa.	casa.	NOUN	ncfs000	Gender=Fem|Number=Sing	1	obj	_	
+
+#text = m.
+1	m.	m.	NOUN	ncms000	_	0	root	_	
+
+#text = a_ver si nos vamos a vivir ahí.
+1	a_ver	a_ver	X	np00000	_	4	dep	_	
+2	si	si	SCONJ	cs	_	4	mark	_	
+3	nos	yo	PRON	pp1cp000	Case=Dat|Number=Plur|Person=1|PrepCase=Npr|PronType=Prs	4	expl:pv	_	
+4	vamos	ir	VERB	vmip1p0	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	
+5	a	a	ADP	sps00	_	6	mark	_	
+6	vivir	vivir	VERB	vmn0000	VerbForm=Inf	4	xcomp	_	
+7	ahí.	ah�.	PUNCT	fp	_	1	punct	_	
+
+#text = ya, qué es] este?
+1	ya,	ya,	PUNCT	fa	_	2	punct	_	
+2	qué	qu�	X	_	_	0	root	_	
+3	es]	es]	PUNCT	fa	_	2	punct	_	
+4	este?	este?	PUNCT	fi	PunctSide=Fin|PunctType=Excl	2	punct	_	
+
+#text = eso qué es?
+1	eso	ese	PRON	pd0ns000	Number=Sing|PronType=Dem	0	root	_	
+2	qué	qu�r	SYM	_	_	1	flat	_	
+3	es?	es?	PUNCT	fa	PunctType=Excl	1	punct	_	
+
+#text = celular.
+1	celular.	celular.	PUNCT	fe	PunctType=Quot	0	root	_	
+
+#text = un celular?
+1	un	uno	DET	di0ms0	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	2	det	_	
+2	celular?	celular?	NOUN	ncms000	Gender=Masc|Number=Sing	0	root	_	
+
+#text = sí.
+1	sí.	s�.	PUNCT	fp	_	0	root	_	
+
+#text = muy bien, y para qué es?
+1	muy	mucho	ADV	rg	_	2	advmod	_	
+2	bien,	bien,	ADV	rg	_	0	root	_	
+3	y	y	CCONJ	cc	_	4	cc	_	
+4	para	para	ADP	sps00	_	2	conj	_	
+5	qué	qu�r	SYM	_	_	4	fixed	_	
+6	es?	es?	PUNCT	fa	PunctType=Excl	2	punct	_	
+
+#text = eh?
+1	eh?	eh?	X	np00000	_	0	root	_	
+
+#text = para qué es?
+1	para	para	ADP	sps00	_	2	case	_	
+2	qué	qu�	PUNCT	fa	_	0	root	_	
+3	es?	es?	PUNCT	fa	PunctType=Excl	1	punct	_	
+
+#text = porque sí.
+1	porque	porque	SCONJ	cs	_	0	root	_	
+2	sí.	s�.	PUNCT	fp	_	1	punct	_	
+
+#text = porque sí?
+1	porque	porque	SCONJ	cs	_	0	root	_	
+2	sí?	s�?	PUNCT	fa	PunctType=Excl	1	punct	_	
+
+#text = ya, llamar.
+1	ya,	ya,	ADV	rg	_	0	root	_	
+2	llamar.	llamar.	PUNCT	fp	PunctType=Dash	1	punct	_	
+
+#text = para llamar?
+1	para	para	ADP	sps00	_	2	mark	_	
+2	llamar?	llamar	VERB	vmn0000	VerbForm=Inf	0	root	_	
+
+#text = hago así?
+1	hago	hacer	VERB	vmip1s0	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	
+2	así?	as�?	PUNCT	fi	PunctType=Excl	1	punct	_	
+
+#text = +" hola, con Alexander.
+1	+"	+"	PUNCT	fz	PunctType=Quot	2	punct	_	
+2	hola,	hola,	NOUN	ncfs000	Gender=Masc|Number=Sing	0	root	_	
+3	con	con	ADP	sps00	_	4	case	_	
+4	Alexander.	alexander.	PROPN	np00000	_	2	nmod	_	
+
+#text = sí?
+1	sí?	s�?	PUNCT	fa	PunctType=Quot	0	root	_	
+
+#text = a_ver.
+1	a_ver.	a_ver.	PUNCT	fe	_	0	root	_	
+
+#text = m, xxx, vos xxx.
+1	m,	m,	X	np00000	_	4	dep	_	
+2	xxx,	xxx,	X	n	_	1	dep	_	
+3	vos	t�	X	_	_	1	dep	_	
+4	xxx.	xxx.	X	_	_	0	root	_	
+
+#text = yo tengo que charlar?
+1	yo	yo	PRON	pp1csn00	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	
+2	tengo	tener	VERB	vmip1s0	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	
+3	que	que	SCONJ	cs	_	4	cc	_	
+4	charlar?	charlar	VERB	vmn0000	VerbForm=Inf	2	conj	_	
+
+#text = sí.
+1	sí.	s�.	PUNCT	fp	_	0	root	_	
+
+#text = bueno, pero tengo que charlar con vos.
+1	bueno,	buen	ADJ	aq0ms0	Gender=Masc|Number=Sing	0	root	_	
+2	pero	pero	CCONJ	cc	_	5	cc	_	
+3	tengo	tener	VERB	vmip1s0	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	conj	_	
+4	que	que	SCONJ	cs	_	5	cc	_	
+5	charlar	charlar	VERB	vmn0000	VerbForm=Inf	3	conj	_	
+6	con	con	ADP	sps00	_	7	case	_	
+7	vos.	vos.	PUNCT	fp	PunctType=Peri	5	obl	_	
+
+#text = xxx chela.
+1	xxx	xxx	PROPN	np00000	_	0	root	_	
+2	chela.	chela.	X	_	_	1	flat	_	
+
+#text = +" hola, . hola, Alexander?
+1	+"	+"	PUNCT	fz	_	2	punct	_	
+2	hola,	hola,	PROPN	np00000	_	0	root	_	
+3	.	.	PUNCT	fp	PunctType=Peri	2	punct	_	
+4	hola,	hola,	PROPN	_	_	2	flat	_	
+5	Alexander?	alexander?	PROPN	_	_	2	flat	_	
+
+#text = no me vas a hablar?
+1	no	no	ADV	rn	Polarity=Neg	3	advmod	_	
+2	me	yo	PRON	pp1cs000	Case=Dat|Number=Sing|Person=1|PrepCase=Npr|PronType=Prs	3	expl:pv	_	
+3	vas	ir	VERB	vmip1s0	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	
+4	a	a	ADP	sps00	_	5	mark	_	
+5	hablar?	hablar	VERB	vmn0000	VerbForm=Inf	3	xcomp	_	
+
+#text = por qué no?
+1	por	por	ADP	sps00	_	2	case	_	
+2	qué	qu�	NOUN	nc	_	0	root	_	
+3	no?	no?	PUNCT	fat	PunctSide=Fin|PunctType=Excl	2	punct	_	
+
+#text = porque no.
+1	porque	porque	SCONJ	cs	_	0	root	_	
+2	no.	no.	PUNCT	fe	PunctType=Quot	1	punct	_	
+
+#text = por qué no?
+1	por	por	ADP	sps00	_	2	case	_	
+2	qué	qu�	NOUN	nc	_	0	root	_	
+3	no?	no?	PUNCT	fat	PunctSide=Fin|PunctType=Excl	2	punct	_	
+
+#text = xxx ema ema.
+1	xxx	xxx	PROPN	np00000	_	0	root	_	
+2	ema	ema	PROPN	_	_	1	flat	_	
+3	ema.	ema.	X	_	_	1	flat	_	
+
+#text = xxx.
+1	xxx.	xxx.	X	np00000	_	0	root	_	
+
+#text = +< e ma e ma.
+1	+<	+<	PUNCT	fg	_	0	root	_	
+2	e	e	CCONJ	cc	_	3	cc	_	
+3	ma	ma	X	n00000	_	1	conj	_	
+4	e	e	CCONJ	cc	_	5	cc	_	
+5	ma.	ma.	X	n0000	_	3	conj	_	
+
+#text = +< tenés, . ahí tenés, guardá.
+1	+<	+<	PUNCT	fa	_	2	punct	_	
+2	tenés,	tenés,	X	n00000	_	5	dep	_	
+3	.	.	PUNCT	fp	PunctType=Peri	2	punct	_	
+4	ahí	ah�	X	_	_	5	compound	_	
+5	tenés,	tenés,	X	_	_	0	root	_	
+6	guardá.	guardá.	PUNCT	f	_	5	punct	_	
+
+#text = no puedo abrir.
+1	no	no	ADV	rn	Polarity=Neg	3	advmod	_	
+2	puedo	poder	AUX	vmip1s0	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	aux	_	
+3	abrir.	abrir	VERB	vmn0000	VerbForm=Inf	0	root	_	
+
+#text = +< xxx.
+1	+<	+<	PUNCT	fz	_	2	punct	_	
+2	xxx.	xxx.	NOUN	ncfp000	_	0	root	_	
+
+#text = ay, salud!
+1	ay,	ay,	X	np00000	_	2	dep	_	
+2	salud!	salud!	NOUN	ncf000	Gender=Fem|Number=Sing	0	root	_	
+
+#text = +< salud!
+1	+<	+<	PUNCT	fa	_	2	punct	_	
+2	salud!	salud!	NOUN	ncfs000	Gender=Fem|Number=Sing	0	root	_	
+
+#text = xxx un pañuelito o algo?
+1	xxx	xxx	X	np00000	_	3	dep	_	
+2	un	uno	DET	di0ms0	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	3	det	_	
+3	pañuelito	pañuelito	NOUN	ncms000	Gender=Masc|Number=Sing	0	root	_	
+4	o	o	CCONJ	cc	_	5	cc	_	
+5	algo?	algo?	PUNCT	fe	PunctType=Excl	3	conj	_	
+
+#text = eh, u, yo no tengo nada.
+1	eh,	eh,	X	np00000	_	5	dep	_	
+2	u,	u,	X	_	_	1	fixed	_	
+3	yo	yo	PRON	pp1csn00	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	
+4	no	no	ADV	rn	Polarity=Neg	5	advmod	_	
+5	tengo	tener	VERB	vmip1s0	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	
+6	nada.	nada.	PRON	pi0cs000	Number=Sing|PronType=Neg	5	obj	_	
+
+#text = xxx.
+1	xxx.	xxx.	X	np00000	_	0	root	_	
+
+#text = vos tenés?
+1	vos	t�	INTJ	_	_	2	dep	_	
+2	tenés?	ten�s?	X	n0	_	0	root	_	
+
+#text = acá sí.
+1	acá	acá	PUNCT	fa	_	2	punct	_	
+2	sí.	s�.	PUNCT	fp	_	0	root	_	
+
+#text = xxx.
+1	xxx.	xxx.	X	np00000	_	0	root	_	
+
+#text = xxx no, xxx mamá.
+1	xxx	xxx	PROPN	np00000	_	0	root	_	
+2	no,	no,	X	_	_	1	flat	_	
+3	xxx	xxx	PROPN	_	_	1	flat	_	
+4	mamá.	mamá.	X	_	_	1	flat	_	
+
+#text = qué xxx tiene ahí?
+1	qué	qu�	PUNCT	fa	_	3	punct	_	
+2	xxx	xxx	PROPN	np0000	_	3	nsubj	_	
+3	tiene	tener	VERB	vmip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	
+4	ahí?	ah�?	X	np00000	_	3	obj	_	
+
+#text = una cocina.
+1	una	uno	DET	di0fs0	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	2	det	_	
+2	cocina.	cocina.	NOUN	ncfs000	Gender=Fem|Number=Sing	0	root	_	
+
+#text = xxx cocina.
+1	xxx	xxx	NOUN	ncfp000	Gender=Fem|Number=Sing	0	root	_	
+2	cocina.	cocina.	NOUN	ncf000	Gender=Fem|Number=Sing	1	dep	_	
+
+#text = querés ver la cocina?
+1	querés	quer�s	X	np00000	_	2	dep	_	
+2	ver	ver	VERB	vmn0000	VerbForm=Inf	0	root	_	
+3	la	el	DET	da0fs0	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	
+4	cocina?	cocina?	NOUN	ncfs000	Gender=Fem|Number=Sing	2	obj	_	
+
+#text = sí, no puedo abrir.
+1	sí,	sa�,	PUNCT	fe	PunctType=Quot	4	punct	_	
+2	no	no	ADV	rn	Polarity=Neg	4	advmod	_	
+3	puedo	poder	AUX	vmip1s0	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	aux	_	
+4	abrir.	abrir	VERB	vmn0000	VerbForm=Inf	0	root	_	
+
+#text = vamos a cocinar algo . xxx?
+1	vamos	ir	VERB	vmip1p0	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	
+2	a	a	ADP	sps00	_	3	mark	_	
+3	cocinar	cocinar	VERB	vmn0000	VerbForm=Inf	1	xcomp	_	
+4	algo	algo	PRON	pi0cs000	Number=Sing|PronType=Ind	3	obj	_	
+5	.	.	PUNCT	fp	PunctType=Peri	1	punct	_	
+6	xxx?	xxx?	X	np00000	_	1	obl	_	
+
+#text = +< sí.
+1	+<	+<	PUNCT	fa	_	2	punct	_	
+2	sí.	s�.	PUNCT	fp	_	0	root	_	
+
+#text = xxx.
+1	xxx.	xxx.	X	np00000	_	0	root	_	
+
+#text = mjm.
+1	mjm.	mjm.	X	np00000	_	0	root	_	
+
+#text = xxx está.
+1	xxx	xxx	X	np00000	_	0	root	_	
+2	está.	está	PUNCT	fp	PunctType=Dash	1	punct	_	
+
+#text = xxx.
+1	xxx.	xxx.	X	np00000	_	0	root	_	
+
+#text = xxx.
+1	xxx.	xxx.	X	np00000	_	0	root	_	
+
+#text = +< xxx.
+1	+<	+<	PUNCT	fz	_	2	punct	_	
+2	xxx.	xxx.	NOUN	ncfp000	_	0	root	_	
+
+#text = xxx.
+1	xxx.	xxx.	X	np00000	_	0	root	_	
+
+#text = bloques.
+1	bloques.	bloques.	X	np00000	_	0	root	_	
+
+#text = xxx?
+1	xxx?	xxx?	X	np00000	_	0	root	_	
+
+#text = xxx.
+1	xxx.	xxx.	X	np00000	_	0	root	_	
+
+#text = up, xxx.
+1	up,	up,	X	np00000	_	2	dep	_	
+2	xxx.	xxx.	X	_	_	0	root	_	
+
+#text = xxx.
+1	xxx.	xxx.	X	np00000	_	0	root	_	
+
+#text = qué se cayó?
+1	qué	qu�	PUNCT	fa	_	2	punct	_	
+2	se	�l	PRON	p0000000	Case=Acc|Person=3|PrepCase=Npr|PronType=Prs|Reflex=Yes	0	root	_	
+3	cayó?	cayó?	PUNCT	fa	PunctType=Quot	2	punct	_	
+
+#text = xxx este.
+1	xxx	xxx	PROPN	np00000	_	0	root	_	
+2	este.	este.	PUNCT	fp	PunctType=Quot	1	flat	_	
+
+#text = xxx.
+1	xxx.	xxx.	X	np00000	_	0	root	_	
+
+#text = qué ese eso?
+1	qué	qu�	PUNCT	fe	_	2	punct	_	
+2	ese	ese	DET	dd0ms0	Gender=Masc|Number=Sing|PronType=Dem	0	root	_	
+3	eso?	eso?	PUNCT	fi	PunctType=Qest	2	punct	_	
+
+#text = xxx.
+1	xxx.	xxx.	X	np00000	_	0	root	_	
+
+#text = eh?
+1	eh?	eh?	X	np00000	_	0	root	_	
+
+#text = qué es] este?
+1	qué	qu�	PUNCT	fa	_	0	root	_	
+2	es]	es]	PUNCT	fa	_	1	punct	_	
+3	este?	este?	PUNCT	fi	PunctType=Excl	1	punct	_	
+
+#text = qué es?
+1	qué	qu�	PUNCT	fa	_	0	root	_	
+2	es?	es?	PUNCT	fa	PunctType=Excl	1	punct	_	
+
+#text = sí.
+1	sí.	s�.	PUNCT	fp	_	0	root	_	
+
+#text = xxx.
+1	xxx.	xxx.	X	np00000	_	0	root	_	
+
+#text = +< xxx.
+1	+<	+<	PUNCT	fz	_	2	punct	_	
+2	xxx.	xxx.	NOUN	ncfp000	_	0	root	_	
+
+#text = atún.
+1	atún.	atúne	X	np00000	_	0	root	_	
+
+#text = +< xxx.
+1	+<	+<	PUNCT	fz	_	2	punct	_	
+2	xxx.	xxx.	NOUN	ncfp000	_	0	root	_	
+
+#text = xxx este ahí.
+1	xxx	xxx	PROPN	np00000	_	2	dep	_	
+2	este	este	PRON	pd0ms000	Gender=Masc|Number=Sing|PronType=Dem	0	root	_	
+3	ahí.	ah�.	PUNCT	fp	_	1	punct	_	
+
+#text = ponelo ahí.
+1	ponelo	ponelo	NOUN	ncms000	Gender=Masc|Number=Sing	0	root	_	
+2	ahí.	ah�.	PUNCT	fp	_	1	punct	_	
+
+#text = hay más?
+1	hay	haber	VERB	vaip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	
+2	más?	más?	SYM	p	_	1	obj	_	
+
+#text = xxx más ahí.
+1	xxx	xxx	PROPN	np00000	_	0	root	_	
+2	más	m�s	X	_	_	1	dep	_	
+3	ahí.	ah�.	X	_	_	1	dep	_	
+
+#text = xxx.
+1	xxx.	xxx.	X	np00000	_	0	root	_	
+
+#text = xxx.
+1	xxx.	xxx.	X	np00000	_	0	root	_	
+
+#text = acá tenés un montón de cosas para cocinar.
+1	acá	acá	PUNCT	fa	PunctType=Quot	4	punct	_	
+2	tenés	ten�s	X	n00000	_	4	advmod	_	
+3	un	uno	DET	di0ms0	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	4	det	_	
+4	montón	montón	NOUN	ncms000	Gender=Masc|Number=Sing	0	root	_	
+5	de	de	ADP	sps00	_	6	case	_	
+6	cosas	cosa	NOUN	ncfp000	Gender=Fem|Number=Plur	4	nmod	_	
+7	para	para	ADP	sps00	_	8	mark	_	
+8	cocinar.	cocinar	VERB	vmn0000	VerbForm=Inf	4	advcl	_	
+
+#text = xxx.
+1	xxx.	xxx.	X	np00000	_	0	root	_	
+
+#text = mirá, acá hay para hacer mate.
+1	mirá,	mirá,	INTJ	_	_	3	dep	_	
+2	acá	acá	PUNCT	fa	PunctType=Quot	1	punct	_	
+3	hay	haber	VERB	vaip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	
+4	para	para	ADP	sps00	_	5	mark	_	
+5	hacer	hacer	VERB	vmn0000	VerbForm=Inf	3	advcl	_	
+6	mate.	mate.	NOUN	ncms000	Gender=Masc|Number=Sing	5	obj	_	
+
+#text = tomás mate?
+1	tomás	tomás	INTJ	_	_	0	root	_	
+2	mate?	mate?	X	_	_	1	dep	_	
+
+#text = sí.
+1	sí.	s�.	PUNCT	fp	_	0	root	_	
+
+#text = no?
+1	no?	no?	PUNCT	fa	PunctType=Excl	0	root	_	
+
+#text = no te gusta e +/?
+1	no	no	ADV	rn	Polarity=Neg	3	advmod	_	
+2	te	t�	PRON	pp2cs000	Case=Dat|Number=Sing|Person=2|PrepCase=Npr|PronType=Prs	3	obl:arg	_	
+3	gusta	gustar	VERB	vmip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	
+4	e	e	CCONJ	cc	_	5	cc	_	
+5	+/?	+/?	PUNCT	fa	_	3	punct	_	
+
+#text = ah, sí?
+1	ah,	ah,	X	np00000	_	0	root	_	
+2	sí?	s�?	PUNCT	fa	_	1	punct	_	
+
+#text = te gusta el mate?
+1	te	t�	PRON	pp2cs000	Case=Dat|Number=Sing|Person=2|PrepCase=Npr|PronType=Prs	2	obl:arg	_	
+2	gusta	gustar	VERB	vmip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	
+3	el	el	DET	da0ms0	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	
+4	mate?	mate?	NOUN	ncms000	Gender=Masc|Number=Sing	2	nsubj	_	
+
+#text = entonces calentamos agua para el mate?
+1	entonces	entonces	ADV	rg	_	2	advmod	_	
+2	calentamos	calentar	VERB	vmip1p0	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	
+3	agua	agua	NOUN	ncfs000	Gender=Fem|Number=Sing	2	obj	_	
+4	para	para	ADP	sps00	_	6	case	_	
+5	el	el	DET	da0ms0	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	
+6	mate?	mate?	NOUN	ncms000	Gender=Masc|Number=Sing	2	obl	_	
+
+#text = xxx agua?
+1	xxx	xxx	NOUN	ncfp000	Gender=Fem|Number=Sing	0	root	_	
+2	agua?	agua?	NOUN	nc	Gender=Fem|Number=Sing	1	dep	_	
+
+#text = cómo?
+1	cómo?	cómo?	PUNCT	fe	_	0	root	_	
+
+#text = dónde está el agua?
+1	dónde	dónde	X	np00000	_	4	dep	_	
+2	está	está	X	_	_	1	flat	_	
+3	el	el	DET	da0ms0	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	
+4	agua?	agua?	NOUN	ncms000	Gender=Masc|Number=Sing	0	root	_	
+
+#text = dónde está?
+1	dónde	dónde	X	np00000	_	0	root	_	
+2	está?	está	PUNCT	fa	PunctType=Excl	1	punct	_	
+
+#text = sí.
+1	sí.	s�.	PUNCT	fp	_	0	root	_	
+
+#text = y . ya tenía agua.
+1	y	y	CCONJ	cc	_	4	advmod	_	
+2	.	.	PUNCT	fp	PunctType=Peri	4	punct	_	
+3	ya	ya	ADV	rg	_	4	advmod	_	
+4	tenía	tener	VERB	vmip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	
+5	agua.	agua.	NOUN	ncms000	Gender=Masc|Number=Sing	4	obj	_	
+
+#text = ponemos acá?
+1	ponemos	poner	VERB	vmip1p0	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	
+2	acá?	acá?	PUNCT	fa	PunctType=Excl	1	punct	_	
+
+#text = xxx puse para acá.
+1	xxx	xxx	PROPN	np00000	_	2	nsubj	_	
+2	puse	pusar	VERB	vmis1s0	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	0	root	_	
+3	para	para	ADP	sps00	_	4	case	_	
+4	acá.	acá.	PUNCT	fp	_	2	obl	_	
+
+#text = m, xxx, ahí.
+1	m,	m,	X	np00000	_	3	dep	_	
+2	xxx,	xxx,	X	n	_	1	dep	_	
+3	ahí.	ah�.	X	_	_	0	root	_	
+
+#text = este, xxx este.
+1	este,	este,	X	np00000	_	2	dep	_	
+2	xxx	xxx	PROPN	_	_	0	root	_	
+3	este.	este.	PUNCT	fp	PunctType=Quot	1	flat	_	
+
+#text = xxx cerrar?
+1	xxx	xxx	NOUN	ncfs000	Gender=Masc|Number=Sing	0	root	_	
+2	cerrar?	cerrar	VERB	vmn0000	VerbForm=Inf	1	xcomp	_	
+
+#text = sí.
+1	sí.	s�.	PUNCT	fp	_	0	root	_	
+
+#text = despacito.
+1	despacito.	despacito.	PUNCT	fp	PunctType=Quot	0	root	_	
+
+#text = ay.
+1	ay.	ay.	X	np00000	_	0	root	_	
+
+#text = estás cocinando?
+1	estás	esta.	PUNCT	fe	PunctType=Quot	0	root	_	
+2	cocinando?	cocinando?	PUNCT	fi	PunctType=Excl	1	punct	_	
+
+#text = xxx.
+1	xxx.	xxx.	X	np00000	_	0	root	_	
+
+#text = y qué parece que es eso?
+1	y	y	CCONJ	cc	_	3	cc	_	
+2	qué	qu�	PRON	pt0cs000	Number=Sing|PronType=Ind	3	nsubj	_	
+3	parece	parecer	VERB	vmip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	
+4	que	que	SCONJ	cs	_	5	mark	_	
+5	es	ser	AUX	vsip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	csubj	_	
+6	eso?	eso?	PUNCT	fit	PunctSide=Fin|PunctType=Qest	3	punct	_	
+
+#text = mm na teto.
+1	mm	mm	NOUN	ncms000	Gender=Masc|Number=Sing	0	root	_	
+2	na	na	PROPN	_	_	1	flat	_	
+3	teto.	teto.	NOUN	ncm000	Gender=Masc|Number=Sing	1	flat	_	
+
+#text = na teto?
+1	na	na	X	np00000	_	2	dep	_	
+2	teto?	teto?	NOUN	ncms000	Gender=Masc|Number=Sing	0	root	_	
+
+#text = qué es?
+1	qué	qu�	PUNCT	fa	_	0	root	_	
+2	es?	es?	PUNCT	fa	PunctType=Excl	1	punct	_	
+
+#text = no teto, .. xxx.
+1	no	no	ADV	rn	Polarity=Neg	2	advmod	_	
+2	teto,	teto,	NOUN	ncms000	Gender=Masc|Number=Sing	0	root	_	
+3	..	..	PUNCT	fp	_	2	punct	_	
+4	xxx.	xxx.	X	n0000	_	2	appos	_	
+
+#text = xxx tita?
+1	xxx	xxx	PROPN	np00000	_	0	root	_	
+2	tita?	tita?	NOUN	nc	Number=Sing	1	dep	_	
+
+#text = qué?
+1	qué?	qu�?	PUNCT	fa	_	0	root	_	
+
+#text = xxx.
+1	xxx.	xxx.	X	np00000	_	0	root	_	
+
+#text = una torta.
+1	una	uno	DET	di0fs0	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	2	det	_	
+2	torta.	torta.	NOUN	ncfs000	Gender=Fem|Number=Sing	0	root	_	
+
+#text = xxx +/.
+1	xxx	xxx	PROPN	np00000	_	0	root	_	
+2	+/.	+/.	PUNCT	fp	_	1	punct	_	
+
+#text = +< una torta.
+1	+<	+<	PUNCT	fg	_	3	punct	_	
+2	una	uno	DET	di0fs0	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	3	det	_	
+3	torta.	torta.	NOUN	ncfs000	Gender=Fem|Number=Sing	0	root	_	
+
+#text = una torta.
+1	una	uno	DET	di0fs0	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	2	det	_	
+2	torta.	torta.	NOUN	ncfs000	Gender=Fem|Number=Sing	0	root	_	
+
+#text = y a_ver.
+1	y	y	CCONJ	cc	_	2	cc	_	
+2	a_ver.	a_ver.	X	np00000	_	0	root	_	
+
+#text = xxx.
+1	xxx.	xxx.	X	np00000	_	0	root	_	
+
+#text = xxx.
+1	xxx.	xxx.	X	np00000	_	0	root	_	
+
+#text = para mí?
+1	para	para	ADP	sps00	_	2	case	_	
+2	mí?	m�?	SYM	p	_	0	root	_	
+
+#text = sí.
+1	sí.	s�.	PUNCT	fp	_	0	root	_	
+
+#text = am.
+1	am.	am.	NOUN	ncfs000	Gender=Fem|Number=Sing	0	root	_	
+
+#text = ay, qué rico.
+1	ay,	ay,	X	np00000	_	3	dep	_	
+2	qué	qu�	X	_	_	1	dep	_	
+3	rico.	rico.	NOUN	nc	_	0	root	_	
+
+#text = te.
+1	te.	te.	PUNCT	fp	PunctType=Peri	0	root	_	
+
+#text = ay, gracias.
+1	ay,	ay,	X	np00000	_	2	dep	_	
+2	gracias.	gracias.	NOUN	_	Gender=Fem|Number=Sing	0	root	_	
+
+#text = au, no xxx.
+1	au,	au,	X	np00000	_	3	dep	_	
+2	no	no	ADV	rn	Polarity=Neg	3	advmod	_	
+3	xxx.	xxx.	X	n0	_	0	root	_	
+
+#text = am, . qué es esto . de arriba?
+1	am,	am,	X	np00000	_	5	dep	_	
+2	.	.	PUNCT	fp	PunctType=Peri	1	punct	_	
+3	qué	qu�	PUNCT	fs	_	5	punct	_	
+4	es	ser	AUX	vsip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	
+5	esto	este	PRON	pd0ns000	Number=Sing|PronType=Dem	0	root	_	
+6	.	.	PUNCT	fp	PunctType=Peri	5	punct	_	
+7	de	de	ADP	sps00	_	8	case	_	
+8	arriba?	arriba?	ADV	rg	_	5	advmod	_	
+
+#text = qué le pusiste?
+1	qué	qu�	PUNCT	fe	_	3	punct	_	
+2	le	�l	PRON	pp3csd00	Case=Dat|Number=Sing|Person=3|PronType=Prs	3	obl:arg	_	
+3	pusiste?	posistear	VERB	vmip1s0	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	
+
+#text = tuato.
+1	tuato.	tuato.	PUNCT	fp	PunctType=Quot	0	root	_	
+
+#text = xxx o o, ay, ahí está, ahí está.
+1	xxx	xxx	X	np00000	_	0	root	_	
+2	o	o	CCONJ	cc	_	5	cc	_	
+3	o,	o,	PUNCT	fa	_	4	punct	_	
+4	ay,	ay,	X	n00000	_	1	dep	_	
+5	ahí	ah�	X	_	_	1	dep	_	
+6	está,	está	PUNCT	fa	_	7	punct	_	
+7	ahí	ah�	X	n0	_	5	dep	_	
+8	está.	está	PUNCT	fp	_	7	punct	_	
+
+#text = tomá, etete.
+1	tomá,	tomá,	X	np00000	_	2	dep	_	
+2	etete.	etete.	PUNCT	fp	PunctType=Quot	0	root	_	
+
+#text = ese también?
+1	ese	ese	DET	dd0ms0	Gender=Masc|Number=Sing|PronType=Dem	2	det	_	
+2	también?	tambi�n?	X	np00000	_	0	root	_	
+
+#text = no pa xxx, es tuyo este.
+1	no	no	ADV	rn	Polarity=Neg	3	advmod	_	
+2	pa	pa	PROPN	np00000	_	3	nsubj	_	
+3	xxx,	xxx,	X	n0000	_	5	nsubj	_	
+4	es	ser	AUX	vsip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	
+5	tuyo	tuyo	PRON	pp0ms000	Number=Sing|Person=1|PronType=Prs	0	root	_	
+6	este.	este.	PUNCT	fp	_	5	punct	_	
+
+#text = esto?
+1	esto?	esto?	PUNCT	fi	PunctType=Qest	0	root	_	
+
+#text = sí, es tuyo.
+1	sí,	sa�,	PUNCT	fe	PunctType=Quot	3	punct	_	
+2	es	ser	AUX	vsip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	
+3	tuyo.	tuyo.	PUNCT	fp	PunctType=Quot	0	root	_	
+
+#text = esto es mío?
+1	esto	este	PRON	pd0ns000	Number=Sing|PronType=Dem	2	nsubj	_	
+2	es	ser	AUX	vsip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	
+3	mío?	m�o?	PUNCT	fa	PunctType=Excl	2	punct	_	
+
+#text = +< xxx.
+1	+<	+<	PUNCT	fz	_	2	punct	_	
+2	xxx.	xxx.	NOUN	ncfp000	_	0	root	_	
+
+#text = atún?
+1	atún?	atún	X	np00000	_	0	root	_	
+
+#text = +< xxx.
+1	+<	+<	PUNCT	fz	_	2	punct	_	
+2	xxx.	xxx.	NOUN	ncfp000	_	0	root	_	
+
+#text = me re gusta el atún.
+1	me	yo	PRON	pp1cs000	Case=Dat|Number=Sing|Person=1|PrepCase=Npr|PronType=Prs	3	obl:arg	_	
+2	re	re	AUX	vmip1s0	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	aux	_	
+3	gusta	gustar	VERB	vmip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	
+4	el	el	DET	da0ms0	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	
+5	atún.	atún.	NOUN	ncms000	Gender=Masc	3	nsubj	_	
+
+#text = te gusta el atún?
+1	te	t�	PRON	pp2cs000	Case=Dat|Number=Sing|Person=2|PrepCase=Npr|PronType=Prs	2	obl:arg	_	
+2	gusta	gustar	VERB	vmip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	
+3	el	el	DET	da0ms0	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	
+4	atún?	atún?	NOUN	ncms000	Gender=Masc|Number=Sing	2	nsubj	_	
+
+#text = no.
+1	no.	no.	PUNCT	fe	PunctType=Quot	0	root	_	
+
+#text = no?
+1	no?	no?	PUNCT	fa	PunctType=Excl	0	root	_	
+
+#text = no.
+1	no.	no.	PUNCT	fe	PunctType=Quot	0	root	_	
+
+#text = y qué te gusta?
+1	y	y	CCONJ	cc	_	4	cc	_	
+2	qué	qu�	INTJ	_	_	4	dep	_	
+3	te	t�	PRON	pp2cs000	Case=Dat|Number=Sing|Person=2|PrepCase=Npr|PronType=Prs	4	expl:pv	_	
+4	gusta?	gusta?	NOUN	ncfs000	Number=Sing	0	root	_	
+
+#text = +< xxx.
+1	+<	+<	PUNCT	fz	_	2	punct	_	
+2	xxx.	xxx.	NOUN	ncfp000	_	0	root	_	
+
+#text = qué comés?
+1	qué	qu�	PUNCT	fa	_	2	punct	_	
+2	comés?	com�s?	X	n0	_	0	root	_	
+
+#text = no, papa.
+1	no,	no,	PUNCT	fe	PunctType=Quot	2	punct	_	
+2	papa.	papa.	X	n00000	_	0	root	_	
+
+#text = ay, qué rico, me encanta la papa.
+1	ay,	ay,	PROPN	np00000	_	5	nsubj	_	
+2	qué	qu�	PROPN	_	_	1	flat	_	
+3	rico,	rico,	PROPN	_	_	1	flat	_	
+4	me	yo	PRON	pp1cs000	Case=Dat|Number=Sing|Person=1|PrepCase=Npr|PronType=Prs	5	obl:arg	_	
+5	encanta	encantar	VERB	vmip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	
+6	la	el	DET	da0fs0	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	
+7	papa.	papa.	NOUN	ncfs000	Gender=Fem|Number=Sing	5	nsubj	_	
+
+#text = +< xxx papa.
+1	+<	+<	PUNCT	fg	_	2	punct	_	
+2	xxx	xxx	NOUN	ncfs000	Number=Sing	3	dep	_	
+3	papa.	papa.	X	_	_	0	root	_	
+
+#text = xxx toma papa?
+1	xxx	xxx	PROPN	np00000	_	2	nsubj	_	
+2	toma	tomar	VERB	vmip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	
+3	papa?	papa?	NOUN	ncfs000	Gender=Fem|Number=Sing	2	obj	_	
+
+#text = mjm.
+1	mjm.	mjm.	X	np00000	_	0	root	_	
+
+#text = xxx papa.
+1	xxx	xxx	PROPN	np00000	_	0	root	_	
+2	papa.	papa.	X	_	_	1	flat	_	
+
+#text = cómo se llama tu papá?
+1	cómo	cómo	X	np00000	_	3	nsubj	_	
+2	se	�l	PRON	p0000000	Case=Acc|Person=3|PrepCase=Npr|PronType=Prs|Reflex=Yes	3	expl:pv	_	
+3	llama	llamar	VERB	vmip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	
+4	tu	tu	DET	dp2css	Number=Sing|Number[psor]=Sing|Person=2|Poss=Yes|PronType=Prs	5	det	_	
+5	papá?	papá?	X	np00000	_	3	nsubj	_	
+
+#text = mío.
+1	mío.	m�o.	PUNCT	fp	_	0	root	_	
+
+#text = cómo?
+1	cómo?	cómo?	PUNCT	fe	_	0	root	_	
+
+#text = mío.
+1	mío.	m�o.	PUNCT	fp	_	0	root	_	
+
+#text = mío?
+1	mío?	m�o?	X	np00000	_	0	root	_	
+
+#text = sí, es mío.
+1	sí,	sa�,	PUNCT	fe	PunctType=Quot	3	punct	_	
+2	es	ser	AUX	vsip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	
+3	mío.	m�o.	X	np00000	_	0	root	_	
+
+#text = es tuyo?
+1	es	ser	AUX	vsip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	
+2	tuyo?	tuyo?	PUNCT	fit	PunctSide=Fin|PunctType=Excl	1	punct	_	
+
+#text = sí, eso ya sé.
+1	sí,	sa�,	PUNCT	fe	PunctType=Quot	2	punct	_	
+2	eso	ese	PRON	pd0ns000	Number=Sing|PronType=Dem	0	root	_	
+3	ya	ya	ADV	rg	_	2	advmod	_	
+4	sé.	s�.	PUNCT	fp	_	2	punct	_	
+
+#text = xxx.
+1	xxx.	xxx.	X	np00000	_	0	root	_	
+
+#text = +< cómo se llama papá?
+1	+<	+<	PUNCT	fa	_	4	punct	_	
+2	cómo	cómo	X	np00000	_	4	nsubj	_	
+3	se	�l	PRON	p0000000	Case=Acc|Person=3|PrepCase=Npr|PronType=Prs|Reflex=Yes	4	expl:pv	_	
+4	llama	llamar	VERB	vmip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	
+5	papá?	papá	PUNCT	fi	PunctType=Quot	4	punct	_	
+
+#text = eh?
+1	eh?	eh?	X	np00000	_	0	root	_	
+
+#text = cómo se llama papá?
+1	cómo	cómo	X	np00000	_	3	nsubj	_	
+2	se	�l	PRON	p0000000	Case=Acc|Person=3|PrepCase=Npr|PronType=Prs|Reflex=Yes	3	expl:pv	_	
+3	llama	llamar	VERB	vmip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	
+4	papá?	papá	PUNCT	fe	PunctType=Quot	3	punct	_	
+
+#text = papá mío.
+1	papá	papá	X	np00000	_	2	dep	_	
+2	mío.	m�o.	X	n0	_	0	root	_	
+
+#text = y cómo se llama?
+1	y	y	CCONJ	cc	_	4	cc	_	
+2	cómo	cómo	INTJ	_	_	4	obl	_	
+3	se	�l	PRON	p0000000	Case=Acc|Person=3|PrepCase=Npr|PronType=Prs|Reflex=Yes	4	expl:pv	_	
+4	llama?	llamar	VERB	vmip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	
+
+#text = eh, xxx papá xxx.
+1	eh,	eh,	X	np00000	_	4	dep	_	
+2	xxx	xxx	PROPN	_	_	1	flat	_	
+3	papá	papá	X	_	_	1	flat	_	
+4	xxx.	xxx.	X	_	_	0	root	_	
+
+#text = eh?
+1	eh?	eh?	X	np00000	_	0	root	_	
+
+#text = papá Ezequiel llama.
+1	papá	papá	PROPN	np00000	_	3	nsubj	_	
+2	Ezequiel	ezequiel	PROPN	np00000	_	3	nsubj	_	
+3	llama.	llamar	VERB	vmip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	
+
+#text = Ezequiel?
+1	Ezequiel?	ezequiel?	PROPN	np00000	_	0	root	_	
+
+#text = sí.
+1	sí.	s�.	PUNCT	fp	_	0	root	_	
+
+#text = ah, Ezequiel, se llama papá, como vos?
+1	ah,	ah,	PROPN	np00000	_	4	nsubj	_	
+2	Ezequiel,	ezequiel,	PROPN	np00000	_	4	nsubj	_	
+3	se	�l	PRON	p0300000	Case=Acc|Person=3|PrepCase=Npr|PronType=Prs|Reflex=Yes	4	expl:pv	_	
+4	llama	llamar	VERB	vmip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	
+5	papá,	papá,	X	np00000	_	4	xcomp	_	
+6	como	como	SCONJ	cs	_	5	case	_	
+7	vos?	vos?	PUNCT	fa	PunctType=Excl	4	punct	_	
+
+#text = sí, xxx.
+1	sí,	sa�,	PUNCT	fe	_	2	punct	_	
+2	xxx.	xxx.	X	n00	_	0	root	_	
+
+#text = pero vos sos Alexander.
+1	pero	pero	CCONJ	cc	_	3	advmod	_	
+2	vos	t�	PRON	pp2cs000	Case=Acc|Number=Sing|Person=2|PrepCase=Npr|PronType=Prs	4	nsubj	_	
+3	sos	so	PROPN	p0	_	4	cop	_	
+4	Alexander.	alexander.	PROPN	np000	_	0	root	_	
+
+#text = m.
+1	m.	m.	NOUN	ncms000	_	0	root	_	
+
+#text = sí, un nombre importante.
+1	sí,	sa�,	PUNCT	fe	PunctType=Quot	3	punct	_	
+2	un	uno	DET	di0ms0	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	3	det	_	
+3	nombre	nombre	NOUN	ncms000	Gender=Masc|Number=Sing	0	root	_	
+4	importante.	importante.	ADJ	aq0cs0	Number=Sing	3	amod	_	
+
+#text = xxx papá.
+1	xxx	xxx	PROPN	np00000	_	0	root	_	
+2	papá.	papá.	X	_	_	1	dep	_	
+
+#text = m.
+1	m.	m.	NOUN	ncms000	_	0	root	_	
+
+#text = xxx papa?
+1	xxx	xxx	PROPN	np00000	_	2	dep	_	
+2	papa?	papa?	NOUN	nc0	Number=Sing	0	root	_	
+
+#text = xxx.
+1	xxx.	xxx.	X	np00000	_	0	root	_	
+
+#text = qué?
+1	qué?	qu�?	PUNCT	fa	_	0	root	_	
+
+#text = +< xxx papa xxx!
+1	+<	+<	PUNCT	fa	_	3	punct	_	
+2	xxx	xxx	PROPN	np00000	_	3	dep	_	
+3	papa	papa	NOUN	nc	Gender=Masc|Number=Sing	0	root	_	
+4	xxx!	xxx!	X	n	_	3	dep	_	
+
+#text = sentate.
+1	sentate.	sentate.	PUNCT	fe	PunctType=Quot	0	root	_	
+
+#text = no puedo xxx.
+1	no	no	ADV	rn	Polarity=Neg	3	advmod	_	
+2	puedo	poder	AUX	vmip1s0	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	aux	_	
+3	xxx.	xxx.	X	np00000	_	0	root	_	
+
+#text = arrodillate.
+1	arrodillate.	arrodillate.	X	np00000	_	0	root	_	
+
+#text = u, ay, xxx.
+1	u,	u,	X	np00000	_	3	dep	_	
+2	ay,	ay,	X	_	_	1	dep	_	
+3	xxx.	xxx.	X	_	_	0	root	_	
+
+#text = acá hay más.
+1	acá	acá	PUNCT	fe	PunctType=Quot	2	punct	_	
+2	hay	haber	VERB	vaip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	
+3	más.	m�s.	SYM	p	_	2	obj	_	
+
+#text = xxx.
+1	xxx.	xxx.	X	np00000	_	0	root	_	
+
+#text = es una pizza.
+1	es	ser	AUX	vsip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	
+2	una	uno	DET	di0fs0	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	3	det	_	
+3	pizza.	pizza.	NOUN	ncfs000	Gender=Fem|Number=Sing	0	root	_	
+
+#text = xxx.
+1	xxx.	xxx.	X	np00000	_	0	root	_	
+
+#text = qué ese eso?
+1	qué	qu�	PUNCT	fe	_	2	punct	_	
+2	ese	ese	DET	dd0ms0	Gender=Masc|Number=Sing|PronType=Dem	0	root	_	
+3	eso?	eso?	PUNCT	fi	PunctType=Qest	2	punct	_	
+
+#text = qué será?
+1	qué	qu�	PUNCT	fa	_	0	root	_	
+2	será?	será?	PUNCT	fe	PunctType=Quot	1	punct	_	
+
+#text = xxx.
+1	xxx.	xxx.	X	np00000	_	0	root	_	
+
+#text = etetetete.
+1	etetetete.	etetetete.	X	np00000	_	0	root	_	
+
+#text = qué es?
+1	qué	qu�	PUNCT	fa	_	0	root	_	
+2	es?	es?	PUNCT	fa	PunctType=Excl	1	punct	_	
+
+#text = +< y así no es.
+1	+<	+<	PUNCT	fa	_	5	punct	_	
+2	y	y	CCONJ	cc	_	5	cc	_	
+3	así	as�	X	np00000	_	5	dep	_	
+4	no	no	ADV	rn	Polarity=Neg	5	advmod	_	
+5	es.	es.	X	n	_	0	root	_	
+
+#text = chocolatada.
+1	chocolatada.	chocolatada.	NOUN	ncfs000	Gender=Fem|Number=Sing	0	root	_	
+
+#text = notana.
+1	notana.	notana.	NOUN	ncfs000	Gender=Fem|Number=Sing	0	root	_	
+
+#text = tetelatelate.
+1	tetelatelate.	tetelatelate.	X	np00000	_	0	root	_	
+
+#text = te gusta la leche . chocolatada?
+1	te	t�	PRON	pp2cs000	Case=Dat|Number=Sing|Person=2|PrepCase=Npr|PronType=Prs	2	obl:arg	_	
+2	gusta	gustar	VERB	vmip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	
+3	la	el	DET	da0fs0	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	
+4	leche	leche	NOUN	ncfs000	Gender=Fem|Number=Sing	2	nsubj	_	
+5	.	.	PUNCT	fp	PunctType=Peri	2	punct	_	
+6	chocolatada?	chocolatadae	ADJ	aq0fs0	Gender=Fem|Number=Sing	2	parataxis	_	
+
+#text = +< sí.
+1	+<	+<	PUNCT	fa	_	2	punct	_	
+2	sí.	s�.	PUNCT	fp	_	0	root	_	
+
+#text = a mí también.
+1	a	a	ADP	sps00	_	2	case	_	
+2	mí	m�	X	np00000	_	3	dep	_	
+3	también.	tambi�n.	X	_	_	0	root	_	
+
+#text = xxx.
+1	xxx.	xxx.	X	np00000	_	0	root	_	
+
+#text = él no, no toma . lácteos, nada.
+1	él	�l	INTJ	_	_	4	dep	_	
+2	no,	no,	PUNCT	fe	PunctType=Quot	1	punct	_	
+3	no	no	ADV	rn	Polarity=Neg	4	advmod	_	
+4	toma	tomar	VERB	vmip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	
+5	.	.	PUNCT	fp	PunctType=Peri	4	punct	_	
+6	lácteos,	lácteos,	PUNCT	fz	_	4	punct	_	
+7	nada.	nada.	PUNCT	fe	PunctType=Quot	4	punct	_	
+
+#text = ah no?
+1	ah	ah	INTJ	_	_	0	root	_	
+2	no?	no?	PUNCT	fa	PunctType=Excl	1	punct	_	
+
+#text = por algún problema en particular o +/?
+1	por	por	ADP	sps00	_	3	case	_	
+2	algún	algún	NOUN	ncms000	Gender=Masc|Number=Sing	3	amod	_	
+3	problema	problema	NOUN	ncms000	Gender=Masc|Number=Sing	0	root	_	
+4	en	en	ADP	rg	_	3	advmod	_	
+5	particular	particular	NOUN	_	_	4	fixed	_	
+6	o	o	CCONJ	cc	_	7	cc	_	
+7	+/?	+/?	PUNCT	fa	_	3	punct	_	
+
+#text = +< no, no le gusta, no +...
+1	+<	+<	PUNCT	fa	_	5	punct	_	
+2	no,	no,	PUNCT	fg	PunctType=Quot	5	punct	_	
+3	no	no	ADV	rn	Polarity=Neg	5	advmod	_	
+4	le	�l	PRON	pp3csd00	Case=Dat|Number=Sing|Person=3|PronType=Prs	5	expl	_	
+5	gusta,	gustar	VERB	vmip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	
+6	no	no	ADV	rn	Polarity=Neg	5	advmod	_	
+7	+...	+...	PUNCT	fp	_	5	punct	_	
+
+#text = ah.
+1	ah.	ah.	X	np00000	_	0	root	_	
+
+#text = probé darle de todas formas pero no.
+1	probé	prob�	PUNCT	fe	PunctType=Quot	2	punct	_	
+2	darle	darlir	VERB	vmn0000	VerbForm=Inf	0	root	_	
+3	de	de	ADP	sps00	_	5	case	_	
+4	todas	todo	DET	di0fp0	Gender=Fem|Number=Plur|PronType=Tot	5	det	_	
+5	formas	forma	NOUN	ncfp000	Gender=Fem|Number=Plur	2	obl	_	
+6	pero	pero	CCONJ	cc	_	7	cc	_	
+7	no.	no.	PUNCT	fp	PunctType=Quot	2	conj	_	
+
+#text = cómo no te gusta la leche?
+1	cómo	cómo	X	np00000	_	4	nsubj	_	
+2	no	no	ADV	rn	Polarity=Neg	4	advmod	_	
+3	te	t�	PRON	pp2cs000	Case=Dat|Number=Sing|Person=2|PrepCase=Npr|PronType=Prs	4	obl:arg	_	
+4	gusta	gustar	VERB	vmip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	
+5	la	el	DET	da0fs0	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	
+6	leche?	leche?	NOUN	ncfs000	Gender=Fem|Number=Sing	4	nsubj	_	
+
+#text = +< xxx.
+1	+<	+<	PUNCT	fz	_	2	punct	_	
+2	xxx.	xxx.	NOUN	ncfp000	_	0	root	_	
+
+#text = me dijiste que sí.
+1	me	yo	PRON	pp1cs000	Case=Dat|Number=Sing|Person=1|PrepCase=Npr|PronType=Prs	2	expl:pv	_	
+2	dijiste	dijistir	VERB	vmip1s0	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	
+3	que	que	SCONJ	cs	_	2	mark	_	
+4	sí.	s�.	PUNCT	fp	_	2	punct	_	
+
+#text = una pizza, es.
+1	una	uno	DET	di0fs0	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	2	det	_	
+2	pizza,	pizza,	NOUN	ncfs000	Gender=Fem|Number=Sing	0	root	_	
+3	es.	es.	PUNCT	fs	_	2	punct	_	
+
+#text = no te gusta la leche?
+1	no	no	ADV	rn	Polarity=Neg	3	advmod	_	
+2	te	t�	PRON	pp2cs000	Case=Dat|Number=Sing|Person=2|PrepCase=Npr|PronType=Prs	3	obl:arg	_	
+3	gusta	gustar	VERB	vmip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	
+4	la	el	DET	da0fs0	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	
+5	leche?	leche?	NOUN	ncfs000	Gender=Fem|Number=Sing	3	nsubj	_	
+
+#text = titete.
+1	titete.	titete.	X	np00000	_	0	root	_	
+
+#text = despacio.
+1	despacio.	despacio.	PUNCT	fp	PunctType=Peri	0	root	_	
+
+#text = +< uf.
+1	+<	+<	PUNCT	fa	_	2	punct	_	
+2	uf.	uf.	X	n00000	_	0	root	_	
+
+#text = e, no ta tete.
+1	e,	e,	CCONJ	cc	_	4	cc	_	
+2	no	no	ADV	rn	Polarity=Neg	4	advmod	_	
+3	ta	ta	PROPN	_	_	4	dep	_	
+4	tete.	tete.	X	_	_	0	root	_	
+
+#text = no tiene.
+1	no	no	ADV	rn	Polarity=Neg	2	advmod	_	
+2	tiene.	tener	VERB	vmip3s0	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	0	root	_	
+
+#text = ale?
+1	ale?	ale?	PUNCT	fp	PunctType=Quot	0	root	_	
+
+#text = sí.
+1	sí.	s�.	PUNCT	fp	_	0	root	_	
+
+#text = xxx che che che, xxx.
+1	xxx	xxx	PROPN	np00000	_	0	root	_	
+2	che	che	PROPN	_	_	1	flat	_	
+3	che	che	PROPN	_	_	1	flat	_	
+4	che,	che,	PROPN	_	_	1	flat	_	
+5	xxx.	xxx.	X	_	_	1	flat	_	
+
+#text = +< un paty.
+1	+<	+<	PUNCT	fg	_	3	punct	_	
+2	un	uno	DET	di0ms0	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	3	det	_	
+3	paty.	paty.	NOUN	ncms000	Gender=Masc	0	root	_	
+
+#text = xxx.
+1	xxx.	xxx.	X	np00000	_	0	root	_	
+
+#text = ui, qué rico.
+1	ui,	ui,	X	np00000	_	3	dep	_	
+2	qué	qu�	X	_	_	1	dep	_	
+3	rico.	rico.	NOUN	nc	_	0	root	_	
+
+#text = estaba rico?
+1	estaba	estar	AUX	vmii3s0	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	2	cop	_	
+2	rico?	rico?	ADJ	aq0ms0	Gender=Masc|Number=Sing	0	root	_	
+
+#text = sí.
+1	sí.	s�.	PUNCT	fp	_	0	root	_	
+
+#text = sí?
+1	sí?	s�?	PUNCT	fa	PunctType=Quot	0	root	_	
+
+#text = u . xxx ap, allá.
+1	u	u	CCONJ	cc	_	3	cc	_	
+2	.	.	PUNCT	fp	PunctType=Peri	3	punct	_	
+3	xxx	xxx	PROPN	np00000	_	0	root	_	
+4	ap,	ap,	X	_	_	3	flat	_	
+5	allá.	allá	PUNCT	fp	_	3	punct	_	
+
+#text = despacito.
+1	despacito.	despacito.	PUNCT	fp	PunctType=Quot	0	root	_	
+
+#text = demap echeche.
+1	demap	demap	NOUN	ncms000	Gender=Masc|Number=Sing	0	root	_	
+2	echeche.	echeche.	X	_	_	1	flat	_	
+
+#text = mjum.
+1	mjum.	mjum.	X	np00000	_	0	root	_	
+
+#text = xxx papa.
+1	xxx	xxx	PROPN	np00000	_	0	root	_	
+2	papa.	papa.	X	_	_	1	flat	_	
+
+#text = bon ay!
+1	bon	bon	PROPN	np00000	_	0	root	_	
+2	ay!	ay!	PROPN	_	_	1	flat	_	
+
+#text = xxx que no se caigan las cosas.
+1	xxx	xxx	NOUN	ncfs000	Gender=Masc|Number=Sing	0	root	_	
+2	que	que	PRON	pr0cn000	PronType=Rel	5	mark	_	
+3	no	no	ADV	rn	Polarity=Neg	5	advmod	_	
+4	se	�l	PRON	p0000000	Case=Acc|Person=3|PrepCase=Npr|PronType=Prs|Reflex=Yes	5	expl:pass	_	
+5	caigan	caer	VERB	vmsp3p0	Mood=Sub|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	1	acl	_	
+6	las	el	DET	da0fp0	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	7	det	_	
+7	cosas.	cosas.	NOUN	ncfp000	Gender=Fem|Number=Plur	5	nsubj	_	
+
+#text = m, no xxx.
+1	m,	m,	X	np00000	_	3	dep	_	
+2	no	no	ADV	rn	Polarity=Neg	3	advmod	_	
+3	xxx.	xxx.	X	n0	_	0	root	_	
+
+#text = te ahí?
+1	te	t�	PRON	pp2cs000	Case=Dat|Number=Sing|Person=2|PrepCase=Npr|PronType=Prs	2	expl:pv	_	
+2	ahí?	ah�?	X	np00000	_	0	root	_	
+
+#text = qué hay ahí?
+1	qué	qu�	PUNCT	fg	_	2	punct	_	
+2	hay	haber	VERB	vaip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	
+3	ahí?	ah�?	PUNCT	fa	_	2	punct	_	
+
+#text = qué es eso?
+1	qué	qu�	PUNCT	fg	_	2	advmod	_	
+2	es	ser	AUX	vsip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	
+3	eso?	eso?	PUNCT	fi	PunctSide=Fin|PunctType=Excl	2	punct	_	
+
+#text = etete.
+1	etete.	etete.	PUNCT	fp	PunctType=Quot	0	root	_	
+
+#text = qué es?
+1	qué	qu�	PUNCT	fa	_	0	root	_	
+2	es?	es?	PUNCT	fa	PunctType=Excl	1	punct	_	
+
+#text = qué parece?
+1	qué	qu�	PUNCT	fa	_	2	punct	_	
+2	parece?	parecer	VERB	vmip1s0	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	0	root	_	
+
+#text = es papa.
+1	es	ser	AUX	vsip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	cop	_	
+2	papa.	papa.	PUNCT	fp	PunctType=Quot	0	root	_	
+
+#text = otra papa?
+1	otra	otro	DET	di0fs0	Gender=Fem|Number=Sing|PronType=Ind	2	det	_	
+2	papa?	papa?	NOUN	ncfs000	Gender=Fem|Number=Sing	0	root	_	
+
+#text = sí, es to papa.
+1	sí,	sa�,	PUNCT	fe	PunctType=Quot	2	punct	_	
+2	es	ser	AUX	vsip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	
+3	to	to	X	np00000	_	4	case	_	
+4	papa.	papa.	X	n0	_	0	root	_	
+
+#text = tete, eso xxx.
+1	tete,	tete,	X	np00000	_	3	dep	_	
+2	eso	ese	PRON	pd0ns000	Number=Sing|PronType=Dem	3	dep	_	
+3	xxx.	xxx.	X	n0000	_	0	root	_	
+
+#text = xxx papa xxx.
+1	xxx	xxx	PROPN	np00000	_	0	root	_	
+2	papa	papa	PROPN	_	_	1	flat	_	
+3	xxx.	xxx.	X	_	_	1	flat	_	
+
+#text = a_ver?
+1	a_ver?	a_ver?	X	np00000	_	0	root	_	
+
+#text = eo.
+1	eo.	eo.	PUNCT	fp	PunctType=Quot	0	root	_	
+
+#text = ananá, parece.
+1	ananá,	ananá,	X	np00000	_	0	root	_	
+2	parece.	parece.	PUNCT	fp	PunctType=Quot	1	dep	_	
+
+#text = qué xxx.
+1	qué	qu�	PUNCT	fa	_	2	punct	_	
+2	xxx.	xxx.	X	n00	_	0	root	_	
+
+#text = +< xxx.
+1	+<	+<	PUNCT	fz	_	2	punct	_	
+2	xxx.	xxx.	NOUN	ncfp000	_	0	root	_	
+
+#text = xxx o acá?
+1	xxx	xxx	X	np00000	_	0	root	_	
+2	o	o	CCONJ	cc	_	1	cc	_	
+3	acá?	acá?	PUNCT	fa	_	1	punct	_	
+
+#text = n, sí xxx.
+1	n,	n,	X	np00000	_	3	dep	_	
+2	sí	s�	X	n000	_	3	dep	_	
+3	xxx.	xxx.	X	_	_	0	root	_	
+
+#text = +< qué querés?
+1	+<	+<	PUNCT	fa	_	3	punct	_	
+2	qué	qu�	X	_	_	3	dep	_	
+3	querés?	quer�s?	X	n000	_	0	root	_	
+
+#text = esto?
+1	esto?	esto?	PUNCT	fi	PunctType=Qest	0	root	_	
+
+#text = sí.
+1	sí.	s�.	PUNCT	fp	_	0	root	_	
+
+#text = xxx.
+1	xxx.	xxx.	X	np00000	_	0	root	_	
+
+#text = +< xxx.
+1	+<	+<	PUNCT	fz	_	2	punct	_	
+2	xxx.	xxx.	NOUN	ncfp000	_	0	root	_	
+
+#text = no xxx.
+1	no	no	ADV	rn	Polarity=Neg	2	advmod	_	
+2	xxx.	xxx.	X	n00000	_	0	root	_	
+
+#text = xxx.
+1	xxx.	xxx.	X	np00000	_	0	root	_	
+
+#text = ia.
+1	ia.	ia.	PUNCT	fp	PunctType=Quot	0	root	_	
+
+#text = qué es?
+1	qué	qu�	PUNCT	fa	_	0	root	_	
+2	es?	es?	PUNCT	fa	PunctType=Excl	1	punct	_	
+
+#text = e e.
+1	e	e	CCONJ	cc	_	2	cc	_	
+2	e.	e.	X	n000	_	0	root	_	
+
+#text = qué puede ser?
+1	qué	qu�	PUNCT	fe	_	3	punct	_	
+2	puede	poder	AUX	vmip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	
+3	ser?	ser	VERB	vmn0000	VerbForm=Inf	0	root	_	
+
+#text = xxx.
+1	xxx.	xxx.	X	np00000	_	0	root	_	
+
+#text = +< qué es eso?
+1	+<	+<	PUNCT	fa	_	3	punct	_	
+2	qué	qu�	PUNCT	fs	_	3	punct	_	
+3	es	ser	AUX	vsip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	
+4	eso?	eso?	PUNCT	fit	PunctSide=Fin|PunctType=Excl	3	punct	_	
+
+#text = xxx cheche xxx.
+1	xxx	xxx	PROPN	np00000	_	0	root	_	
+2	cheche	cheche	PROPN	_	_	1	flat	_	
+3	xxx.	xxx.	X	_	_	1	flat	_	
+
+#text = ay, pero mirá qué lindo que te queda.
+1	ay,	ay,	X	np00000	_	5	dep	_	
+2	pero	pero	CCONJ	cc	_	5	cc	_	
+3	mirá	mirá	INTJ	_	_	1	conj	_	
+4	qué	qu�	X	_	_	1	flat	_	
+5	lindo	lindo	ADJ	aq0ms0	Gender=Masc|Number=Sing	0	root	_	
+6	que	que	PRON	pr0cn000	PronType=Rel	8	mark	_	
+7	te	t�	PRON	pp2cs000	Case=Dat|Number=Sing|Person=2|PrepCase=Npr|PronType=Prs	8	obl:arg	_	
+8	queda.	quedar	VERB	vmip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	acl:relcl	_	
+
+#text = te laí.
+1	te	t�	PRON	pp2cs000	Case=Dat|Number=Sing|Person=2|PrepCase=Npr|PronType=Prs	2	expl:pv	_	
+2	laí.	la�.	PUNCT	fp	PunctType=Dash	0	root	_	
+
+#text = m, no puedo xxx tete.
+1	m,	m,	PUNCT	fe	PunctType=Quot	4	punct	_	
+2	no	no	ADV	rn	Polarity=Neg	4	advmod	_	
+3	puedo	poder	AUX	vmip1s0	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	aux	_	
+4	xxx	xxx	NOUN	ncms000	Gender=Masc	0	root	_	
+5	tete.	tete.	PUNCT	fp	PunctType=Quot	4	flat	_	
+
+#text = y con este.
+1	y	y	CCONJ	cc	_	3	cc	_	
+2	con	con	ADP	sps00	_	3	case	_	
+3	este.	este.	NOUN	ncms000	Gender=Masc|Number=Sing	0	root	_	
+
+#text = of.
+1	of.	of.	X	np00000	_	0	root	_	
+
+#text = y este?
+1	y	y	CCONJ	cc	_	2	cc	_	
+2	este?	este?	INTJ	_	_	0	root	_	
+
+#text = qué es] esto?
+1	qué	qu�	PUNCT	fa	_	0	root	_	
+2	es]	es]	PUNCT	fz	_	1	punct	_	
+3	esto?	esto?	PUNCT	fit	PunctSide=Fin|PunctType=Qest	1	punct	_	
+
+#text = este va acá, para escuchar.
+1	este	este	PRON	pd0ms000	Gender=Masc|Number=Sing|PronType=Dem	2	nsubj	_	
+2	va	ir	VERB	vmip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	
+3	acá,	acá,	PUNCT	fe	_	2	punct	_	
+4	para	para	ADP	sps00	_	5	mark	_	
+5	escuchar.	escuchar	VERB	vmn0000	VerbForm=Inf	2	advcl	_	
+
+#text = xxx ponelo ahí.
+1	xxx	xxx	PROPN	np00000	_	0	root	_	
+2	ponelo	ponelo	PROPN	_	_	1	flat	_	
+3	ahí.	ah�.	PUNCT	fp	_	1	punct	_	
+
+#text = m, . no puedo poner, . ay.
+1	m,	m,	X	np00000	_	5	dep	_	
+2	.	.	PUNCT	fp	PunctType=Peri	1	punct	_	
+3	no	no	ADV	rn	Polarity=Neg	5	advmod	_	
+4	puedo	poder	AUX	vmip1s0	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	5	aux	_	
+5	poner,	poner	VERB	vmn0000	VerbForm=Inf	0	root	_	
+6	.	.	PUNCT	fp	PunctType=Peri	5	punct	_	
+7	ay.	ay.	X	np00000	_	5	punct	_	
+
+#text = m.
+1	m.	m.	NOUN	ncms000	_	0	root	_	
+
+#text = etete?
+1	etete?	etete?	X	np00000	_	0	root	_	
+
+#text = qué hacés con eso?
+1	qué	qu�	PUNCT	fa	_	2	punct	_	
+2	hacés	hacés	X	n00000	_	0	root	_	
+3	con	con	ADP	sps00	_	2	case	_	
+4	eso?	eso?	PUNCT	fit	PunctSide=Fin|PunctType=Excl	2	punct	_	
+
+#text = y este xxx.
+1	y	y	CCONJ	cc	_	3	cc	_	
+2	este	este	DET	dd0ms0	Gender=Masc|Number=Sing|PronType=Dem	3	det	_	
+3	xxx.	xxx.	X	n00000	_	0	root	_	
+
+#text = +< escuchás.
+1	+<	+<	PUNCT	fa	_	2	punct	_	
+2	escuchás.	escuchás.	PUNCT	fp	_	0	root	_	
+
+#text = fuiste al médico, . alguna vez?
+1	fuiste	ir	VERB	vmip1s0	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	
+2	al	al	ADP	sps00	_	3	case	_	
+3	médico,	m�dico,	NOUN	ncms000	Gender=Masc|Number=Sing	1	obl	_	
+4	.	.	PUNCT	fp	PunctType=Peri	1	punct	_	
+5	alguna	alguno	DET	di0fs0	Gender=Fem|Number=Sing|PronType=Ind	6	det	_	
+6	vez?	vez?	NOUN	ncfs000	Gender=Fem|Number=Sing	1	obl	_	
+
+#text = +< no.
+1	+<	+<	PUNCT	fa	_	2	punct	_	
+2	no.	no.	PUNCT	fp	PunctType=Quot	0	root	_	
+
+#text = no?
+1	no?	no?	PUNCT	fa	PunctType=Excl	0	root	_	
+
+#text = a_ver.
+1	a_ver.	a_ver.	PUNCT	fe	_	0	root	_	
+
+#text = escuchale a ella.
+1	escuchale	escuchalir	VERB	vmip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	
+2	a	a	ADP	sps00	_	3	case	_	
+3	ella.	�l	PRON	pp3fs000	Case=Acc,Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	1	obj	_	
+
+#text = ahí, así, escuchá xxx acá.
+1	ahí,	ah�,	X	np00000	_	4	dep	_	
+2	así,	así,	X	n	_	4	dep	_	
+3	escuchá	escuchi�	PUNCT	fa	_	2	punct	_	
+4	xxx	xxx	X	n0	_	0	root	_	
+5	acá.	acá.	PUNCT	fp	_	4	punct	_	
+
+#text = tutu tutu tutu.
+1	tutu	tutu	PROPN	np00000	_	0	root	_	
+2	tutu	tutu	PROPN	_	_	1	flat	_	
+3	tutu.	tutu.	PUNCT	fp	PunctType=Quot	1	flat	_	
+
+#text = +< eta.
+1	+<	+<	PUNCT	fa	_	2	punct	_	
+2	eta.	eta.	PUNCT	fp	PunctType=Dash	0	root	_	
+
+#text = no escucho!
+1	no	no	ADV	rn	Polarity=Neg	2	advmod	_	
+2	escucho!	escuchar	VERB	vmip1s0	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	
+
+#text = no escuchás?
+1	no	no	ADV	rn	Polarity=Neg	0	root	_	
+2	escuchás?	escuchás?	PUNCT	fa	PunctType=Excl	1	punct	_	
+
+#text = no, .. no escucho.
+1	no,	no,	PUNCT	fe	PunctType=Quot	4	punct	_	
+2	..	..	PUNCT	fs	_	4	punct	_	
+3	no	no	ADV	rn	Polarity=Neg	4	advmod	_	
+4	escucho.	escucho.	PUNCT	fp	PunctType=Dash	0	root	_	
+
+#text = no va ahí?
+1	no	no	ADV	rn	Polarity=Neg	2	advmod	_	
+2	va	ir	VERB	vmip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	
+3	ahí?	ah�?	PUNCT	fa	PunctType=Quot	2	punct	_	
+
+#text = +< m.
+1	+<	+<	PUNCT	fg	_	2	punct	_	
+2	m.	m.	NOUN	nc000	_	0	root	_	
+
+#text = no?
+1	no?	no?	PUNCT	fa	PunctType=Excl	0	root	_	
+
+#text = bueno.
+1	bueno.	bueno.	ADJ	aq0ms0	Gender=Masc|Number=Sing	0	root	_	
+
+#text = +< xxx.
+1	+<	+<	PUNCT	fz	_	2	punct	_	
+2	xxx.	xxx.	NOUN	ncfp000	_	0	root	_	
+
+#text = odia al doctor.
+1	odia	odiar	VERB	vmip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	
+2	al	al	ADP	sps00	_	3	case	_	
+3	doctor.	doctor.	NOUN	ncms000	Gender=Masc|Number=Sing	1	obl	_	
+
+#text = odiás al doctor?
+1	odiás	odiás	X	np00000	_	0	root	_	
+2	al	al	ADP	sps00	_	3	case	_	
+3	doctor?	doctor?	NOUN	ncms000	Gender=Masc|Number=Sing	1	nmod	_	
+
+#text = mi papá es doctor.
+1	mi	mi	DET	dp1css	Number=Sing|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	2	det	_	
+2	papá	papá	NOUN	ncms000	Gender=Masc|Number=Sing	4	nsubj	_	
+3	es	ser	AUX	vsip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	
+4	doctor.	doctor.	NOUN	ncms000	Gender=Masc|Number=Sing	0	root	_	
+
+#text = m, a_ver +/.
+1	m,	m,	X	np00000	_	2	dep	_	
+2	a_ver	a_ver	X	n00	_	0	root	_	
+3	+/.	+/.	PUNCT	fp	_	1	punct	_	
+
+#text = +< él no, apenas llega al doctor ya está llorando, . grita.
+1	+<	+<	PUNCT	fa	_	5	punct	_	
+2	él	�l	X	np00000	_	5	nsubj	_	
+3	no,	no,	PUNCT	fa	PunctType=Quot	5	punct	_	
+4	apenas	apenas	ADV	rg	_	5	advmod	_	
+5	llega	llegar	VERB	vmip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	
+6	al	al	ADP	sps00	_	7	case	_	
+7	doctor	doctor	NOUN	ncms000	Gender=Masc|Number=Sing	5	obl	_	
+8	ya	ya	ADV	rg	_	9	advmod	_	
+9	está	estar	VERB	vmip1p0	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	5	advcl	_	
+10	llorando,	llorar	VERB	vmg0000	VerbForm=Fin	5	advcl	_	
+11	.	.	PUNCT	fp	PunctType=Peri	5	punct	_	
+12	grita.	grita.	NOUN	ncfs000	Gender=Fem|Number=Sing	5	punct	_	
+
+#text = ah.
+1	ah.	ah.	X	np00000	_	0	root	_	
+
+#text = me dice +"/.
+1	me	yo	PRON	pp1cs000	Case=Dat|Number=Sing|Person=1|PrepCase=Npr|PronType=Prs	2	expl:pv	_	
+2	dice	decir	VERB	vmip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	
+3	+"/.	+"/.	PUNCT	fp	_	2	punct	_	
+
+#text = +" no quiero, no quiero.
+1	+"	+"	PUNCT	fe	PunctType=Quot	3	punct	_	
+2	no	no	ADV	rn	Polarity=Neg	3	advmod	_	
+3	quiero,	querer	VERB	vmip1s0	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	
+4	no	no	ADV	rn	Polarity=Neg	3	advmod	_	
+5	quiero.	quiero.	PUNCT	fg	PunctType=Dash	3	punct	_	
+
+#text = no le hace nada, pero +...
+1	no	no	ADV	rn	Polarity=Neg	3	advmod	_	
+2	le	�l	PRON	pp3csd00	Case=Dat|Number=Sing|Person=3|PronType=Prs	3	expl	_	
+3	hace	hacer	VERB	vmip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	
+4	nada,	nada,	PRON	pi0cs000	Number=Sing|PronType=Neg	3	obj	_	
+5	pero	pero	CCONJ	cc	_	6	cc	_	
+6	+...	+...	PUNCT	fp	_	3	conj	_	
+
+#text = pero no, no +/.
+1	pero	pero	CCONJ	cc	_	3	cc	_	
+2	no,	no,	ADV	rg	_	3	advmod	_	
+3	no	no	ADV	rn	Polarity=Neg	0	root	_	
+4	+/.	+/.	PUNCT	fp	_	3	punct	_	
+
+#text = no.
+1	no.	no.	PUNCT	fe	PunctType=Quot	0	root	_	
+
+#text = +, no xxx.
+1	+,	+,	PUNCT	fg	_	3	punct	_	
+2	no	no	ADV	rn	Polarity=Neg	3	advmod	_	
+3	xxx.	xxx.	X	n000	_	0	root	_	
+
+#text = +< xxx ahí?
+1	+<	+<	PUNCT	fa	_	2	punct	_	
+2	xxx	xxx	NOUN	ncms000	Number=Sing	3	dep	_	
+3	ahí?	ah�?	X	_	_	0	root	_	
+
+#text = qué hay acá?
+1	qué	qu�	PUNCT	fg	_	2	punct	_	
+2	hay	haber	VERB	vaip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	
+3	acá?	acá?	PUNCT	fa	PunctType=Excl	2	punct	_	
+
+#text = sí.
+1	sí.	s�.	PUNCT	fp	_	0	root	_	
+
+#text = etiene.
+1	etiene.	etiene.	PUNCT	fe	PunctType=Quot	0	root	_	
+
+#text = y acá creo que hay más juguetes.
+1	y	y	CCONJ	cc	_	3	cc	_	
+2	acá	acá	INTJ	_	_	3	obl	_	
+3	creo	creer	VERB	vmip1s0	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	
+4	que	que	SCONJ	cs	_	5	mark	_	
+5	hay	haber	VERB	vaip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	ccomp	_	
+6	más	más	NOUN	ncms000	Gender=Masc	7	det	_	
+7	juguetes.	juguetes.	X	n00000	_	5	obj	_	
+
+#text = ue.
+1	ue.	ue.	PUNCT	fp	PunctType=Peri	0	root	_	
+
+#text = vamos a ver.
+1	vamos	ir	VERB	vmip1p0	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	
+2	a	a	ADP	sps00	_	3	case	_	
+3	ver.	ver.	NOUN	ncms000	_	1	obl	_	
+
+#text = mirá, mirá cuánto hay.
+1	mirá,	mirá,	INTJ	_	_	3	dep	_	
+2	mirá	mira�	PUNCT	fa	PunctType=Excl	1	punct	_	
+3	cuánto	cuánto	X	n000	_	0	root	_	
+4	hay.	hay.	X	_	_	3	dep	_	
+
+#text = ay, xxx +/.
+1	ay,	ay,	PROPN	np00000	_	0	root	_	
+2	xxx	xxx	PROPN	_	_	1	flat	_	
+3	+/.	+/.	PUNCT	fp	_	1	punct	_	
+
+#text = +< pero también hay cosas de doctor.
+1	+<	+<	PUNCT	fg	_	4	punct	_	
+2	pero	pero	CCONJ	cc	_	4	cc	_	
+3	también	también	X	np00000	_	4	nsubj	_	
+4	hay	haber	VERB	vaip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	
+5	cosas	cosa	NOUN	ncfp000	Gender=Fem|Number=Plur	4	obj	_	
+6	de	de	ADP	sps00	_	7	case	_	
+7	doctor.	doctor.	NOUN	ncms000	Gender=Masc|Number=Sing	5	nmod	_	
+
+#text = eh?
+1	eh?	eh?	X	np00000	_	0	root	_	
+
+#text = que hay cosas de doctor.
+1	que	que	SCONJ	cs	_	2	mark	_	
+2	hay	haber	VERB	vaip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	
+3	cosas	cosa	NOUN	ncfp000	Gender=Fem|Number=Plur	2	obj	_	
+4	de	de	ADP	sps00	_	5	case	_	
+5	doctor.	doctor.	NOUN	ncms000	Gender=Masc|Number=Sing	3	nmod	_	
+
+#text = no está.
+1	no	no	ADV	rn	Polarity=Neg	0	root	_	
+2	está.	está	PUNCT	fp	PunctType=Dash	1	punct	_	
+
+#text = no está, el doctor.
+1	no	no	ADV	rn	Polarity=Neg	4	advmod	_	
+2	está,	está	PUNCT	fg	PunctType=Quot	1	punct	_	
+3	el	el	DET	da0ms0	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	
+4	doctor.	doctor.	NOUN	ncms000	Gender=Masc|Number=Sing	0	root	_	
+
+#text = ata ata.
+1	ata	ata	NOUN	ncfs000	Gender=Fem|Number=Sing	0	root	_	
+2	ata.	ata.	X	_	_	1	flat	_	
+
+#text = si está allá?
+1	si	si	SCONJ	cs	_	2	mark	_	
+2	está	estar	VERB	vmip1p0	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	
+3	allá?	allá	PUNCT	fa	PunctType=Excl	2	punct	_	
+
+#text = no.
+1	no.	no.	PUNCT	fe	PunctType=Quot	0	root	_	
+
+#text = no está.
+1	no	no	ADV	rn	Polarity=Neg	0	root	_	
+2	está.	está	PUNCT	fp	PunctType=Dash	1	punct	_	
+
+#text = no está.
+1	no	no	ADV	rn	Polarity=Neg	0	root	_	
+2	está.	está	PUNCT	fp	PunctType=Dash	1	punct	_	
+
+#text = está?
+1	está?	está	PUNCT	fi	PunctType=Excl	0	root	_	
+
+#text = no.
+1	no.	no.	PUNCT	fe	PunctType=Quot	0	root	_	
+
+#text = esta meaguí?
+1	esta	este	DET	dd0fs0	Gender=Fem|Number=Sing|PronType=Dem	2	det	_	
+2	meaguí?	meagu�?	NOUN	ncfs000	Gender=Fem|Number=Sing	0	root	_	
+
+#text = está ahí abajo?
+1	está	está	INTJ	_	_	0	root	_	
+2	ahí	ah�	X	n00000	_	1	dep	_	
+3	abajo?	abajo?	PUNCT	fp	PunctType=Excl	1	amod	_	
+
+#text = sí.
+1	sí.	s�.	PUNCT	fp	_	0	root	_	
+
+#text = no.
+1	no.	no.	PUNCT	fe	PunctType=Quot	0	root	_	
+
+#text = xxx no está.
+1	xxx	xxx	X	np00000	_	0	root	_	
+2	no	no	ADV	rn	Polarity=Neg	1	advmod	_	
+3	está.	está	PUNCT	fp	PunctType=Dash	1	punct	_	
+
+#text = en el hospital.
+1	en	en	ADP	sps00	_	3	case	_	
+2	el	el	DET	da0ms0	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	
+3	hospital.	hospital.	NOUN	ncms000	Gender=Masc|Number=Sing	0	root	_	
+
+#text = hospital?
+1	hospital?	hospital?	X	np00000	_	0	root	_	
+
+#text = en el hos, sí, en el hospital, está el doctor.
+1	en	en	ADP	sps00	_	3	case	_	
+2	el	el	DET	da0ms0	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	
+3	hos,	hos,	NOUN	ncms000	Gender=Masc|Number=Sing	0	root	_	
+4	sí,	sa�,	PUNCT	fz	_	3	punct	_	
+5	en	en	ADP	sps00	_	7	case	_	
+6	el	el	DET	da0ms0	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	
+7	hospital,	hospital,	NOUN	ncms000	Gender=Masc|Number=Sing	3	nmod	_	
+8	está	está	X	n00	_	10	case	_	
+9	el	el	DET	da0ms0	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	
+10	doctor.	doctor.	NOUN	ncms000	Gender=Masc|Number=Sing	7	nmod	_	
+
+#text = xxx motalo?
+1	xxx	xxx	PROPN	np00000	_	0	root	_	
+2	motalo?	motalo?	X	_	_	1	flat	_	
+
+#text = vamos a buscarlo.
+1	vamos	ir	VERB	vmip1p0	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	
+2	a	a	ADP	sps00	_	3	mark	_	
+3	buscarlo.	buscarlo.	VERB	vmn0000	VerbForm=Inf	1	xcomp	_	
+
+#text = al final, te gustan los doctores?
+1	al	al	ADP	rg00	_	2	case	_	
+2	final,	final,	NOUN	_	Gender=Masc|Number=Sing	4	obl	_	
+3	te	t�	PRON	pp2cs000	Case=Dat|Number=Sing|Person=2|PrepCase=Npr|PronType=Prs	4	obl:arg	_	
+4	gustan	gustar	VERB	vmip3p0	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	
+5	los	el	DET	da0mp0	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	6	det	_	
+6	doctores?	doctores?	NOUN	ncmp000	Gender=Masc|Number=Plur	4	nsubj	_	
+
+#text = no.
+1	no.	no.	PUNCT	fe	PunctType=Quot	0	root	_	
+
+#text = no?
+1	no?	no?	PUNCT	fa	PunctType=Excl	0	root	_	
+
+#text = y por qué querés ir a buscarlo?
+1	y	y	CCONJ	cc	_	5	cc	_	
+2	por	por	ADP	sps00	_	4	case	_	
+3	qué	qu�	PUNCT	f	_	2	fixed	_	
+4	querés	quer�s	X	n000	_	5	obl	_	
+5	ir	ir	VERB	vmn0000	VerbForm=Inf	0	root	_	
+6	a	a	ADP	sps00	_	7	mark	_	
+7	buscarlo?	buscarloar	VERB	vmn0000	VerbForm=Inf	5	xcomp	_	
+
+#text = m, etete.
+1	m,	m,	X	np00000	_	2	dep	_	
+2	etete.	etete.	PUNCT	fp	PunctType=Quot	0	root	_	
+
+#text = qué es eso?
+1	qué	qu�	PUNCT	fg	_	2	advmod	_	
+2	es	ser	AUX	vsip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	
+3	eso?	eso?	PUNCT	fi	PunctSide=Fin|PunctType=Excl	2	punct	_	
+
+#text = m, no teto.
+1	m,	m,	X	np00000	_	3	dep	_	
+2	no	no	ADV	rn	Polarity=Neg	3	advmod	_	
+3	teto.	teto.	NOUN	ncms000	Gender=Masc|Number=Sing	0	root	_	
+
+#text = no teto cheche.
+1	no	no	ADV	rn	Polarity=Neg	2	advmod	_	
+2	teto	teto	NOUN	ncms000	Gender=Masc|Number=Sing	0	root	_	
+3	cheche.	cheche.	X	np00000	_	2	appos	_	
+
+#text = un espejo.
+1	un	uno	DET	di0ms0	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	2	det	_	
+2	espejo.	espejo.	NOUN	ncms000	Gender=Masc|Number=Sing	0	root	_	
+
+#text = e, no pavi?
+1	e,	e,	CCONJ	cc	_	3	cc	_	
+2	no	no	ADV	rn	Polarity=Neg	3	advmod	_	
+3	pavi?	pavi?	X	n000	_	0	root	_	
+
+#text = no, eso no va ahí.
+1	no,	no,	PUNCT	fe	PunctType=Quot	4	punct	_	
+2	eso	ese	PRON	pd0ns000	Number=Sing|PronType=Dem	4	nsubj	_	
+3	no	no	ADV	rn	Polarity=Neg	4	advmod	_	
+4	va	ir	VERB	vmip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	
+5	ahí.	ah�.	PUNCT	fp	_	4	punct	_	
+
+#text = te.
+1	te.	te.	PUNCT	fp	PunctType=Peri	0	root	_	
+
+#text = xxx tete.
+1	xxx	xxx	PROPN	np00000	_	0	root	_	
+2	tete.	tete.	X	_	_	1	flat	_	
+
+#text = una carne.
+1	una	uno	DET	di0fs0	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	2	det	_	
+2	carne.	carne.	NOUN	ncfs000	Gender=Fem|Number=Sing	0	root	_	
+
+#text = me carne.
+1	me	yo	PRON	pp1cs000	Case=Dat|Number=Sing|Person=1|PrepCase=Npr|PronType=Prs	2	expl:pv	_	
+2	carne.	carne.	NOUN	ncfs000	Number=Sing	0	root	_	
+
+#text = ahí xxx +/.
+1	ahí	ah�	X	np00000	_	0	root	_	
+2	xxx	xxx	PROPN	_	_	1	flat	_	
+3	+/.	+/.	PUNCT	fp	_	1	punct	_	
+
+#text = +< esos +/.
+1	+<	+<	PUNCT	fg	_	2	punct	_	
+2	esos	ese	PRON	pd0mp000	Gender=Masc|Number=Plur|PronType=Dem	0	root	_	
+3	+/.	+/.	PUNCT	fp	_	2	punct	_	
+
+#text = +< xxx.
+1	+<	+<	PUNCT	fz	_	2	punct	_	
+2	xxx.	xxx.	NOUN	ncfp000	_	0	root	_	
+
+#text = ue, to, xxx.
+1	ue,	ue,	X	np00000	_	3	dep	_	
+2	to,	to,	X	_	_	1	dep	_	
+3	xxx.	xxx.	X	_	_	0	root	_	
+
+#text = +< xxx.
+1	+<	+<	PUNCT	fz	_	2	punct	_	
+2	xxx.	xxx.	NOUN	ncfp000	_	0	root	_	
+
+#text = m, no tea, .. no.
+1	m,	m,	X	np00000	_	3	dep	_	
+2	no	no	ADV	rn	Polarity=Neg	3	advmod	_	
+3	tea,	tea,	PROPN	p0	_	0	root	_	
+4	..	..	PUNCT	fs	_	3	punct	_	
+5	no.	no.	PUNCT	fp	_	3	punct	_	
+
+#text = m, . m, mirá, titete titete.
+1	m,	m,	X	np00000	_	0	root	_	
+2	.	.	PUNCT	fp	PunctType=Peri	1	punct	_	
+3	m,	m,	X	n000	_	1	dep	_	
+4	mirá,	mirá,	X	_	_	1	dep	_	
+5	titete	titete	PROPN	_	_	1	flat	_	
+6	titete.	titete.	X	_	_	1	flat	_	
+
+#text = y qué es?
+1	y	y	CCONJ	cc	_	2	cc	_	
+2	qué	qu�	X	n00	_	0	root	_	
+3	es?	es?	PUNCT	fa	PunctType=Excl	2	punct	_	
+
+#text = m, amati +/.
+1	m,	m,	X	np00000	_	2	dep	_	
+2	amati	amati	PROPN	_	_	0	root	_	
+3	+/.	+/.	PUNCT	fp	_	1	punct	_	
+
+#text = parece con lo que vacunas.
+1	parece	parecer	VERB	vmip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	
+2	con	con	ADP	sps00	_	3	case	_	
+3	lo	�l	PRON	da0ns0	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|Person=3|PrepCase=Npr|PronType=Prs	1	obl	_	
+4	que	que	PRON	pr0cn000	PronType=Rel	5	mark	_	
+5	vacunas.	vacunas.	PUNCT	fp	PunctType=Peri	1	punct	_	
+
+#text = xxx.
+1	xxx.	xxx.	X	np00000	_	0	root	_	
+
+#text = +< xxx.
+1	+<	+<	PUNCT	fz	_	2	punct	_	
+2	xxx.	xxx.	NOUN	ncfp000	_	0	root	_	
+
+#text = e.
+1	e.	e.	X	np00000	_	0	root	_	
+
+#text = te diste vacunas?
+1	te	t�	PRON	pp2cs000	Case=Dat|Number=Sing|Person=2|PrepCase=Npr|PronType=Prs	2	expl:pv	_	
+2	diste	der	VERB	vmip1s0	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	
+3	vacunas?	vacunas?	NOUN	ncfp000	Gender=Fem|Number=Plur	2	obj	_	
+
+#text = +< xxx.
+1	+<	+<	PUNCT	fz	_	2	punct	_	
+2	xxx.	xxx.	NOUN	ncfp000	_	0	root	_	
+
+#text = sí, . xxx.
+1	sí,	sa�,	PUNCT	fe	PunctType=Quot	3	punct	_	
+2	.	.	PUNCT	fp	PunctType=Peri	3	punct	_	
+3	xxx.	xxx.	X	n000	_	0	root	_	
+
+#text = +< sí?
+1	+<	+<	PUNCT	fa	_	2	punct	_	
+2	sí?	s�?	X	n000	_	0	root	_	
+
+#text = te dolió?
+1	te	t�	PRON	pp2cs000	Case=Dat|Number=Sing|Person=2|PrepCase=Npr|PronType=Prs	2	expl:pv	_	
+2	dolió?	dolió?	X	np00000	_	0	root	_	
+
+#text = sí no.
+1	sí	s�	X	np00000	_	0	root	_	
+2	no.	no.	PUNCT	fp	PunctType=Quot	1	dep	_	
+
+#text = sí no.
+1	sí	s�	X	np00000	_	0	root	_	
+2	no.	no.	PUNCT	fp	PunctType=Quot	1	dep	_	
+
+#text = no dolió.
+1	no	no	ADV	rn	Polarity=Neg	0	root	_	
+2	dolió.	dolió.	PUNCT	fp	_	1	punct	_	
+
+#text = no?
+1	no?	no?	PUNCT	fa	PunctType=Excl	0	root	_	
+
+#text = no dolió?
+1	no	no	ADV	rn	Polarity=Neg	2	advmod	_	
+2	dolió?	dolió?	X	np00000	_	0	root	_	
+
+#text = no.
+1	no.	no.	PUNCT	fe	PunctType=Quot	0	root	_	
+
+#text = +< muy bien, qué valiente.
+1	+<	+<	PUNCT	fa	_	3	punct	_	
+2	muy	mucho	ADV	rg	_	3	advmod	_	
+3	bien,	bien,	X	np00000	_	5	dep	_	
+4	qué	qu�	PUNCT	fa	_	3	punct	_	
+5	valiente.	valiente.	PUNCT	fp	PunctType=Quot	0	root	_	
+
+#text = a mí me dolía.
+1	a	a	ADP	sps00	_	2	case	_	
+2	mí	m�	X	np00000	_	4	dep	_	
+3	me	yo	PRON	_	Case=Acc|Number=Sing|Person=1|PrepCase=Npr|PronType=Prs	4	dep	_	
+4	dolía.	dol�a.	X	n	_	0	root	_	
+
+#text = +< xxx.
+1	+<	+<	PUNCT	fz	_	2	punct	_	
+2	xxx.	xxx.	NOUN	ncfp000	_	0	root	_	
+
+#text = m?
+1	m?	m?	X	np00000	_	0	root	_	
+
+#text = xxx tite.
+1	xxx	xxx	PROPN	np00000	_	0	root	_	
+2	tite.	tite.	X	_	_	1	dep	_	
+
+#text = m.
+1	m.	m.	NOUN	ncms000	_	0	root	_	
+
+#text = +< xxx.
+1	+<	+<	PUNCT	fz	_	2	punct	_	
+2	xxx.	xxx.	NOUN	ncfp000	_	0	root	_	
+
+#text = na ena, . e no puedo.
+1	na	na	PROPN	np00000	_	0	root	_	
+2	ena,	ena,	PROPN	_	_	1	flat	_	
+3	.	.	PUNCT	fp	PunctType=Peri	1	punct	_	
+4	e	e	CCONJ	cc	_	5	cc	_	
+5	no	no	ADV	rn	Polarity=Neg	1	conj	_	
+6	puedo.	puedo.	PUNCT	fp	PunctType=Dash	1	punct	_	
+
+#text = +< no se puede abrir.
+1	+<	+<	PUNCT	fg	_	5	punct	_	
+2	no	no	ADV	rn	Polarity=Neg	5	advmod	_	
+3	se	�l	PRON	p0000000	Case=Acc|Person=3|PrepCase=Npr|PronType=Prs|Reflex=Yes	5	expl:pv	_	
+4	puede	poder	AUX	vmip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	
+5	abrir.	abrir	VERB	vmn0000	VerbForm=Inf	0	root	_	
+
+#text = tete.
+1	tete.	tete.	X	np00000	_	0	root	_	
+
+#text = no se abre.
+1	no	no	ADV	rn	Polarity=Neg	3	advmod	_	
+2	se	�l	PRON	p0000000	Case=Acc|Person=3|PrepCase=Npr|PronType=Prs|Reflex=Yes	3	expl:pv	_	
+3	abre.	abreer	VERB	vmip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	
+
+#text = qué es] ese?
+1	qué	qu�	PUNCT	fa	_	0	root	_	
+2	es]	es]	PUNCT	fa	_	1	punct	_	
+3	ese?	ese?	PUNCT	fit	PunctSide=Fin|PunctType=Excl	1	punct	_	
+
+#text = qué es eso, a_ver?
+1	qué	qu�	PUNCT	fg	_	2	punct	_	
+2	es	ser	AUX	vsip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	
+3	eso,	eso,	ADV	rg	_	2	advmod	_	
+4	a_ver?	a_ver?	PUNCT	fa	PunctType=Quot	2	punct	_	
+
+#text = qué parece?
+1	qué	qu�	PUNCT	fa	_	2	punct	_	
+2	parece?	parecer	VERB	vmip1s0	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	0	root	_	
+
+#text = como una pinza, .. no?
+1	como	como	SCONJ	cs	_	3	mark	_	
+2	una	uno	DET	di0fs0	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	3	det	_	
+3	pinza,	pinza,	NOUN	ncfs000	Gender=Fem|Number=Sing	0	root	_	
+4	..	..	PUNCT	fa	_	3	punct	_	
+5	no?	no?	PUNCT	fat	PunctSide=Fin|PunctType=Excl	3	punct	_	
+
+#text = pero no la puedo abrir.
+1	pero	pero	CCONJ	cc	_	5	advmod	_	
+2	no	no	ADV	rn	Polarity=Neg	5	advmod	_	
+3	la	�l	PRON	pp3fsa00	Case=Acc|Gender=Fem|Number=Sing|Person=3|PrepCase=Npr|PronType=Prs	5	obj	_	
+4	puedo	poder	AUX	vmip1s0	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	5	aux	_	
+5	abrir.	abrir	VERB	vmn0000	VerbForm=Fin	0	root	_	
+
+#text = no podés abrir?
+1	no	no	ADV	rn	Polarity=Neg	2	advmod	_	
+2	podés	pod�s	X	np00000	_	0	root	_	
+3	abrir?	abrir	VERB	vmn0000	VerbForm=Fin	2	xcomp	_	
+
+#text = no.
+1	no.	no.	PUNCT	fe	PunctType=Quot	0	root	_	
+
+#text = a_ver?
+1	a_ver?	a_ver?	X	np00000	_	0	root	_	
+
+#text = xxx papa, xxx papa xxx.
+1	xxx	xxx	PROPN	np00000	_	0	root	_	
+2	papa,	papa	PROPN	_	_	1	flat	_	
+3	xxx	xxx	PROPN	_	_	1	flat	_	
+4	papa	papa	NOUN	nc	Gender=Masc|Number=Sing	1	flat	_	
+5	xxx.	xxx.	X	_	_	1	appos	_	
+
+#text = y fijate.
+1	y	y	CCONJ	cc	_	2	cc	_	
+2	fijate.	fijate.	X	np00000	_	0	root	_	
+
+#text = no estás haciendo una carne?
+1	no	no	ADV	rn	Polarity=Neg	2	advmod	_	
+2	estás	estar	VERB	vmip1s0	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	
+3	haciendo	hacer	VERB	vmg0000	VerbForm=Ger	2	xcomp	_	
+4	una	uno	DET	di0fs0	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	5	det	_	
+5	carne?	carne?	NOUN	ncfs000	Gender=Fem|Number=Sing	3	obj	_	
+
+#text = sí.
+1	sí.	s�.	PUNCT	fp	_	0	root	_	
+
+#text = sí?
+1	sí?	s�?	PUNCT	fa	PunctType=Quot	0	root	_	
+
+#text = xxx.
+1	xxx.	xxx.	X	np00000	_	0	root	_	
+
+#text = +< cuidado, despacito.
+1	+<	+<	PUNCT	fg	_	3	punct	_	
+2	cuidado,	cuidado,	ADJ	aq0msp	Gender=Masc|Number=Sing|VerbForm=Part	3	amod	_	
+3	despacito.	despacito.	NOUN	ncms000	Gender=Masc|Number=Sing	0	root	_	
+
+#text = ahí está xxx.
+1	ahí	ah�	X	np00000	_	0	root	_	
+2	está	está	X	_	_	1	flat	_	
+3	xxx.	xxx.	X	_	_	1	flat	_	
+
+#text = xxx papa xxx.
+1	xxx	xxx	PROPN	np00000	_	0	root	_	
+2	papa	papa	PROPN	_	_	1	flat	_	
+3	xxx.	xxx.	X	_	_	1	flat	_	
+
+#text = ya está?
+1	ya	ya	ADV	rg	_	0	root	_	
+2	está?	está	PUNCT	fa	PunctSide=Fin|PunctType=Excl	1	punct	_	
+
+#text = sí.
+1	sí.	s�.	PUNCT	fp	_	0	root	_	
+
+#text = +< podemos comer?
+1	+<	+<	PUNCT	fg	PunctType=Dash	3	punct	_	
+2	podemos	poder	AUX	vmip1p0	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	3	aux	_	
+3	comer?	comerar	VERB	vmn0000	VerbForm=Inf	0	root	_	
+
+#text = tengo hambre.
+1	tengo	tener	VERB	vmip1s0	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	
+2	hambre.	hambre.	NOUN	ncms000	Gender=Masc|Number=Sing	1	obj	_	
+
+#text = xxx echita.
+1	xxx	xxx	PROPN	np00000	_	0	root	_	
+2	echita.	echita.	PUNCT	fp	PunctType=Quot	1	amod	_	
+
+#text = puedo comer la pizza?
+1	puedo	poder	AUX	vmip1s0	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	2	aux	_	
+2	comer	comer	VERB	vmn0000	VerbForm=Inf	0	root	_	
+3	la	el	DET	da0fs0	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	
+4	pizza?	pizza?	NOUN	ncfs000	Gender=Fem|Number=Sing	2	obj	_	
+
+#text = sí.
+1	sí.	s�.	PUNCT	fp	_	0	root	_	
+
+#text = que está acá en la cajita?
+1	que	que	SCONJ	cs	_	2	mark	_	
+2	está	estar	VERB	vmip1p0	Mood=Ind|Number=Plur|Tense=Pres|VerbForm=Fin	0	root	_	
+3	acá	acá	X	n000	_	2	advmod	_	
+4	en	en	ADP	sps00	_	6	case	_	
+5	la	el	DET	da0fs0	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	
+6	cajita?	cajita?	NOUN	ncfs000	Gender=Fem|Number=Sing	2	obl	_	
+
+#text = xxx.
+1	xxx.	xxx.	X	np00000	_	0	root	_	
+
+#text = sí?
+1	sí?	s�?	PUNCT	fa	PunctType=Quot	0	root	_	
+
+#text = ay qué xxx.
+1	ay	ay	X	np00000	_	0	root	_	
+2	qué	qu�	X	_	_	1	dep	_	
+3	xxx.	xxx.	X	_	_	1	dep	_	
+
+#text = ñam ñam ñam.
+1	ñam	�am	PROPN	np00000	_	0	root	_	
+2	ñam	�am	PROPN	_	_	1	flat	_	
+3	ñam.	�am.	X	n	_	1	flat	_	
+
+#text = ah, esto, esto es, esto es más, más xxx.
+1	ah,	ah,	X	np00000	_	9	dep	_	
+2	esto,	esto,	CCONJ	cc	_	1	fixed	_	
+3	esto	este	PRON	pd0ns000	Number=Sing|PronType=Dem	9	nsubj	_	
+4	es,	es,	PUNCT	fc	PunctType=Comm	3	flat	_	
+5	esto	este	PRON	pd0ns000	Number=Sing|PronType=Dem	9	nsubj	_	
+6	es	ser	AUX	vsip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	cop	_	
+7	más,	más,	PUNCT	fg	_	9	punct	_	
+8	más	m�s	X	n000	_	9	dep	_	
+9	xxx.	xxx.	X	_	_	0	root	_	
+
+#text = +< xxx, echita, xxx.
+1	+<	+<	PUNCT	fa	_	2	punct	_	
+2	xxx,	xxx,	X	np00000	_	4	dep	_	
+3	echita,	echita,	X	n0	_	4	dep	_	
+4	xxx.	xxx.	X	_	_	0	root	_	
+
+#text = +< am, ñam, ñam, ñam.
+1	+<	+<	PUNCT	fa	_	5	punct	_	
+2	am,	am,	X	n0000	_	5	dep	_	
+3	ñam,	�am,	X	n000	_	5	dep	_	
+4	ñam,	�am,	X	n000	_	5	dep	_	
+5	ñam.	�am.	X	n000	_	0	root	_	
+
+#text = +< xxx?
+1	+<	+<	PUNCT	fa	_	2	punct	_	
+2	xxx?	xxx?	X	np00000	_	0	root	_	
+
+#text = ananá.
+1	ananá.	ananá.	PUNCT	fp	_	0	root	_	
+
+#text = ananá?
+1	ananá?	ananá?	PUNCT	fa	PunctType=Excl	0	root	_	
+
+#text = ananá.
+1	ananá.	ananá.	PUNCT	fp	_	0	root	_	
+
+#text = vos a tomar atete?
+1	vos	t�	VERB	vmip1s0	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	
+2	a	a	ADP	sps00	_	3	mark	_	
+3	tomar	tomar	VERB	vmn0000	VerbForm=Inf	1	xcomp	_	
+4	atete?	atete?	NOUN	ncms000	Gender=Masc|Number=Sing	3	obj	_	
+
+#text = sí.
+1	sí.	s�.	PUNCT	fp	_	0	root	_	
+
+#text = mamá, quiere tete.
+1	mamá,	mamá,	X	np00000	_	2	nsubj	_	
+2	quiere	querer	VERB	vmip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	
+3	tete.	tete.	NOUN	ncms000	Gender=Masc|Number=Sing	2	obj	_	
+
+#text = qué más hay?
+1	qué	qu�	PUNCT	fa	_	2	punct	_	
+2	más	m�s	X	n000	_	0	root	_	
+3	hay?	hay?	PUNCT	fz	PunctType=Quot	2	punct	_	
+
+#text = xxx tiene xxx tiene ahí.
+1	xxx	xxx	PROPN	np00000	_	2	nsubj	_	
+2	tiene	tener	VERB	vmip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	
+3	xxx	xxx	NOUN	ncfs000	_	2	obj	_	
+4	tiene	tener	VERB	vmip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	ccomp	_	
+5	ahí.	ah�.	PUNCT	fp	_	4	obj	_	
+
+#text = carne?
+1	carne?	carne?	NOUN	ncfs000	Gender=Masc|Number=Sing	0	root	_	
+
+#text = sí.
+1	sí.	s�.	PUNCT	fp	_	0	root	_	
+
+#text = vota vuno vota i ata.
+1	vota	votar	VERB	vmip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	
+2	vuno	vuno	NOUN	ncms000	Gender=Masc|Number=Sing	1	obj	_	
+3	vota	votar	PROPN	_	_	2	flat	_	
+4	i	i	PROPN	_	_	2	flat	_	
+5	ata.	ata.	PROPN	_	_	2	flat	_	
+
+#text = m.
+1	m.	m.	NOUN	ncms000	_	0	root	_	
+
+#text = no, no puedo xxx.
+1	no,	no,	PUNCT	fe	PunctType=Quot	4	punct	_	
+2	no	no	ADV	rn	Polarity=Neg	4	advmod	_	
+3	puedo	poder	AUX	vmip1s0	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	aux	_	
+4	xxx.	xxx.	X	np00000	_	0	root	_	
+
+#text = xxx cortá, mirá.
+1	xxx	xxx	PROPN	np00000	_	0	root	_	
+2	cortá,	cortá,	X	_	_	1	dep	_	
+3	mirá.	mirá	PUNCT	fp	PunctType=Dash	1	dep	_	
+
+#text = tetete, tete xxx.
+1	tetete,	tetete,	X	np00000	_	2	dep	_	
+2	tete	tete	PROPN	_	_	0	root	_	
+3	xxx.	xxx.	X	_	_	1	flat	_	
+
+#text = m, ... m, ay.
+1	m,	m,	X	np00000	_	4	dep	_	
+2	...	...	PUNCT	fs	PunctType=Elip	1	punct	_	
+3	m,	m,	X	n00000	_	4	dep	_	
+4	ay.	ay.	X	n	_	0	root	_	
+
+#text = qué estás haciendo?
+1	qué	qu�	PUNCT	fg	_	0	root	_	
+2	estás	estás	INTJ	_	_	1	fixed	_	
+3	haciendo?	haciendo?	PUNCT	fi	PunctType=Elip	1	punct	_	
+
+#text = contame, Alexander.
+1	contame,	contame	VERB	vmip3s0	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	0	root	_	
+2	Alexander.	alexander.	PUNCT	fp	PunctType=Quot	1	punct	_	
+
+#text = ataro.
+1	ataro.	ataro.	X	np00000	_	0	root	_	
+
+#text = cerrá ahí.
+1	cerrá	cerra�	PUNCT	fe	PunctType=Quot	0	root	_	
+2	ahí.	ah�.	PUNCT	fp	_	1	punct	_	
+
+#text = despacio.
+1	despacio.	despacio.	PUNCT	fp	PunctType=Peri	0	root	_	
+
+#text = ahí te veo, muy bien.
+1	ahí	ah�	X	np00000	_	3	nsubj	_	
+2	te	t�	PRON	pp2cs000	Case=Dat|Number=Sing|Person=2|PrepCase=Npr|PronType=Prs	3	expl:pv	_	
+3	veo,	ver	VERB	vmip1s0	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	
+4	muy	mucho	ADV	rg	_	5	advmod	_	
+5	bien.	bien.	ADV	rg	_	3	advmod	_	
+
+#text = sí.
+1	sí.	s�.	PUNCT	fp	_	0	root	_	
+
+#text = sí.
+1	sí.	s�.	PUNCT	fp	_	0	root	_	
+
+#text = qué estás cortando?
+1	qué	qu�	PUNCT	fg	_	0	root	_	
+2	estás	esta.	PUNCT	fa	PunctType=Quot	1	punct	_	
+3	cortando?	cortando?	PUNCT	fi	PunctType=Excl	1	punct	_	
+
+#text = la carne?
+1	la	el	DET	da0fs0	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	
+2	carne?	carne?	NOUN	ncfs000	Gender=Fem|Number=Sing	0	root	_	
+
+#text = sí.
+1	sí.	s�.	PUNCT	fp	_	0	root	_	
+
+#text = le estás sacando la grasa?
+1	le	�l	PRON	pp3csd00	Case=Dat|Number=Sing|Person=3|PronType=Prs	2	obl:arg	_	
+2	estás	estar	VERB	vmip1s0	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	0	root	_	
+3	sacando	sacar	VERB	vmg0000	VerbForm=Ger	2	xcomp	_	
+4	la	el	DET	da0fs0	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	
+5	grasa?	grasa?	NOUN	ncfs000	Gender=Fem|Number=Sing	3	obj	_	
+
+#text = como hace el carnicero?
+1	como	como	SCONJ	cs	_	2	mark	_	
+2	hace	hacer	VERB	vmip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	
+3	el	el	DET	da0ms0	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	
+4	carnicero?	carnicero?	NOUN	ncms000	Gender=Masc|Number=Sing	2	nsubj	_	
+
+#text = como hace tu papá?
+1	como	como	SCONJ	cs	_	2	mark	_	
+2	hace	hacer	VERB	vmip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	
+3	tu	tu	DET	dp2css	Number=Sing|Number[psor]=Sing|Person=2|Poss=Yes|PronType=Prs	4	det	_	
+4	papá?	papá?	X	np00000	_	2	obj	_	
+
+#text = que le tiene que salir la grasa, seguro?
+1	que	que	PRON	pr0cn000	PronType=Rel	3	nsubj	_	
+2	le	�l	PRON	pp3csd00	Case=Dat|Number=Sing|Person=3|PronType=Prs	5	expl	_	
+3	tiene	tener	VERB	vmip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	
+4	que	que	SCONJ	cs	_	5	cc	_	
+5	salir	salir	VERB	vmn0000	VerbForm=Inf	3	conj	_	
+6	la	el	DET	da0fs0	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	
+7	grasa,	grasa,	NOUN	ncfs000	Gender=Fem|Number=Sing	5	obj	_	
+8	seguro?	seguro?	PUNCT	fit	PunctSide=Fin|PunctType=Qest	3	punct	_	
+
+#text = m, nate.
+1	m,	m,	X	np00000	_	0	root	_	
+2	nate.	nate.	PUNCT	fp	PunctType=Quot	1	dep	_	
+
+#text = y cuándo comemos eso?
+1	y	y	CCONJ	cc	_	3	cc	_	
+2	cuándo	cuándo	ADV	rg	_	3	advmod	_	
+3	comemos	comer	VERB	vmip1p0	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	
+4	eso?	eso?	PUNCT	fi	PunctSide=Fin|PunctType=Excl	3	punct	_	
+
+#text = tengo hambre.
+1	tengo	tener	VERB	vmip1s0	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	
+2	hambre.	hambre.	NOUN	ncms000	Gender=Masc|Number=Sing	1	obj	_	
+
+#text = xxx.
+1	xxx.	xxx.	X	np00000	_	0	root	_	
+
+#text = xxx, yo espero, yo espero.
+1	xxx,	xxx,	X	np00000	_	3	nsubj	_	
+2	yo	yo	PRON	pp1csn00	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	
+3	espero,	esperar	VERB	vmip1s0	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	
+4	yo	yo	PRON	pp1csn00	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	obj	_	
+5	espero.	espero.	PUNCT	fp	PunctType=Dash	3	punct	_	
+
+#text = tada.
+1	tada.	tada.	PUNCT	fp	PunctType=Quot	0	root	_	
+
+#text = ahí está?
+1	ahí	ah�	X	np00000	_	0	root	_	
+2	está?	está	PUNCT	fa	PunctType=Excl	1	punct	_	
+
+#text = +< xxx.
+1	+<	+<	PUNCT	fz	_	2	punct	_	
+2	xxx.	xxx.	NOUN	ncfp000	_	0	root	_	
+
+#text = puedo comer?
+1	puedo	poder	AUX	vmip1s0	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	2	aux	_	
+2	comer?	comerar	VERB	vmn0000	VerbForm=Inf	0	root	_	
+
+#text = sí, podés comer.
+1	sí,	s�,	X	np00000	_	2	dep	_	
+2	podés	podés	PROPN	np0000	_	0	root	_	
+3	comer.	comer.	NOUN	_	_	1	dep	_	
+
+#text = xxx.
+1	xxx.	xxx.	X	np00000	_	0	root	_	
+
+#text = +< ahí, xxx gracias.
+1	+<	+<	PUNCT	fa	_	2	punct	_	
+2	ahí,	ah�,	X	np00000	_	4	dep	_	
+3	xxx	xxx	X	_	_	2	dep	_	
+4	gracias.	gracias.	NOUN	_	_	0	root	_	
+
+#text = no, xxx más.
+1	no,	no,	X	np00000	_	2	dep	_	
+2	xxx	xxx	PROPN	np0000	_	0	root	_	
+3	más.	m�s.	X	_	_	2	dep	_	
+
+#text = hay más?
+1	hay	haber	VERB	vaip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	
+2	más?	más?	SYM	p	_	1	obj	_	
+
+#text = +< xxx.
+1	+<	+<	PUNCT	fz	_	2	punct	_	
+2	xxx.	xxx.	NOUN	ncfp000	_	0	root	_	
+
+#text = sí, hay más.
+1	sí,	sa�,	PUNCT	fe	PunctType=Quot	2	punct	_	
+2	hay	haber	VERB	vaip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	
+3	más.	m�s.	SYM	p	_	2	obj	_	
+
+#text = hay más comida?
+1	hay	haber	VERB	vaip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	
+2	más	m�s	X	np00000	_	3	nummod	_	
+3	comida?	comida?	NOUN	ncfs000	Gender=Fem|Number=Sing	1	obj	_	
+
+#text = sí, hay más.
+1	sí,	sa�,	PUNCT	fe	PunctType=Quot	2	punct	_	
+2	hay	haber	VERB	vaip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	
+3	más.	m�s.	SYM	p	_	2	obj	_	
+
+#text = +< qué bueno.
+1	+<	+<	PUNCT	fa	_	3	punct	_	
+2	qué	qu�	X	_	_	3	dep	_	
+3	bueno.	bueno.	NOUN	ncms000	Number=Sing	0	root	_	
+
+#text = m.
+1	m.	m.	NOUN	ncms000	_	0	root	_	
+
+#text = porque yo no desayuné.
+1	porque	porque	SCONJ	cs	_	2	mark	_	
+2	yo	yo	PRON	pp1csn00	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	root	_	
+3	no	no	ADV	rn	Polarity=Neg	2	advmod	_	
+4	desayuné.	desayuné.	PUNCT	fg	PunctType=Dash	3	punct	_	
+
+#text = xxx.
+1	xxx.	xxx.	X	np00000	_	0	root	_	
+
+#text = porque vos no xxx.
+1	porque	porque	SCONJ	cs	_	4	mark	_	
+2	vos	t�	PRON	pp2cs000	Case=Acc|Number=Sing|Person=2|PrepCase=Npr|PronType=Prs	4	nsubj	_	
+3	no	no	ADV	rn	Polarity=Neg	4	advmod	_	
+4	xxx.	xxx.	X	n0000	_	0	root	_	
+
+#text = por qué yo que, no comí?
+1	por	por	ADP	sps00	_	3	case	_	
+2	qué	qu�	PUNCT	fa	_	3	punct	_	
+3	yo	yo	PRON	pp1csn00	Case=Nom|Number=Sing|Person=1|PronType=Prs	6	nsubj	_	
+4	que,	que,	INTJ	_	_	3	flat	_	
+5	no	no	ADV	rn	_	6	advmod	_	
+6	comí?	com�?	X	_	_	0	root	_	
+
+#text = y porque llegaba tarde, . no tenía tiempo.
+1	y	y	CCONJ	cc	_	3	cc	_	
+2	porque	porque	SCONJ	cs	_	3	mark	_	
+3	llegaba	llegar	VERB	vmii3s0	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	7	advcl	_	
+4	tarde,	tarde,	ADV	rg	_	3	advmod	_	
+5	.	.	PUNCT	fp	PunctType=Peri	3	punct	_	
+6	no	no	ADV	rn	Polarity=Neg	7	advmod	_	
+7	tenía	tener	VERB	vmip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	
+8	tiempo.	tiempo.	NOUN	ncms000	Gender=Masc|Number=Sing	7	obj	_	
+
+#text = ya está.
+1	ya	ya	ADV	rg	_	0	root	_	
+2	está.	está	PUNCT	fp	PunctType=Quot	1	punct	_	
+
+#text = ya está?
+1	ya	ya	ADV	rg	_	0	root	_	
+2	está?	está	PUNCT	fa	PunctSide=Fin|PunctType=Excl	1	punct	_	
+
+#text = sí.
+1	sí.	s�.	PUNCT	fp	_	0	root	_	
+
+#text = gracias.
+1	gracias.	gracias.	NOUN	ncfs000	Gender=Fem|Number=Sing	0	root	_	
+
+#text = y a qué hora entrás al jardín?
+1	y	y	CCONJ	cc	_	4	cc	_	
+2	a	a	ADP	sps00	_	4	case	_	
+3	qué	qu�	X	n00	_	4	dep	_	
+4	hora	hora	NOUN	ncfs000	Gender=Fem|Number=Sing	0	root	_	
+5	entrás	entr�s	PROPN	_	_	4	flat	_	
+6	al	al	PROPN	_	_	4	flat	_	
+7	jardín?	jardín?	PROPN	_	_	4	flat	_	
+
+#text = xxx.
+1	xxx.	xxx.	X	np00000	_	0	root	_	
+
+#text = +< a_ver?
+1	+<	+<	PUNCT	fa	_	2	punct	_	
+2	a_ver?	a_ver?	X	np00000	_	0	root	_	
+
+#text = a qué hora entra?
+1	a	a	ADP	sps00	_	3	case	_	
+2	qué	qu�	PUNCT	fs	_	3	punct	_	
+3	hora	hora	NOUN	ncfs000	Gender=Fem|Number=Sing	0	root	_	
+4	entra?	entra?	PUNCT	fe	PunctType=Excl	3	punct	_	
+
+#text = eh, a las, eh, nueve menos cuarto.
+1	eh,	eh,	X	np00000	_	7	dep	_	
+2	a	a	ADP	sps00	_	3	case	_	
+3	las,	las,	PROPN	np000	_	1	flat	_	
+4	eh,	eh,	X	_	_	1	flat	_	
+5	nueve	nueve	NUM	_	NumForm=Word|NumType=Card	1	flat	_	
+6	menos	menos	ADV	_	Degree=Cmp	5	compound	_	
+7	cuarto.	cuarto.	NOUN	ncms000	Gender=Masc|Number=Sing	0	root	_	
+
+#text = +< xxx.
+1	+<	+<	PUNCT	fz	_	2	punct	_	
+2	xxx.	xxx.	NOUN	ncfp000	_	0	root	_	
+
+#text = qué pasa?
+1	qué	qu�	PUNCT	fa	_	2	punct	_	
+2	pasa?	pasa?	NOUN	ncms000	Gender=Masc|Number=Sing	0	root	_	
+
+#text = xxx.
+1	xxx.	xxx.	X	np00000	_	0	root	_	
+
+#text = qué es eso?
+1	qué	qu�	PUNCT	fg	_	2	advmod	_	
+2	es	ser	AUX	vsip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	
+3	eso?	eso?	PUNCT	fi	PunctSide=Fin|PunctType=Excl	2	punct	_	
+
+#text = m, chicheche.
+1	m,	m,	X	np00000	_	2	dep	_	
+2	chicheche.	chicheche.	X	n00	_	0	root	_	
+
+#text = qué es?
+1	qué	qu�	PUNCT	fa	_	0	root	_	
+2	es?	es?	PUNCT	fa	PunctType=Excl	1	punct	_	
+
+#text = m?
+1	m?	m?	X	np00000	_	0	root	_	
+
+#text = chicheche.
+1	chicheche.	chicheche.	X	np00000	_	0	root	_	
+
+#text = ya está, xxx.
+1	ya	ya	ADV	rg	_	3	advmod	_	
+2	está,	está	PUNCT	fc	PunctType=Quot	3	dep	_	
+3	xxx.	xxx.	X	n00	_	0	root	_	
+
+#text = +< ya están.
+1	+<	+<	PUNCT	fa	_	2	punct	_	
+2	ya	ya	ADV	rg	_	0	root	_	
+3	están.	están.	PUNCT	fp	_	2	punct	_	
+
+#text = xxx.
+1	xxx.	xxx.	X	np00000	_	0	root	_	
+
+#text = xxx.
+1	xxx.	xxx.	X	np00000	_	0	root	_	
+
+#text = zapatilla.
+1	zapatilla.	zapatilla.	NOUN	ncfs000	Gender=Fem|Number=Sing	0	root	_	
+
+#text = me gusta tu campera.
+1	me	yo	PRON	pp1cs000	Case=Dat|Number=Sing|Person=1|PrepCase=Npr|PronType=Prs	2	obl:arg	_	
+2	gusta	gustar	VERB	vmip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	
+3	tu	tu	DET	dp2css	Number=Sing|Number[psor]=Sing|Person=2|Poss=Yes|PronType=Prs	4	det	_	
+4	campera.	campera.	NOUN	ncfs000	Gender=Fem|Number=Sing	2	nsubj	_	
+
+#text = ahí xxx, xxx.
+1	ahí	ah�	X	np00000	_	3	dep	_	
+2	xxx,	xxx,	X	n000	_	3	dep	_	
+3	xxx.	xxx.	X	_	_	0	root	_	
+
+#text = +< xxx.
+1	+<	+<	PUNCT	fz	_	2	punct	_	
+2	xxx.	xxx.	NOUN	ncfp000	_	0	root	_	
+
+#text = zapatiilla?
+1	zapatiilla?	zapatiilla?	NOUN	ncfs000	Gender=Fem|Number=Sing	0	root	_	
+
+#text = ay, me encantan.
+1	ay,	ay,	X	np00000	_	3	nsubj	_	
+2	me	yo	PRON	pp1cs000	Case=Dat|Number=Sing|Person=1|PrepCase=Npr|PronType=Prs	3	expl:pv	_	
+3	encantan.	encantanar	VERB	vmip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	
+
+#text = +< xxx.
+1	+<	+<	PUNCT	fz	_	2	punct	_	
+2	xxx.	xxx.	NOUN	ncfp000	_	0	root	_	
+
+#text = ese es Simba!
+1	ese	ese	PRON	pd0ms000	Gender=Masc|Number=Sing|PronType=Dem	3	nsubj	_	
+2	es	ser	AUX	vsip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	
+3	Simba!	simba!	PROPN	np00000	_	0	root	_	
+
+#text = +< xxx.
+1	+<	+<	PUNCT	fz	_	2	punct	_	
+2	xxx.	xxx.	NOUN	ncfp000	_	0	root	_	
+
+#text = sí.
+1	sí.	s�.	PUNCT	fp	_	0	root	_	
+
+#text = +< tenés al Rey_León.
+1	+<	+<	PUNCT	fa	_	2	punct	_	
+2	tenés	ten�s	X	n00000	_	0	root	_	
+3	al	al	ADP	sps00	_	4	case	_	
+4	Rey_León.	rey_le�n.	X	np00000	_	2	nmod	_	
+
+#text = +< xxx.
+1	+<	+<	PUNCT	fz	_	2	punct	_	
+2	xxx.	xxx.	NOUN	ncfp000	_	0	root	_	
+
+#text = mirá!
+1	mirá!	mirá!	PUNCT	fe	PunctType=Quot	0	root	_	
+
+#text = el Rey_León es mi película favorita.
+1	el	el	DET	da0ms0	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	
+2	Rey_León	rey_le�n	PROPN	np00000	_	5	nsubj	_	
+3	es	ser	AUX	vsip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	
+4	mi	mi	DET	dp2css	Number=Sing|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	5	det	_	
+5	película	película	NOUN	ncfs000	Gender=Fem|Number=Sing	0	root	_	
+6	favorita.	favorita.	PROPN	_	_	5	amod	_	
+
+#text = no.
+1	no.	no.	PUNCT	fe	PunctType=Quot	0	root	_	
+
+#text = cómo que no?
+1	cómo	cómo	X	np00000	_	0	root	_	
+2	que	que	PRON	pr0cn000	PronType=Rel	1	fixed	_	
+3	no?	no?	PUNCT	fa	PunctSide=Fin|PunctType=Excl	1	punct	_	
+
+#text = xxx, mochicho.
+1	xxx,	xxx,	X	np00000	_	2	dep	_	
+2	mochicho.	mochicho.	X	n00	_	0	root	_	
+
+#text = pero vos viste El_Rey_León?
+1	pero	pero	CCONJ	cc	_	3	advmod	_	
+2	vos	t�	PRON	pp2cs000	Case=Acc|Number=Sing|Person=2|PrepCase=Npr|PronType=Prs	3	obj	_	
+3	viste	ver	VERB	vmip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	
+4	El_Rey_León?	el_rey_le�n?	PROPN	np00000	_	3	obj	_	
+
+#text = sí.
+1	sí.	s�.	PUNCT	fp	_	0	root	_	
+
+#text = te gusta?
+1	te	t�	PRON	pp2cs000	Case=Dat|Number=Sing|Person=2|PrepCase=Npr|PronType=Prs	2	expl:pv	_	
+2	gusta?	gusta?	NOUN	ncfs000	Number=Sing	0	root	_	
+
+#text = xxx mamá xxx tu papá?
+1	xxx	xxx	PROPN	np00000	_	5	compound	_	
+2	mamá	mamá	X	_	_	1	flat	_	
+3	xxx	xxx	PROPN	_	_	1	flat	_	
+4	tu	tu	DET	p2s	Number=Sing|Number[psor]=Sing|Person=2|Poss=Yes|PronType=Prs	1	flat	_	
+5	papá?	papá?	X	_	_	0	root	_	
+
+#text = mjm.
+1	mjm.	mjm.	X	np00000	_	0	root	_	
+
+#text = xxx.
+1	xxx.	xxx.	X	np00000	_	0	root	_	
+
+#text = achubuana@si.
+1	achubuana@si.	achubuana@si.	X	np00000	_	0	root	_	
+
+#text = sí, bena.
+1	sí,	s�,	X	np00000	_	2	dep	_	
+2	bena.	bena.	NOUN	ncfs000	Gender=Fem|Number=Sing	0	root	_	
+
+#text = querés un poco de jugo?
+1	querés	querer	NOUN	ncms000	Gender=Masc|Number=Sing	0	root	_	
+2	un	uno	DET	rg	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	1	advmod	_	
+3	poco	poco	PRON	pi0ms000	Gender=Masc|NumType=Card|PronType=Ind	2	fixed	_	
+4	de	de	ADP	sps00	_	5	case	_	
+5	jugo?	jugo?	NOUN	ncms000	Gender=Masc|Number=Sing	1	nmod	_	
+
+#text = no.
+1	no.	no.	PUNCT	fe	PunctType=Quot	0	root	_	
+
+#text = no?
+1	no?	no?	PUNCT	fa	PunctType=Excl	0	root	_	
+
+#text = vos querés?
+1	vos	t�	INTJ	_	_	2	dep	_	
+2	querés?	quer�s?	X	n000	_	0	root	_	
+
+#text = no, gracias.
+1	no,	no,	PUNCT	fg	PunctType=Quot	2	punct	_	
+2	gracias.	gracias.	NOUN	nc	Gender=Fem|Number=Sing	0	root	_	
+
+#text = notapato, xxx +/.
+1	notapato,	notapato,	PROPN	np00000	_	0	root	_	
+2	xxx	xxx	PROPN	_	_	1	flat	_	
+3	+/.	+/.	PUNCT	fp	_	1	punct	_	
+
+#text = +< y él no toma jugo, . toma agua.
+1	+<	+<	PUNCT	fg	_	5	punct	_	
+2	y	y	CCONJ	cc	_	5	cc	_	
+3	él	�l	X	np00000	_	5	nsubj	_	
+4	no	no	ADV	rn	Polarity=Neg	5	advmod	_	
+5	toma	tomar	VERB	vmip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	
+6	jugo,	jugo,	NOUN	ncms000	Gender=Masc|Number=Sing	5	obj	_	
+7	.	.	PUNCT	fp	PunctType=Peri	5	punct	_	
+8	toma	tomar	VERB	vmip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	advcl	_	
+9	agua.	agua.	PUNCT	fp	PunctType=Peri	8	obj	_	
+
+#text = +< ah, . toma agua?
+1	+<	+<	PUNCT	fa	_	2	punct	_	
+2	ah,	ah,	X	n0000	_	4	dep	_	
+3	.	.	PUNCT	fp	PunctType=Peri	2	punct	_	
+4	toma	tomar	VERB	vmip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	
+5	agua?	agua?	NOUN	ncfs000	Gender=Fem|Number=Sing	4	obj	_	
+
+#text = mirá.
+1	mirá.	mirá	PUNCT	fp	PunctType=Quot	0	root	_	
+
+#text = ata, xxx papa.
+1	ata,	ata,	PROPN	np00000	_	0	root	_	
+2	xxx	xxx	PROPN	_	_	1	flat	_	
+3	papa.	papa.	X	_	_	1	flat	_	
+
+#text = atatote.
+1	atatote.	atatote.	X	np00000	_	0	root	_	
+
+#text = eso?
+1	eso?	eso?	PUNCT	fi	PunctType=Excl	0	root	_	
+
+#text = a_ver, creo que hir, hirvió xxx el agua para el mate.
+1	a_ver,	a_ver,	X	np00000	_	2	nsubj	_	
+2	creo	creer	VERB	vmip1s0	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	
+3	que	que	SCONJ	cs	_	8	mark	_	
+4	hir,	hir,	PROPN	np00000	_	8	nsubj	_	
+5	hirvió	hirvió	PROPN	_	_	4	flat	_	
+6	xxx	xxx	PROPN	_	_	4	flat	_	
+7	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	
+8	agua	agua	NOUN	ncfs000	Gender=Fem|Number=Sing	2	ccomp	_	
+9	para	para	ADP	sps00	_	11	case	_	
+10	el	el	DET	da0ms0	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	
+11	mate.	mate.	NOUN	ncms000	Gender=Masc|Number=Sing	8	nmod	_	
+
+#text = sí.
+1	sí.	s�.	PUNCT	fp	_	0	root	_	
+
+#text = a dónde hacemos el mate?
+1	a	a	ADP	sps00	_	2	case	_	
+2	dónde	dónde	PROPN	np00000	_	3	obl	_	
+3	hacemos	hacer	VERB	vmip1p0	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	
+4	el	el	DET	da0ms0	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	
+5	mate?	mate?	NOUN	ncms000	Gender=Masc|Number=Sing	3	obj	_	
+
+#text = cuidado, no te quemes.
+1	cuidado,	cuidado,	ADJ	aq0msp	Gender=Masc|Number=Sing|VerbForm=Part	0	root	_	
+2	no	no	ADV	rn	Polarity=Neg	1	advmod	_	
+3	te	t�	PRON	pp2cs000	Case=Dat|Number=Sing|Person=2|PrepCase=Npr|PronType=Prs	1	obl:arg	_	
+4	quemes.	quemes.	PUNCT	fg	PunctType=Dash	1	punct	_	
+
+#text = xxx.
+1	xxx.	xxx.	X	np00000	_	0	root	_	
+
+#text = veova.
+1	veova.	veova.	PUNCT	fp	PunctType=Quot	0	root	_	
+
+#text = ay, creo que perdí el mate.
+1	ay,	ay,	X	np00000	_	2	nsubj	_	
+2	creo	creer	VERB	vmip1s0	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	
+3	que	que	SCONJ	cs	_	4	mark	_	
+4	perdí	perdrar	VERB	vmip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	ccomp	_	
+5	el	el	DET	da0ms0	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	
+6	mate.	mate.	NOUN	ncms000	Gender=Masc|Number=Sing	4	obj	_	
+
+#text = no podemos tomar mate.
+1	no	no	ADV	rn	Polarity=Neg	3	advmod	_	
+2	podemos	poder	AUX	vmip1p0	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	3	aux	_	
+3	tomar	tomar	VERB	vmn0000	VerbForm=Inf	0	root	_	
+4	mate.	mate.	NOUN	ncms000	Gender=Masc|Number=Sing	3	obj	_	
+
+#text = xxx.
+1	xxx.	xxx.	X	np00000	_	0	root	_	
+
+#text = bueno, lo tomamos acá, total, acá está la bombilla.
+1	bueno,	bueno,	ADV	rg	_	3	advmod	_	
+2	lo	�l	PRON	pp3msa00	Case=Acc|Gender=Masc|Number=Sing|Person=3|PrepCase=Npr|PronType=Prs	3	obj	_	
+3	tomamos	tomar	VERB	vmip1p0	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	
+4	acá,	acá,	PUNCT	fg	_	5	punct	_	
+5	total,	total,	PUNCT	fc	_	3	dep	_	
+6	acá	acá	PUNCT	fa	_	5	punct	_	
+7	está	está	X	_	_	5	flat	_	
+8	la	el	DET	da0fs0	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	
+9	bombilla.	bombilla.	NOUN	ncfs000	Gender=Fem|Number=Sing	3	obl	_	
+
+#text = me xxx un mate?
+1	me	yo	PRON	pp1cs000	Case=Dat|Number=Sing|Person=1|PrepCase=Npr|PronType=Prs	4	obl:arg	_	
+2	xxx	xxx	PROPN	np0000	_	4	dep	_	
+3	un	uno	DET	di0ms0	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	4	det	_	
+4	mate?	mate?	NOUN	ncms000	_	0	root	_	
+
+#text = ah, acá está el mate.
+1	ah,	ah,	X	np00000	_	5	dep	_	
+2	acá	acá	X	n	_	1	fixed	_	
+3	está	está	X	_	_	1	fixed	_	
+4	el	el	DET	da0ms0	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	
+5	mate.	mate.	NOUN	ncms000	Gender=Masc|Number=Sing	0	root	_	
+
+#text = +< xxx.
+1	+<	+<	PUNCT	fz	_	2	punct	_	
+2	xxx.	xxx.	NOUN	ncfp000	_	0	root	_	
+
+#text = bueno, ya está.
+1	bueno,	bueno,	ADV	rg	_	2	advmod	_	
+2	ya	ya	ADV	rg	_	0	root	_	
+3	está.	está	PUNCT	fp	_	2	punct	_	
+
+#text = bueno, xxx.
+1	bueno,	buen	ADJ	aq0mp0	Gender=Masc|Number=Plur	2	amod	_	
+2	xxx.	xxx.	X	n000	_	0	root	_	
+
+#text = uno xxx.
+1	uno	uno	PRON	pi0ms000	Gender=Masc|Number=Sing|PronType=Ind	0	root	_	
+2	xxx.	xxx.	X	n00000	_	1	appos	_	
+
+#text = despacio, qué brusco que sos!
+1	despacio,	despacio,	X	np00000	_	3	dep	_	
+2	qué	qu�	X	_	_	1	dep	_	
+3	brusco	brusco	ADJ	aq0ms0	Gender=Masc|Number=Sing	0	root	_	
+4	que	que	PRON	pr0cn000	PronType=Rel	5	case	_	
+5	sos!	sos!	NOUN	ncs000	_	3	dep	_	
+
+#text = ahí ya está, levanté todo.
+1	ahí	ah�	X	np00000	_	0	root	_	
+2	ya	ya	ADV	rg	_	1	advmod	_	
+3	está,	está	PUNCT	fa	_	4	punct	_	
+4	levanté	levant�	X	n	_	1	dep	_	
+5	todo.	todo.	PUNCT	fs	_	1	punct	_	
+
+#text = xxx.
+1	xxx.	xxx.	X	np00000	_	0	root	_	
+
+#text = ahí está.
+1	ahí	ah�	X	np00000	_	0	root	_	
+2	está.	está	PUNCT	fp	_	1	punct	_	
+
+#text = ponete.
+1	ponete.	ponete.	PUNCT	fp	PunctType=Peri	0	root	_	
+
+#text = xxx.
+1	xxx.	xxx.	X	np00000	_	0	root	_	
+
+#text = esto?
+1	esto?	esto?	PUNCT	fi	PunctType=Qest	0	root	_	
+
+#text = dale.
+1	dale.	dale.	PUNCT	fp	PunctType=Peri	0	root	_	
+
+#text = pa, ma?
+1	pa,	pa,	X	np00000	_	0	root	_	
+2	ma?	ma?	X	_	_	1	dep	_	
+
+#text = n, no, dale a ella ese mate.
+1	n,	n,	PUNCT	fe	PunctType=Quot	3	punct	_	
+2	no,	no,	ADV	rg	_	3	advmod	_	
+3	dale	dalir	VERB	vmip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	
+4	a	a	ADP	sps00	_	5	case	_	
+5	ella	�l	PRON	pp3fs000	Case=Acc,Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	3	obl:arg	_	
+6	ese	ese	DET	dd0ms0	Gender=Masc|Number=Sing|PronType=Dem	7	det	_	
+7	mate.	mate.	NOUN	ncms000	Gender=Masc|Number=Sing	3	obj	_	
+
+#text = xxx tomá.
+1	xxx	xxx	PROPN	np00000	_	0	root	_	
+2	tomá.	tomá.	X	_	_	1	flat	_	
+
+#text = +< xxx.
+1	+<	+<	PUNCT	fz	_	2	punct	_	
+2	xxx.	xxx.	NOUN	ncfp000	_	0	root	_	
+
+#text = +< xxx y te podés quemar si no lo agarrás xxx.
+1	+<	+<	PUNCT	fa	_	2	punct	_	
+2	xxx	xxx	NOUN	ncms000	_	6	dep	_	
+3	y	y	CCONJ	cc	_	5	cc	_	
+4	te	t�	PRON	pp2cs000	Case=Dat|Number=Sing|Person=2|PrepCase=Npr|PronType=Prs	6	obl:arg	_	
+5	podés	pod�s	X	n	_	2	conj	_	
+6	quemar	quemar	VERB	vmn0000	VerbForm=Inf	0	root	_	
+7	si	si	SCONJ	cs	_	9	mark	_	
+8	no	no	ADV	rn	Polarity=Neg	9	advmod	_	
+9	lo	�l	PRON	pp3msa00	Case=Acc|Gender=Masc|Number=Sing|Person=3|PrepCase=Npr|PronType=Prs	11	nsubj	_	
+10	agarrás	agarr�s	X	n00000	_	11	dep	_	
+11	xxx.	xxx.	X	_	_	6	ccomp	_	
+
+#text = +< xxx mamá uno.
+1	+<	+<	PUNCT	fa	_	2	punct	_	
+2	xxx	xxx	X	n00000	_	0	root	_	
+3	mamá	mamá	X	_	_	2	dep	_	
+4	uno.	uno.	PUNCT	fp	PunctType=Dash	2	dep	_	
+
+#text = xxx.
+1	xxx.	xxx.	X	np00000	_	0	root	_	
+
+#text = xxx mamá uno.
+1	xxx	xxx	PROPN	np00000	_	0	root	_	
+2	mamá	mamá	X	_	_	1	flat	_	
+3	uno.	uno.	PUNCT	fp	PunctType=Peri	1	punct	_	
+
+#text = ah, para mamá?
+1	ah,	ah,	X	np00000	_	2	dep	_	
+2	para	para	ADP	sps00	_	0	root	_	
+3	mamá?	mamá	PUNCT	fa	PunctType=Excl	2	punct	_	
+
+#text = bueno, perdón.
+1	bueno,	bueno,	X	np00000	_	2	dep	_	
+2	perdón.	perdón.	X	n000	_	0	root	_	
+
+#text = vuno vuno y.
+1	vuno	vuno	NOUN	ncms000	Gender=Masc|Number=Sing	0	root	_	
+2	vuno	vuno	NOUN	ncms000	Gender=Masc|Number=Sing	1	flat	_	
+3	y.	y.	X	n	_	1	appos	_	
+
+#text = xxx.
+1	xxx.	xxx.	X	np00000	_	0	root	_	
+
+#text = evuanai!
+1	evuanai!	evuanai!	X	np00000	_	0	root	_	
+
+#text = la bonabuno ahí.
+1	la	el	DET	da0fs0	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	
+2	bonabuno	bonabuno	NOUN	ncfs000	Gender=Fem|Number=Sing	0	root	_	
+3	ahí.	ah�.	PUNCT	fp	_	2	punct	_	
+
+#text = ahí xxx un mate?
+1	ahí	ah�	X	np00000	_	4	dep	_	
+2	xxx	xxx	PROPN	_	_	1	flat	_	
+3	un	uno	DET	di0ms0	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	4	det	_	
+4	mate?	mate?	NOUN	ncms000	_	0	root	_	
+
+#text = sí.
+1	sí.	s�.	PUNCT	fp	_	0	root	_	
+
+#text = xxx tomá.
+1	xxx	xxx	PROPN	np00000	_	0	root	_	
+2	tomá.	tomá.	X	_	_	1	flat	_	
+
+#text = pero tenemos, tenemos una sola bombilla.
+1	pero	pero	CCONJ	cc	_	2	advmod	_	
+2	tenemos,	tener	VERB	vmip1s0	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	
+3	tenemos	tener	VERB	vmip1p0	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	2	ccomp	_	
+4	una	uno	DET	di0fs0	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	6	det	_	
+5	sola	solo	ADJ	aq0fs0	Gender=Fem|Number=Sing	6	amod	_	
+6	bombilla.	bombilla.	NOUN	ncfs000	Gender=Fem|Number=Sing	3	obj	_	
+
+#text = qué?
+1	qué?	qu�?	PUNCT	fa	_	0	root	_	
+
+#text = tenemos una sola bombilla.
+1	tenemos	tener	VERB	vmip1p0	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	
+2	una	uno	DET	di0fs0	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	4	det	_	
+3	sola	solo	ADJ	aq0fs0	Gender=Fem|Number=Sing	4	amod	_	
+4	bombilla.	bombilla.	NOUN	ncfs000	Gender=Fem|Number=Sing	1	obj	_	
+
+#text = sí?
+1	sí?	s�?	PUNCT	fa	PunctType=Quot	0	root	_	
+
+#text = sí.
+1	sí.	s�.	PUNCT	fp	_	0	root	_	
+
+#text = ya está.
+1	ya	ya	ADV	rg	_	0	root	_	
+2	está.	está	PUNCT	fp	PunctType=Quot	1	punct	_	
+
+#text = cómo tomo esto?
+1	cómo	cómo	X	np00000	_	2	nsubj	_	
+2	tomo	tomo	VERB	vmip1s0	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	
+3	esto?	esto?	PUNCT	fi	PunctSide=Fin|PunctType=Qest	2	punct	_	
+
+#text = tipo tecito.
+1	tipo	tipo	NOUN	ncms000	Gender=Masc|Number=Sing	0	root	_	
+2	tecito.	tecito.	X	n0000	_	1	appos	_	
+
+#text = sí.
+1	sí.	s�.	PUNCT	fp	_	0	root	_	
+
+#text = e, xxx.
+1	e,	e,	CCONJ	cc	_	2	dep	_	
+2	xxx.	xxx.	X	n0000	_	0	root	_	
+
+#text = eh?
+1	eh?	eh?	X	np00000	_	0	root	_	
+
+#text = xxx.
+1	xxx.	xxx.	X	np00000	_	0	root	_	
+
+#text = no tiene más?
+1	no	no	ADV	rn	Polarity=Neg	2	advmod	_	
+2	tiene	tener	VERB	vmip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	
+3	más?	más?	NOUN	ncms000	_	2	obj	_	
+
+#text = no.
+1	no.	no.	PUNCT	fe	PunctType=Quot	0	root	_	
+
+#text = xxx.
+1	xxx.	xxx.	X	np00000	_	0	root	_	
+
+#text = listo.
+1	listo.	listo.	PUNCT	fe	PunctType=Quot	0	root	_	
+
+#text = xxx.
+1	xxx.	xxx.	X	np00000	_	0	root	_	
+
+#text = ya.
+1	ya.	ya.	PUNCT	fp	PunctType=Peri	0	root	_	
+
+#text = xxx papa xxx.
+1	xxx	xxx	PROPN	np00000	_	0	root	_	
+2	papa	papa	PROPN	_	_	1	flat	_	
+3	xxx.	xxx.	X	_	_	1	flat	_	
+
+#text = titate.
+1	titate.	titate.	X	np00000	_	0	root	_	
+
+#text = ay.
+1	ay.	ay.	X	np00000	_	0	root	_	
+
+#text = y ahora qué estás cocinando?
+1	y	y	CCONJ	cc	_	4	cc	_	
+2	ahora	ahora	ADV	rg	_	4	advmod	_	
+3	qué	qu�	PUNCT	fa	_	2	punct	_	
+4	estás	estar	X	n000	_	0	root	_	
+5	cocinando?	cocinando?	PUNCT	fa	PunctType=Excl	4	punct	_	
+
+#text = no veo.
+1	no	no	ADV	rn	Polarity=Neg	0	root	_	
+2	veo.	veo.	PUNCT	fe	PunctType=Dash	1	punct	_	
+
+#text = no veo qué hacés.
+1	no	no	ADV	rn	Polarity=Neg	2	advmod	_	
+2	veo	ver	VERB	vmip1s0	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	
+3	qué	qu�	PUNCT	fa	_	4	punct	_	
+4	hacés.	hac�s.	X	n0000	_	2	obj	_	
+
+#text = ay, xxx.
+1	ay,	ay,	X	np00000	_	2	dep	_	
+2	xxx.	xxx.	X	_	_	0	root	_	
+
+#text = papa.
+1	papa.	papa.	PUNCT	fp	PunctType=Quot	0	root	_	
+
+#text = papa?
+1	papa?	papa?	NOUN	ncms000	Gender=Masc|Number=Sing	0	root	_	
+
+#text = sí quiero papa.
+1	sí	s�	X	np00000	_	2	nsubj	_	
+2	quiero	querer	VERB	vmip1s0	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	
+3	papa.	papa.	PUNCT	fp	PunctType=Dash	2	obj	_	
+
+#text = +< más papa?
+1	+<	+<	PUNCT	fa	_	3	punct	_	
+2	más	m�s	X	np00000	_	3	dep	_	
+3	papa?	papa?	NOUN	ncfs000	Number=Sing	0	root	_	
+
+#text = xxx papa xxx.
+1	xxx	xxx	PROPN	np00000	_	0	root	_	
+2	papa	papa	PROPN	_	_	1	flat	_	
+3	xxx.	xxx.	X	_	_	1	flat	_	
+
+#text = u.
+1	u.	u.	X	np00000	_	0	root	_	
+
+#text = u, xxx.
+1	u,	u,	X	np00000	_	2	dep	_	
+2	xxx.	xxx.	X	_	_	0	root	_	
+
+#text = ay, xxx.
+1	ay,	ay,	X	np00000	_	2	dep	_	
+2	xxx.	xxx.	X	_	_	0	root	_	
+
+#text = u, ... uta, ... xxx.
+1	u,	u,	X	np00000	_	3	dep	_	
+2	...	...	PUNCT	fs	PunctType=Elip	3	punct	_	
+3	uta,	uta,	NOUN	ncfs000	Gender=Fem|Number=Sing	0	root	_	
+4	...	...	PUNCT	fs	PunctType=Elip	3	punct	_	
+5	xxx.	xxx.	X	n00000	_	3	dep	_	
+
+#text = xxx.
+1	xxx.	xxx.	X	np00000	_	0	root	_	
+
+#text = xxx ata!
+1	xxx	xxx	PROPN	np00000	_	0	root	_	
+2	ata!	ata!	X	_	_	1	flat	_	
+
+#text = ahí cerró, ahí va.
+1	ahí	ah�	X	np00000	_	4	dep	_	
+2	cerró,	cerró,	X	_	_	1	dep	_	
+3	ahí	ah�	X	_	_	1	flat	_	
+4	va.	va.	X	_	_	0	root	_	
+
+#text = +< ay, xxx quiero más.
+1	+<	+<	PUNCT	fa	_	4	punct	_	
+2	ay,	ay,	X	np00000	_	4	dep	_	
+3	xxx	xxx	X	_	_	4	nsubj	_	
+4	quiero	querer	VERB	vmip1s0	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	
+5	más.	m�s.	X	n	_	4	obj	_	
+
+#text = +< xxx.
+1	+<	+<	PUNCT	fz	_	2	punct	_	
+2	xxx.	xxx.	NOUN	ncfp000	_	0	root	_	
+
+#text = ahí.
+1	ahí.	ah�.	PUNCT	fp	_	0	root	_	
+
+#text = y ahora qué esperamos?
+1	y	y	CCONJ	cc	_	2	cc	_	
+2	ahora	ahora	ADV	rg	_	0	root	_	
+3	qué	qu�	PUNCT	fa	_	2	punct	_	
+4	esperamos?	esperamos?	PUNCT	fi	PunctType=Excl	2	punct	_	
+
+#text = la papa.
+1	la	el	DET	da0fs0	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	
+2	papa.	papa.	NOUN	ncfs000	Gender=Fem|Number=Sing	0	root	_	
+
+#text = la papa?
+1	la	el	DET	da0fs0	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	
+2	papa?	papa?	NOUN	ncfs000	Gender=Fem|Number=Sing	0	root	_	
+
+#text = xxx está +/.
+1	xxx	xxx	X	np00000	_	0	root	_	
+2	está	está	X	_	_	1	flat	_	
+3	+/.	+/.	PUNCT	fp	_	1	punct	_	
+
+#text = +< eso ya está?
+1	+<	+<	PUNCT	fg	_	2	punct	_	
+2	eso	ese	PRON	pd0ns000	Number=Sing|PronType=Dem	3	nsubj	_	
+3	ya	ya	ADV	rg	_	0	root	_	
+4	está?	está	PUNCT	fi	PunctSide=Fin|PunctType=Excl	3	punct	_	
+
+#text = no te quemes, no la agarres así.
+1	no	no	ADV	rn	Polarity=Neg	3	advmod	_	
+2	te	t�	PRON	pp2cs000	Case=Dat|Number=Sing|Person=2|PrepCase=Npr|PronType=Prs	3	expl:pv	_	
+3	quemes,	quemesar	VERB	vmip1s0	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	
+4	no	no	ADV	rn	Polarity=Neg	6	advmod	_	
+5	la	�l	PRON	pp3fsa00	Case=Acc|Gender=Fem|Number=Sing|Person=3|PrepCase=Npr|PronType=Prs	6	obj	_	
+6	agarres	agarr	VERB	vmip1p0	Mood=Ind|Number=Plur|Tense=Pres|VerbForm=Fin	3	advcl	_	
+7	así.	as�.	PUNCT	fp	_	3	punct	_	
+
+#text = te vas a quemar un día.
+1	te	t�	PRON	pp2cs000	Case=Dat|Number=Sing|Person=2|PrepCase=Npr|PronType=Prs	2	expl:pv	_	
+2	vas	ir	VERB	vmip1s0	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	
+3	a	a	ADP	sps00	_	4	mark	_	
+4	quemar	quemar	VERB	vmn0000	VerbForm=Inf	2	xcomp	_	
+5	un	uno	DET	di0ms0	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	6	det	_	
+6	día.	d�a.	NOUN	ncms000	_	4	obj	_	
+
+#text = no, xxx.
+1	no,	no,	X	np00000	_	2	dep	_	
+2	xxx.	xxx.	X	n	_	0	root	_	
+
+#text = m, xxx papa, ahí?
+1	m,	m,	X	np00000	_	0	root	_	
+2	xxx	xxx	PROPN	_	_	1	flat	_	
+3	papa,	papa	PROPN	_	_	1	flat	_	
+4	ahí?	ah�?	PUNCT	fa	_	1	punct	_	
+
+#text = ahí, acá, tomá xxx.
+1	ahí,	ah�,	X	np00000	_	4	dep	_	
+2	acá,	acá,	X	n	_	1	dep	_	
+3	tomá	tomá	PUNCT	fa	_	2	punct	_	
+4	xxx.	xxx.	X	_	_	0	root	_	
+
+#text = xxx papa, xxx papa.
+1	xxx	xxx	PROPN	np00000	_	0	root	_	
+2	papa,	papa	PROPN	_	_	1	flat	_	
+3	xxx	xxx	PROPN	_	_	1	flat	_	
+4	papa.	papa.	X	_	_	1	flat	_	
+
+#text = oh, no puedo abrir.
+1	oh,	oh,	X	np00000	_	4	nsubj	_	
+2	no	no	ADV	rn	Polarity=Neg	4	advmod	_	
+3	puedo	poder	AUX	vmip1s0	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	aux	_	
+4	abrir.	abrir	VERB	vmn0000	VerbForm=Inf	0	root	_	
+
+#text = ahí, tenés uno así.
+1	ahí,	ah�,	X	np00000	_	3	dep	_	
+2	tenés	ten�s	X	_	_	3	dep	_	
+3	uno	uno	PRON	pi0ms000	Gender=Masc|Number=Sing|PronType=Ind	0	root	_	
+4	así.	as�.	PUNCT	fp	_	3	punct	_	
+
+#text = xxx más mate xxx.
+1	xxx	xxx	PROPN	np00000	_	0	root	_	
+2	más	m�s	X	_	_	1	dep	_	
+3	mate	mate	NOUN	_	_	1	dep	_	
+4	xxx.	xxx.	X	_	_	1	flat	_	
+
+#text = xxx.
+1	xxx.	xxx.	X	np00000	_	0	root	_	
+
+#text = +< más mate?
+1	+<	+<	PUNCT	fa	_	2	punct	_	
+2	más	m�s	X	np00000	_	3	dep	_	
+3	mate?	mate?	X	_	_	0	root	_	
+
+#text = sí.
+1	sí.	s�.	PUNCT	fp	_	0	root	_	
+
+#text = vos no tomaste.
+1	vos	t�	INTJ	_	_	3	dep	_	
+2	no	no	ADV	rn	Polarity=Neg	3	advmod	_	
+3	tomaste.	tomaste.	X	n0000	_	0	root	_	
+
+#text = +< xxx también.
+1	+<	+<	PUNCT	fa	_	2	punct	_	
+2	xxx	xxx	X	n00000	_	3	dep	_	
+3	también.	tambi�n.	X	_	_	0	root	_	
+
+#text = xxx.
+1	xxx.	xxx.	X	np00000	_	0	root	_	
+
+#text = ya está?
+1	ya	ya	ADV	rg	_	0	root	_	
+2	está?	está	PUNCT	fa	PunctSide=Fin|PunctType=Excl	1	punct	_	
+
+#text = xxx.
+1	xxx.	xxx.	X	np00000	_	0	root	_	
+
+#text = xxx.
+1	xxx.	xxx.	X	np00000	_	0	root	_	
+
+#text = +< xxx.
+1	+<	+<	PUNCT	fz	_	2	punct	_	
+2	xxx.	xxx.	NOUN	ncfp000	_	0	root	_	
+
+#text = no, vos xxx?
+1	no,	no,	PUNCT	fe	PunctType=Quot	2	punct	_	
+2	vos	t�	INTJ	_	_	3	dep	_	
+3	xxx?	xxx?	X	n0	_	0	root	_	
+
+#text = yo quiero, sí.
+1	yo	yo	PRON	pp1csn00	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	
+2	quiero,	querer	VERB	vmip1s0	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	
+3	sí.	s�.	PUNCT	fp	_	2	punct	_	
+
+#text = mamá no quiere.
+1	mamá	mamá	PUNCT	fe	PunctType=Quot	3	punct	_	
+2	no	no	ADV	rn	Polarity=Neg	3	advmod	_	
+3	quiere.	querer	VERB	vmip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	
+
+#text = mamá no quiere?
+1	mamá	mamá	PUNCT	fa	PunctType=Quot	3	punct	_	
+2	no	no	ADV	rn	Polarity=Neg	3	advmod	_	
+3	quiere?	querer	VERB	vmip1s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	
+
+#text = sí, xxx.
+1	sí,	sa�,	PUNCT	fe	_	2	punct	_	
+2	xxx.	xxx.	X	n00	_	0	root	_	
+
+#text = +< bueno.
+1	+<	+<	PUNCT	fg	_	2	punct	_	
+2	bueno.	bueno.	ADJ	aq0ms0	Gender=Masc|Number=Sing	0	root	_	
+
+#text = está rico?
+1	está	estar	VERB	vmip1p0	Mood=Ind|Number=Plur|Tense=Pres|VerbForm=Fin	0	root	_	
+2	rico?	rico?	PUNCT	fp	PunctType=Quot	1	obj	_	
+
+#text = me convidás uno?
+1	me	yo	PRON	pp1cs000	Case=Dat|Number=Sing|Person=1|PrepCase=Npr|PronType=Prs	2	expl:pv	_	
+2	convidás	convidar	VERB	vmip1s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	
+3	uno?	uno?	NOUN	nc000	_	2	obj	_	
+
+#text = así toma mate de verdad.
+1	así	as�	PROPN	np00000	_	2	nsubj	_	
+2	toma	tomar	VERB	vmip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	
+3	mate	mate	NOUN	ncms000	Number=Sing	2	obj	_	
+4	de	de	ADP	rg00	_	5	case	_	
+5	verdad.	verdad.	NOUN	ncs000	Gender=Fem|Number=Sing	2	obl	_	
+
+#text = ah, mirá.
+1	ah,	ah,	X	np00000	_	0	root	_	
+2	mirá.	mirá	PUNCT	fp	_	1	dep	_	
+
+#text = +< xxx.
+1	+<	+<	PUNCT	fz	_	2	punct	_	
+2	xxx.	xxx.	NOUN	ncfp000	_	0	root	_	
+
+#text = xxx.
+1	xxx.	xxx.	X	np00000	_	0	root	_	
+
+#text = mjm.
+1	mjm.	mjm.	X	np00000	_	0	root	_	
+
+#text = tomá xxx.
+1	tomá	tomá	PUNCT	fa	PunctType=Quot	2	punct	_	
+2	xxx.	xxx.	X	n0000	_	0	root	_	
+
+#text = xxx.
+1	xxx.	xxx.	X	np00000	_	0	root	_	
+
+#text = +< xxx.
+1	+<	+<	PUNCT	fz	_	2	punct	_	
+2	xxx.	xxx.	NOUN	ncfp000	_	0	root	_	
+
+#text = dejale a ella xxx.
+1	dejale	dejalar	VERB	vmip1s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	
+2	a	a	ADP	sps00	_	3	case	_	
+3	ella	�l	PRON	pp3fs000	Case=Acc,Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	1	obj	_	
+4	xxx.	xxx.	X	np00000	_	1	obj	_	
+
+#text = xxx la mano.
+1	xxx	xxx	NOUN	ncfs000	Gender=Fem|Number=Sing	0	root	_	
+2	la	el	DET	da0fs0	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	
+3	mano.	mano.	NOUN	ncfs000	Gender=Fem|Number=Sing	1	appos	_	
+
+#text = ahí va, yo lo agarro.
+1	ahí	ah�	X	np00000	_	5	nsubj	_	
+2	va,	va,	PROPN	_	_	1	flat	_	
+3	yo	yo	PRON	pp1csn00	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	
+4	lo	�l	PRON	pp3msa00	Case=Acc|Gender=Masc|Number=Sing|Person=3|PrepCase=Npr|PronType=Prs	5	obj	_	
+5	agarro.	agarro.	NOUN	ncms000	Gender=Masc|Number=Sing	0	root	_	
+
+#text = m, qué rico.
+1	m,	m,	X	np00000	_	3	dep	_	
+2	qué	qu�	X	_	_	1	dep	_	
+3	rico.	rico.	NOUN	nc	_	0	root	_	
+
+#text = más?
+1	más?	más?	PUNCT	fp	_	0	root	_	
+
+#text = xxx +/.
+1	xxx	xxx	PROPN	np00000	_	0	root	_	
+2	+/.	+/.	PUNCT	fp	_	1	punct	_	
+
+#text = +< me encanta el mate.
+1	+<	+<	SYM	z	_	3	dep	_	
+2	me	yo	PRON	pp1cs000	Case=Dat|Number=Sing|Person=1|PrepCase=Npr|PronType=Prs	3	obl:arg	_	
+3	encanta	encantar	VERB	vmip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	
+4	el	el	DET	da0ms0	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	
+5	mate.	mate.	NOUN	ncms000	Gender=Masc|Number=Sing	3	nsubj	_	
+
+#text = a vos también te gusta?
+1	a	a	ADP	sps00	_	2	case	_	
+2	vos	t�	PRON	pp2cs000	Case=Acc|Number=Sing|Person=2|PronType=Prs	5	obl:arg	_	
+3	también	también	PROPN	p	_	5	nsubj	_	
+4	te	t�	PRON	pp2cs000	Case=Dat|Number=Sing|Person=2|PrepCase=Npr|PronType=Prs	5	expl:pv	_	
+5	gusta?	gusta?	NOUN	ncfs000	Number=Sing	0	root	_	
+
+#text = xxx.
+1	xxx.	xxx.	X	np00000	_	0	root	_	
+
+#text = xxx, . y se calienta más.
+1	xxx,	xxx,	X	np00000	_	0	root	_	
+2	.	.	PUNCT	fp	PunctType=Peri	1	punct	_	
+3	y	y	CCONJ	cc	_	5	cc	_	
+4	se	�l	PRON	p0000000	Case=Acc|Person=3|PrepCase=Npr|PronType=Prs|Reflex=Yes	5	expl:pv	_	
+5	calienta	calentar	VERB	vmip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	conj	_	
+6	más.	m�s.	X	np00000	_	5	nsubj	_	
+
+#text = sí.
+1	sí.	s�.	PUNCT	fp	_	0	root	_	
+
+#text = eh, . bien.
+1	eh,	eh,	X	np00000	_	0	root	_	
+2	.	.	PUNCT	fp	PunctType=Peri	1	punct	_	
+3	bien.	bien.	ADV	rg	_	1	advmod	_	
+
