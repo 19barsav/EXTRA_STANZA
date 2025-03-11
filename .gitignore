@@ -172,3 +172,7 @@ cython_debug/
 
 
 *.cha
+*.csv
+*.txt
+*.pt
+*.json
